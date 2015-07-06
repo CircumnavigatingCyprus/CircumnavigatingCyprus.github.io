@@ -31,7 +31,7 @@ prose:
     - Gemfile
     - Gemfile.lock
   rooturl: '_posts'
-  siteurl: '/'
+  siteurl: ''
   media: 'media'
   metadata:
     _posts:
