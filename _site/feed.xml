@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Anna&#39;s Site</title>
-    <description>Anna&#39;s Travelogue -mapified!
+    <title>Circumnavigating Cyprus</title>
+    <description>Exactly what the title says.
 </description>
-    <link>http://opleban.github.io/anna-site/</link>
-    <atom:link href="http://opleban.github.io/anna-site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 28 Jun 2015 02:07:03 -0400</pubDate>
-    <lastBuildDate>Sun, 28 Jun 2015 02:07:03 -0400</lastBuildDate>
+    <link>http://circumnavigatingcyprus.github.io/anna-site/</link>
+    <atom:link href="http://circumnavigatingcyprus.github.io/anna-site/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 05 Jul 2015 17:51:25 -0700</pubDate>
+    <lastBuildDate>Sun, 05 Jul 2015 17:51:25 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>A New Post</title>
+        <description>&lt;h2 id=&quot;another-new-post&quot;&gt;Another New Post&lt;/h2&gt;
+
+&lt;p&gt;More More New Posts&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Jul 2015 00:00:00 -0700</pubDate>
+        <link>http://circumnavigatingcyprus.github.io/anna-site/2015/07/05/a-new-post.html</link>
+        <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/anna-site/2015/07/05/a-new-post.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Photography</title>
+        <description>&lt;h2 id=&quot;another-post-with-photography&quot;&gt;ANOTHER POST WITH PHOTOGRAPHY&lt;/h2&gt;
+
+&lt;p&gt;This is an example of post with the tag trekking.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 28 Jun 2015 00:00:00 -0700</pubDate>
+        <link>http://circumnavigatingcyprus.github.io/anna-site/2015/06/28/photography.html</link>
+        <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/anna-site/2015/06/28/photography.html</guid>
+        
+        <category>participant photography</category>
+        
+        
+      </item>
     
       <item>
         <title>Proof of Concept</title>
@@ -51,9 +79,9 @@
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on some of what’s going on behind the scenes in Jekyll.&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 27 Jun 2015 00:00:00 -0400</pubDate>
-        <link>http://opleban.github.io/anna-site/2015/06/27/proof-of-concept.html</link>
-        <guid isPermaLink="true">http://opleban.github.io/anna-site/2015/06/27/proof-of-concept.html</guid>
+        <pubDate>Sat, 27 Jun 2015 00:00:00 -0700</pubDate>
+        <link>http://circumnavigatingcyprus.github.io/anna-site/2015/06/27/proof-of-concept.html</link>
+        <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/anna-site/2015/06/27/proof-of-concept.html</guid>
         
         <category>interviews</category>
         
@@ -70,9 +98,9 @@
 
 &lt;p&gt;When you drag-and-drop an image on the screen it automagically uploads the file to your “Media” directory and then includes a properly formatted link in the post to ensure that it renders correctly.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 27 Jun 2015 00:00:00 -0400</pubDate>
-        <link>http://opleban.github.io/anna-site/2015/06/27/hello-prose-world.html</link>
-        <guid isPermaLink="true">http://opleban.github.io/anna-site/2015/06/27/hello-prose-world.html</guid>
+        <pubDate>Sat, 27 Jun 2015 00:00:00 -0700</pubDate>
+        <link>http://circumnavigatingcyprus.github.io/anna-site/2015/06/27/hello-prose-world.html</link>
+        <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/anna-site/2015/06/27/hello-prose-world.html</guid>
         
         <category>trekking</category>
         
@@ -90,9 +118,9 @@
 
 &lt;p&gt;Israeli Hummus, as opposed to Cypriot Hummus. I don’t have any pictures from Cyprus :(.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 27 Jun 2015 00:00:00 -0400</pubDate>
-        <link>http://opleban.github.io/anna-site/2015/06/27/another-post-redux.html</link>
-        <guid isPermaLink="true">http://opleban.github.io/anna-site/2015/06/27/another-post-redux.html</guid>
+        <pubDate>Sat, 27 Jun 2015 00:00:00 -0700</pubDate>
+        <link>http://circumnavigatingcyprus.github.io/anna-site/2015/06/27/another-post-redux.html</link>
+        <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/anna-site/2015/06/27/another-post-redux.html</guid>
         
         <category>team member updates</category>
         

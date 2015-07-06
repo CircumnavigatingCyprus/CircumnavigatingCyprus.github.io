@@ -9204,6 +9204,10 @@ var postsByTag = {
   
     'interviews' : [
       
+         
+      
+         
+      
         
           {
             'type': 'Feature',
@@ -9213,7 +9217,7 @@ var postsByTag = {
               link: '/anna-site/2015/06/27/proof-of-concept.html',
               teaser: 'This is the teaser text for my proof of concept.',
               popupContent: 'true',
-              date: '2015-06-27 00:00:00 -0400',
+              date: '2015-06-27 00:00:00 -0700',
               tags: ["interviews"]
             },
             'geometry': {
@@ -9236,6 +9240,30 @@ var postsByTag = {
       
          
       
+        
+          {
+            'type': 'Feature',
+            'properties': {
+              title: "Photography",
+              image: processImageLink('https://c2.staticflickr.com/6/5521/11991518795_952046b5e3_z.jpg'),
+              link: '/anna-site/2015/06/28/photography.html',
+              teaser: 'This is a photography post.',
+              popupContent: 'true',
+              date: '2015-06-28 00:00:00 -0700',
+              tags: ["participant photography"]
+            },
+            'geometry': {
+              'type': 'Point',
+              'coordinates': [
+                33.722635,
+                35.202300
+              ]
+            }
+          },
+         
+      
+         
+      
          
       
          
@@ -9243,6 +9271,10 @@ var postsByTag = {
     ],
   
     'team member updates' : [
+      
+         
+      
+         
       
          
       
@@ -9257,7 +9289,7 @@ var postsByTag = {
               link: '/anna-site/2015/06/27/another-post-redux.html',
               teaser: 'Yet another post for much amusement.',
               popupContent: 'true',
-              date: '2015-06-27 00:00:00 -0400',
+              date: '2015-06-27 00:00:00 -0700',
               tags: ["team member updates"]
             },
             'geometry': {
@@ -9276,6 +9308,10 @@ var postsByTag = {
       
          
       
+         
+      
+         
+      
         
           {
             'type': 'Feature',
@@ -9285,7 +9321,7 @@ var postsByTag = {
               link: '/anna-site/2015/06/27/hello-prose-world.html',
               teaser: 'Hello World!',
               popupContent: 'false',
-              date: '2015-06-27 00:00:00 -0400',
+              date: '2015-06-27 00:00:00 -0700',
               tags: ["trekking"]
             },
             'geometry': {

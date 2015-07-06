@@ -1,10 +1,10 @@
 # Site settings
-title: Anna's Site
+title: Circumnavigating Cyprus
 email: asanton@umich.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Anna's Travelogue -mapified!
+  Exactly what the title says.
 baseurl: "/anna-site"
-url: "http://opleban.github.io" # the base hostname & protocol for your site
+url: "http://circumnavigatingcyprus.github.io" # the base hostname & protocol for your site
 umich_link: "https://www.lsa.umich.edu/ummaa/people/ci.antoniouanna_ci.detail"
 
 # Map
@@ -31,7 +31,7 @@ prose:
     - Gemfile
     - Gemfile.lock
   rooturl: '_posts'
-  siteurl: 'http://opleban.github.io/anna-site/'
+  siteurl: '/'
   media: 'media'
   metadata:
     _posts:
