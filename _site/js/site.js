@@ -9217,7 +9217,7 @@ var postsByTag = {
               link: '/2015/06/27/proof-of-concept.html',
               teaser: 'This is the teaser text for my proof of concept.',
               popupContent: 'true',
-              date: '2015-06-27 00:00:00 -0700',
+              date: '2015-06-27 00:00:00 -0400',
               tags: ["interviews"]
             },
             'geometry': {
@@ -9249,7 +9249,7 @@ var postsByTag = {
               link: '/2015/06/28/photography.html',
               teaser: 'This is a photography post.',
               popupContent: 'true',
-              date: '2015-06-28 00:00:00 -0700',
+              date: '2015-06-28 00:00:00 -0400',
               tags: ["participant photography"]
             },
             'geometry': {
@@ -9289,7 +9289,7 @@ var postsByTag = {
               link: '/2015/06/27/another-post-redux.html',
               teaser: 'Yet another post for much amusement.',
               popupContent: 'true',
-              date: '2015-06-27 00:00:00 -0700',
+              date: '2015-06-27 00:00:00 -0400',
               tags: ["team member updates"]
             },
             'geometry': {
@@ -9321,7 +9321,7 @@ var postsByTag = {
               link: '/2015/06/27/hello-prose-world.html',
               teaser: 'Hello World!',
               popupContent: 'false',
-              date: '2015-06-27 00:00:00 -0700',
+              date: '2015-06-27 00:00:00 -0400',
               tags: ["trekking"]
             },
             'geometry': {
