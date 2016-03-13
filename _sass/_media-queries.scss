@@ -1,0 +1,22 @@
+// * * * * * * * * * * * * * * * * * * * *
+//
+//  Define media queries
+//
+// * * * * * * * * * * * * * * * * * * * *
+
+// smartphones - portrait (320) and landscape (480)
+// tablets - medium (600) and portrait (768) and landscape (1024)
+
+
+// SIZING
+$site-max-width:        1200px  !default;
+$site-max-width-mobile: 650px   !default;
+
+// BREAKPOINTS
+$small:      401px   !default;
+$medium:     768px   !default;
+$large:      1050px  !default;
+$xlarge:     1200px  !default;
+
+//VERTICAL BREAKPOINTS
+$large-vertical:  700px !default;

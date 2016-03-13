@@ -1,0 +1,51 @@
+// * * * * * * * * * * * * * * * * * * * *
+//
+//  Custom settings for Neat
+//
+// * * * * * * * * * * * * * * * * * * * *
+
+// Neat 1.7.2
+
+// $disable-warnings:          false !global;
+
+// $column:                    modular-scale(3, 1em, $golden) !global;
+// $gutter:                    modular-scale(1, 1em, $golden) !global;
+
+// Adjust number of columns you want to use here
+// $grid-columns:              12 !global;
+
+// Adjust maximum page width here
+$max-width:                 1200px !global;
+
+// set box-sizing as needed, not globally
+// (!!!) setting this to 'true' breaks Socrata dataset view pages
+$border-box-sizing:         false !global;
+
+// $default-feature:           min-width !global;
+
+// $default-layout-direction:  LTR !global;
+
+// $visual-grid:               true !global;
+// $visual-grid-color:         #eee !global;
+// $visual-grid-index:         back !global;
+// $visual-grid-opacity:       0.4 !global;
+
+// * * * * * * * * * * * * * * * * * * * *
+//
+//  Custom settings for Bourbon
+//
+// * * * * * * * * * * * * * * * * * * * *
+
+// Bourbon 4.2.4
+// Note: you most likely do not need to change these.
+
+// $asset-pipeline:       false !global;
+
+// Socrata platform's default style sets 1em = 10px
+$em-base:              10px !global;
+
+// $prefix-for-webkit:    true !global;
+// $prefix-for-mozilla:   true !global;
+// $prefix-for-microsoft: true !global;
+// $prefix-for-opera:     true !global;
+// $prefix-for-spec:      true !global;
