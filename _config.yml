@@ -39,6 +39,10 @@ prose:
         field:
           element: "hidden"
           value: "post"
+      - name: identifier
+        field:
+          element: "text"
+          label: "Enter a Post Identifier. This should be same for translations of the post."
       - name: "title"
         field:
           element: "text"

@@ -6,8 +6,8 @@
 </description>
     <link>http://circumnavigatingcyprus.github.io/</link>
     <atom:link href="http://circumnavigatingcyprus.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Mar 2016 01:37:33 -0400</pubDate>
-    <lastBuildDate>Mon, 14 Mar 2016 01:37:33 -0400</lastBuildDate>
+    <pubDate>Mon, 14 Mar 2016 03:32:14 -0400</pubDate>
+    <lastBuildDate>Mon, 14 Mar 2016 03:32:14 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -52,19 +52,19 @@
   &lt;li&gt;title, post title, Your post title. This will also appear on the map popup&lt;/li&gt;
   &lt;li&gt;teaser, post teaser, This will appear as the teaser text at the bottom of your map popup&lt;/li&gt;
   &lt;li&gt;popupContent, a true/false value, If this is set to false, a marker will appear on the map for this post sans popup or post link. In general, you’ll want to set this to true.&lt;/li&gt;
-  &lt;li&gt;image, preview image. This is the preview image that will appear on the map. I think the easiest way to handle images on your blog will be to upload them to flickr or some other image/file hosting service and then get the image link. Just make sure whatever service you use allows “hotlinking”. &lt;/li&gt;
+  &lt;li&gt;image, preview image. This is the preview image that will appear on the map. I think the easiest way to handle images on your blog will be to upload them to flickr or some other image/file hosting service and then get the image link. Just make sure whatever service you use allows “hotlinking”.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;images&quot;&gt;Images&lt;/h2&gt;
-&lt;p&gt;You can upload all of your photos to Flickr and then grab the “embed” link and use that to embed images in your blog posts. You can also use the same link for the preview image that will appear on the map. &lt;/p&gt;
+&lt;p&gt;You can upload all of your photos to Flickr and then grab the “embed” link and use that to embed images in your blog posts. You can also use the same link for the preview image that will appear on the map.&lt;/p&gt;
 
-&lt;p&gt;Here is an image: &lt;/p&gt;
+&lt;p&gt;Here is an image:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://c3.staticflickr.com/3/2848/12005505403_b4c46cc0b9_z.jpg&quot; alt=&quot;Ronda is not in Cyprus&quot; title=&quot;Ronda is not in Cyprus&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Here is an image caption: Ronda is not in Cyprus&lt;/p&gt;
 
-&lt;p&gt;Here is another image: &lt;/p&gt;
+&lt;p&gt;Here is another image:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://c2.staticflickr.com/4/3786/12016956776_606a4a61d9_z.jpg&quot; alt=&quot;Ouled Ali is also not in Cyprus&quot; title=&quot;Ouled Ali is not in Cyrpus&quot; /&gt;&lt;/p&gt;
 

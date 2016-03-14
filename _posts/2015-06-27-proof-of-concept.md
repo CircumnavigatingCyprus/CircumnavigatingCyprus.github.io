@@ -8,7 +8,8 @@ teaser: This is the teaser text for my proof of concept.
 lng: "33.263956"
 lat: "35.07877"
 image: "https://c1.staticflickr.com/3/2848/12005505403_b4c46cc0b9_n.jpg"
-tags: 
+identifier: proof-of-concept
+tags:
   - interviews
 ---
 
@@ -26,18 +27,18 @@ The main "metadata" information you'll want to provide with each post is:
 * title, post title, Your post title. This will also appear on the map popup
 * teaser, post teaser, This will appear as the teaser text at the bottom of your map popup
 * popupContent, a true/false value, If this is set to false, a marker will appear on the map for this post sans popup or post link. In general, you'll want to set this to true.
-* image, preview image. This is the preview image that will appear on the map. I think the easiest way to handle images on your blog will be to upload them to flickr or some other image/file hosting service and then get the image link. Just make sure whatever service you use allows "hotlinking". 
+* image, preview image. This is the preview image that will appear on the map. I think the easiest way to handle images on your blog will be to upload them to flickr or some other image/file hosting service and then get the image link. Just make sure whatever service you use allows "hotlinking".
 
 ## Images
-You can upload all of your photos to Flickr and then grab the "embed" link and use that to embed images in your blog posts. You can also use the same link for the preview image that will appear on the map. 
+You can upload all of your photos to Flickr and then grab the "embed" link and use that to embed images in your blog posts. You can also use the same link for the preview image that will appear on the map.
 
-Here is an image: 
+Here is an image:
 
 ![Ronda is not in Cyprus](https://c3.staticflickr.com/3/2848/12005505403_b4c46cc0b9_z.jpg "Ronda is not in Cyprus")
 
 Here is an image caption: Ronda is not in Cyprus
 
-Here is another image: 
+Here is another image:
 
 ![Ouled Ali is also not in Cyprus](https://c2.staticflickr.com/4/3786/12016956776_606a4a61d9_z.jpg "Ouled Ali is not in Cyrpus")
 
