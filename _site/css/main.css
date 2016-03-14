@@ -150,15 +150,22 @@ pre {
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
   position: relative; }
-
-.site-title {
-  font-size: 26px;
-  line-height: 56px;
-  letter-spacing: -1px;
-  margin-bottom: 0;
-  float: left; }
-  .site-title, .site-title:visited {
-    color: #424242; }
+  .site-header .header-logo .site-logo {
+    float: left;
+    line-height: 100%;
+    display: inline-block; }
+    .site-header .header-logo .site-logo img {
+      height: 80px; }
+  .site-header .site-title {
+    display: inline-block;
+    font-size: 26px;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+    line-height: 100%; }
+    .site-header .site-title, .site-header .site-title:visited {
+      color: #424242; }
 
 .site-nav {
   float: right;
