@@ -16,7 +16,7 @@ body {
   line-height: 1.5;
   font-weight: 300;
   color: #111;
-  background-color: #fdfdfd;
+  background-color: #FAF7FA;
   -webkit-text-size-adjust: 100%; }
 
 /**
@@ -159,6 +159,7 @@ pre {
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
   min-height: 80px;
+  background-color: #FDFDFD;
   position: relative; }
   .site-header .header-logo .site-logo {
     float: left;
@@ -193,7 +194,7 @@ pre {
         position: absolute;
         top: 9px;
         right: 30px;
-        background-color: #fdfdfd;
+        background-color: #FAF7FA;
         border: 1px solid #e8e8e8;
         border-radius: 5px;
         text-align: right; }
@@ -475,7 +476,8 @@ pre {
     color: #099; }
 
 #map {
-  height: 100vh;
+  margin-top: 2em;
+  height: 400px;
   width: 100%;
   position: relative; }
 
@@ -494,7 +496,7 @@ pre {
   padding: 30px 0; }
 
 #video {
-  height: 600px;
+  height: 400px;
   overflow: hidden;
   position: relative; }
   #video video {
@@ -517,3 +519,99 @@ pre {
     transform: translateY(-50%); }
     #video .video-overlay h1 {
       font-size: 2.8em; }
+
+#social-media-tiles .tile {
+  padding: 1em;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  min-height: 10em;
+  background-color: #FDFDFD; }
+  @media screen and (min-width: 768px) and (max-width: 1050px) {
+    #social-media-tiles .tile {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%;
+      margin-top: 1em; }
+      #social-media-tiles .tile:last-child {
+        margin-right: 0; }
+      #social-media-tiles .tile:nth-child(2n) {
+        margin-right: 0; }
+      #social-media-tiles .tile:nth-child(2n+1) {
+        clear: left; } }
+  @media screen and (min-width: 1050px) {
+    #social-media-tiles .tile {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      #social-media-tiles .tile:last-child {
+        margin-right: 0; }
+      #social-media-tiles .tile:nth-child(4n) {
+        margin-right: 0; }
+      #social-media-tiles .tile:nth-child(4n+1) {
+        clear: left; } }
+  #social-media-tiles .tile i.social-media-icon {
+    font-size: 4em; }
+  #social-media-tiles .tile img.social-media-icon {
+    height: 4em; }
+
+#recent-post-tiles .tile {
+  position: relative;
+  background-size: cover;
+  padding: 1em;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  min-height: 10em; }
+  @media screen and (min-width: 1050px) {
+    #recent-post-tiles .tile {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      #recent-post-tiles .tile:last-child {
+        margin-right: 0; }
+      #recent-post-tiles .tile:nth-child(3n) {
+        margin-right: 0; }
+      #recent-post-tiles .tile:nth-child(3n+1) {
+        clear: left; } }
+  #recent-post-tiles .tile a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; }
+    #recent-post-tiles .tile a:hover, #recent-post-tiles .tile a:focus {
+      text-decoration: none; }
+    #recent-post-tiles .tile a .front {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0; }
+      #recent-post-tiles .tile a .front .overlay {
+        background-color: rgba(0, 0, 0, 0.4);
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0; }
+      #recent-post-tiles .tile a .front .tile-text {
+        position: absolute;
+        z-index: 10;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        right: 0; }
+        #recent-post-tiles .tile a .front .tile-text h3 {
+          font-size: 2em;
+          color: #FFF; }
+        #recent-post-tiles .tile a .front .tile-text p {
+          text-decoration: none;
+          color: #fff; }
+
+.tile-grid {
+  margin-top: 2em; }
+  .tile-grid .tile {
+    box-sizing: border-box;
+    margin-top: 1em; }

@@ -1,5 +1,6 @@
 #map {
-  height: 100vh;
+  margin-top: em(20);
+  height: 400px;
   width: 100%;
   position: relative;
 }
@@ -22,7 +23,7 @@
 }
 
 #video {
-  height: 600px;
+  height: 400px;
   overflow: hidden;
   position: relative;
   video {
@@ -47,5 +48,95 @@
     h1 {
       font-size: 2.8em;
     }
+  }
+}
+#social-media-tiles {
+  .tile {
+    padding: em(10);
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    @include media(min-width $medium max-width $large) {
+      @include span-columns(6 of 12);
+      @include omega(2n);
+      margin-top: em(10);
+    }
+
+    @include media(min-width $large) {
+      @include span-columns(3 of 12);
+      @include omega(4n);
+    }
+    i.social-media-icon {
+      font-size: em(40);
+    }
+    img.social-media-icon {
+      height: em(40);
+    }
+    min-height: em(100);
+    background-color: #FDFDFD;
+  }
+}
+
+#recent-post-tiles {
+  .tile {
+    position: relative;
+    background-size: cover;
+    padding: em(10);
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    min-height: em(100);
+    @include media(min-width $large) {
+      @include span-columns(4 of 12);
+      @include omega(3n);
+    }
+    a {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      &:hover, &:focus {
+        text-decoration: none;
+      }
+      .front {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        .overlay {
+          background-color: rgba(0, 0, 0, 0.4);
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+        }
+        .tile-text {
+          position: absolute;
+          z-index: 10;
+          top: 50%;
+          transform: translateY(-50%);
+          left: 0;
+          right: 0;
+          h3 {
+            font-size: em(20);
+            color: #FFF;
+          }
+          p {
+            text-decoration: none;
+            color: #fff;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+.tile-grid {
+  margin-top: em(20);
+  .tile {
+    box-sizing: border-box;
+    margin-top: em(10);
   }
 }
