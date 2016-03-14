@@ -515,3 +515,5 @@ pre {
     text-align: center;
     top: 50%;
     transform: translateY(-50%); }
+    #video .video-overlay h1 {
+      font-size: 2.8em; }
