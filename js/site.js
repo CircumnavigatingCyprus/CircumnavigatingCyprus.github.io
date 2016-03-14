@@ -4,6 +4,7 @@
 ;{% include js/leaflet-src.js %}
 ;{% include js/Leaflet.AwesomeMarkers.min.js %}
 
+
 var SITE_PROP_LIB = {
   baseurl: {% raw %}"{{site.baseurl}}"{% endraw %}
 }
@@ -32,7 +33,7 @@ var postsByTag = {
               ]
             }
           },
-        {% endif%} 
+        {% endif%}
       {% endfor %}
     ],
   {% endfor %}
@@ -115,5 +116,5 @@ AnnaPostMap.prototype._generatePopupContent = function(feature){
 };
 
 (function(){
-  var postMap = new AnnaPostMap();  
+  var postMap = new AnnaPostMap();
 })();

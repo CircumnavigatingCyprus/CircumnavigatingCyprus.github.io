@@ -1,10 +1,19 @@
+.container {
+  @include outer-container();
+  padding: 0 40px;
+}
+
 /**
  * Site header
  */
+
+ $header-height: 80px;
+ $header-height-big: 120px;
+
 .site-header {
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
-  min-height: 56px;
+  min-height: $header-height;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -14,7 +23,7 @@
       line-height: 100%;
       display: inline-block;
       img {
-        height: 80px;
+        height: $header-height;
       }
     }
   }
@@ -25,80 +34,91 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-    line-height: 100%;
-
-    &,
-    &:visited {
+    line-height: $header-height;
+    &:hover, &:focus {
+      text-decoration: none;
+    }
+    &, &:visited {
       color: $grey-color-dark;
     }
   }
-}
-
-
-.site-nav {
-  float: right;
-  line-height: 56px;
-
-  .menu-icon {
-    display: none;
-  }
-
-  .page-link {
-    color: $text-color;
-    line-height: $base-line-height;
-
-    // Gaps between nav items, but not on the first one
-    &:not(:first-child) {
-      margin-left: 20px;
-    }
-  }
-
-  @include media($on-palm) {
-    position: absolute;
-    top: 9px;
-    right: 30px;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
-    text-align: right;
+  .site-nav {
+    float: right;
+    line-height: $header-height;
 
     .menu-icon {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      padding-top: 10px;
-      text-align: center;
-
-      > svg {
-        width: 18px;
-        height: 15px;
-
-        path {
-          fill: $grey-color-dark;
-        }
-      }
-    }
-
-    .trigger {
-      clear: both;
       display: none;
     }
 
-    &:hover .trigger {
-      display: block;
-      padding-bottom: 5px;
+    .page-link {
+      color: $text-color;
+      line-height: $base-line-height;
+
+      // Gaps between nav items, but not on the first one
+      &:not(:first-child) {
+        margin-left: 20px;
+      }
     }
 
-    .page-link {
-      display: block;
-      padding: 5px 10px;
+    @include media(max-width $site-max-width-mobile) {
+      position: absolute;
+      top: 9px;
+      right: 30px;
+      background-color: $background-color;
+      border: 1px solid $grey-color-light;
+      border-radius: 5px;
+      text-align: right;
+
+      .menu-icon {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 26px;
+        line-height: 0;
+        padding-top: 10px;
+        text-align: center;
+
+        > svg {
+          width: 18px;
+          height: 15px;
+
+          path {
+            fill: $grey-color-dark;
+          }
+        }
+      }
+
+      .trigger {
+        clear: both;
+        display: none;
+      }
+
+      &:hover .trigger {
+        display: block;
+        padding-bottom: 5px;
+      }
+
+      .page-link {
+        display: block;
+        padding: 5px 10px;
+      }
+    }
+  }
+  &.non-scrolled {
+    min-height: $header-height-big;
+    .site-logo {
+      img {
+        height: $header-height-big;
+      }
+    }
+    .site-title {
+      line-height: $header-height-big;
+    }
+    .site-nav {
+      line-height: $header-height-big;
     }
   }
 }
-
-
 
 /**
  * Site footer
@@ -147,7 +167,7 @@
   width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
-@include media-query($on-laptop) {
+@include media(max-width $medium) {
   .footer-col-1,
   .footer-col-2 {
     width: -webkit-calc(50% - (#{$spacing-unit} / 2));
@@ -160,7 +180,7 @@
   }
 }
 
-@include media-query($on-palm) {
+@include media(max-width $site-max-width-mobile) {
   .footer-col {
     float: none;
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
@@ -214,7 +234,7 @@
   letter-spacing: -1px;
   line-height: 1;
 
-  @include media-query($on-laptop) {
+  @include media(max-width $medium) {
     font-size: 36px;
   }
 }
@@ -225,7 +245,7 @@
   h2 {
     font-size: 32px;
 
-    @include media-query($on-laptop) {
+    @include media(max-width $medium) {
       font-size: 28px;
     }
   }
@@ -233,7 +253,7 @@
   h3 {
     font-size: 26px;
 
-    @include media-query($on-laptop) {
+    @include media(max-width $medium) {
       font-size: 22px;
     }
   }
@@ -241,7 +261,7 @@
   h4 {
     font-size: 20px;
 
-    @include media-query($on-laptop) {
+    @include media(max-width $medium) {
       font-size: 18px;
     }
   }
