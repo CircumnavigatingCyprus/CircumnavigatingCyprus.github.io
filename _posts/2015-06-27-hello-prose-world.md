@@ -10,7 +10,7 @@ tags:
 image: "{{site.baseurl}}/media/7525916300_5523c2ce9d_b.jpg"
 popupContent: false
 teaser: "Hello World!"
-identifier: hello-world
+identifier: hello_world
 ---
 
 

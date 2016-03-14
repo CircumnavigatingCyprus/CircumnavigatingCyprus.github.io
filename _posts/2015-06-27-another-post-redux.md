@@ -8,7 +8,7 @@ teaser: Yet another post for much amusement.
 lng: "33.025395"
 lat: "34.698867"
 image: "https://lh3.googleusercontent.com/vAN0uXNtnDESrwn4aobVzAAKi9VpWX5sd2y1Uw5RhA=w1620-h911-no"
-identifier: another-post
+identifier: another_post
 tags:
   - team member updates
 ---
