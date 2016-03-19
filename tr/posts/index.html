@@ -1,7 +1,7 @@
 ---
-layout: default
-title: Posts
-language: en
+layout: turkish
+language: tr
+title: TURKISH Posts
 ---
 
 {% assign locale = site.data.localization[page.language] %}
@@ -9,7 +9,7 @@ language: en
 
 <div class="post-index home container">
 
-  <h1 class="page-heading">locale.posts</h1>
+  <h1 class="page-heading">{{ locale.posts }}</h1>
 
   <ul class="post-list">
     {% for post in posts %}
@@ -23,6 +23,6 @@ language: en
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe">{{ locale.subscribe }} <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

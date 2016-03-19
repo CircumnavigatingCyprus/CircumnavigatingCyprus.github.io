@@ -1,0 +1,44 @@
+.about-wrapper {
+  .about-title {
+  }
+  ol {
+    list-style: none;
+    li {
+      @include clearfix;
+      margin: em(20) 0;
+      box-sizing: border-box;
+      position: relative;
+      h2 {
+        text-align: center;
+        margin-bottom: em(10);
+      }
+      .about-image {
+      }
+      .about-text {
+        text-align: left;
+      }
+    }
+    @include media(min-width $large) {
+      li:nth-child(odd) {
+        @include direction-context(left-to-right){
+          .about-image {
+            @include span-columns(4);
+          }
+          .about-text {
+            @include span-columns(8);
+          }
+        }
+      }
+      li:nth-child(even) {
+        @include direction-context(right-to-left){
+          .about-image {
+            @include span-columns(4);
+          }
+          .about-text {
+            @include span-columns(8);
+          }
+        }
+      }
+    }
+  }
+}

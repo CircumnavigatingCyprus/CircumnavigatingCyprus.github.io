@@ -5,7 +5,7 @@
       <div class="site-logo">
         <img src="/media/ccy_logo.jpg" />
       </div>
-      <a class="site-title" href="{{ site.baseurl }}/">{{ locale.title }}</a>
+      <a class="site-title" href="/{{ page.language | prepend: site.baseurl }}/">{{ locale.title }}</a>
     </div>
 
     <nav class="site-nav">
@@ -18,10 +18,11 @@
       </a>
 
       <div class="trigger">
-        <a class="page-link" href="{{site.baseurl}}/#about">{{ locale.about }}</a>
         {% for p in site.pages %}
-          {% if page.language == p.language && p.title %}
-          <a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+          {% if page.language == p.language %}
+            {% if p.title %}
+              <a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+            {% endif %}
           {% endif %}
         {% endfor %}
       </div>

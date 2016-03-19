@@ -662,53 +662,103 @@ ul.team-profiles li {
     content: "";
     display: table; }
   ul.team-profiles li .member-profile-image {
-    height: 9em; }
+    box-sizing: border-box; }
+    ul.team-profiles li .member-profile-image img {
+      height: 15em; }
   ul.team-profiles li .member-profile-text {
     position: relative;
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 74.41059%;
-    height: 9em; }
-    ul.team-profiles li .member-profile-text:last-child {
-      margin-right: 0; }
+    box-sizing: border-box; }
     ul.team-profiles li .member-profile-text .member-name {
       line-height: 1em; }
+  ul.team-profiles li:last-child {
+    border-bottom: none; }
+@media screen and (min-width: 1050px) {
+  ul.team-profiles li .member-profile-image {
+    height: 9em; }
+    ul.team-profiles li .member-profile-image img {
+      height: 100%; }
+  ul.team-profiles li .member-profile-text {
+    height: 9em; }
     ul.team-profiles li .member-profile-text p {
       position: absolute;
       top: 50%;
       transform: translateY(-50%); }
-  ul.team-profiles li:last-child {
-    border-bottom: none; }
-ul.team-profiles li:nth-child(odd) .member-profile-image {
-  box-sizing: border-box;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 23.23176%; }
-  ul.team-profiles li:nth-child(odd) .member-profile-image:last-child {
-    margin-right: 0; }
-ul.team-profiles li:nth-child(odd) .member-profile-text {
-  box-sizing: border-box;
-  text-align: left; }
-  ul.team-profiles li:nth-child(odd) .member-profile-text .member-name {
-    text-align: right; }
-ul.team-profiles li:nth-child(even) .member-profile-image {
-  box-sizing: border-box;
-  float: right;
-  display: block;
-  margin-left: 2.35765%;
-  width: 23.23176%; }
-  ul.team-profiles li:nth-child(even) .member-profile-image:last-child {
-    margin-left: 0; }
-ul.team-profiles li:nth-child(even) .member-profile-text {
-  box-sizing: border-box;
-  float: right;
-  display: block;
-  margin-left: 2.35765%;
-  width: 74.41059%;
-  text-align: left; }
-  ul.team-profiles li:nth-child(even) .member-profile-text .member-name {
+  ul.team-profiles li:nth-child(odd) .member-profile-image {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    ul.team-profiles li:nth-child(odd) .member-profile-image:last-child {
+      margin-right: 0; }
+  ul.team-profiles li:nth-child(odd) .member-profile-text {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
     text-align: left; }
-  ul.team-profiles li:nth-child(even) .member-profile-text:last-child {
-    margin-left: 0; }
+    ul.team-profiles li:nth-child(odd) .member-profile-text:last-child {
+      margin-right: 0; }
+    ul.team-profiles li:nth-child(odd) .member-profile-text .member-name {
+      text-align: right; }
+  ul.team-profiles li:nth-child(even) .member-profile-image {
+    float: right;
+    display: block;
+    margin-left: 2.35765%;
+    width: 23.23176%; }
+    ul.team-profiles li:nth-child(even) .member-profile-image:last-child {
+      margin-left: 0; }
+  ul.team-profiles li:nth-child(even) .member-profile-text {
+    float: right;
+    display: block;
+    margin-left: 2.35765%;
+    width: 74.41059%;
+    text-align: left; }
+    ul.team-profiles li:nth-child(even) .member-profile-text .member-name {
+      text-align: left; }
+    ul.team-profiles li:nth-child(even) .member-profile-text:last-child {
+      margin-left: 0; } }
+
+.about-wrapper ol {
+  list-style: none; }
+  .about-wrapper ol li {
+    margin: 2em 0;
+    box-sizing: border-box;
+    position: relative; }
+    .about-wrapper ol li::after {
+      clear: both;
+      content: "";
+      display: table; }
+    .about-wrapper ol li h2 {
+      text-align: center;
+      margin-bottom: 1em; }
+    .about-wrapper ol li .about-text {
+      text-align: left; }
+  @media screen and (min-width: 1050px) {
+    .about-wrapper ol li:nth-child(odd) .about-image {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .about-wrapper ol li:nth-child(odd) .about-image:last-child {
+        margin-right: 0; }
+    .about-wrapper ol li:nth-child(odd) .about-text {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%; }
+      .about-wrapper ol li:nth-child(odd) .about-text:last-child {
+        margin-right: 0; }
+    .about-wrapper ol li:nth-child(even) .about-image {
+      float: right;
+      display: block;
+      margin-left: 2.35765%;
+      width: 31.76157%; }
+      .about-wrapper ol li:nth-child(even) .about-image:last-child {
+        margin-left: 0; }
+    .about-wrapper ol li:nth-child(even) .about-text {
+      float: right;
+      display: block;
+      margin-left: 2.35765%;
+      width: 65.88078%; }
+      .about-wrapper ol li:nth-child(even) .about-text:last-child {
+        margin-left: 0; } }

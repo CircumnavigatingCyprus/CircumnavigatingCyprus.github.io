@@ -3,19 +3,16 @@ ul.team-profiles {
     list-style: none;
     @include clearfix;
     .member-profile-image {
-      height: em(90);
+      box-sizing: border-box;
+      img {
+        height: em(150);
+      }
     }
     .member-profile-text {
       position: relative;
-      @include span-columns(9);
-      height: em(90);
+      box-sizing: border-box;
       .member-name {
         line-height: em(10);
-      }
-      p {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
       }
     }
     padding: em(20) 0;
@@ -24,38 +21,53 @@ ul.team-profiles {
       border-bottom: none;
     }
   }
-  li:nth-child(odd) {
-    @include direction-context(left-to-right){
+  @include media(min-width $large) {
+    li {
       .member-profile-image {
-        box-sizing: border-box;
-        @include span-columns(3);
+        height: em(90);
         img {
+          height: 100%;
         }
       }
       .member-profile-text {
-        .member-name {
-          text-align: right;
+        height: em(90);
+        p {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
         }
-        box-sizing: border-box;
-        text-align: left;
       }
     }
-  }
-  li:nth-child(even) {
-    @include direction-context(right-to-left){
-      .member-profile-image {
-        box-sizing: border-box;
-        @include span-columns(3);
-        img {
+    li:nth-child(odd) {
+      @include direction-context(left-to-right){
+        .member-profile-image {
+          @include span-columns(3);
+          img {
+          }
         }
-      }
-      .member-profile-text {
-        .member-name {
+        .member-profile-text {
+          @include span-columns(9);
+          .member-name {
+            text-align: right;
+          }
           text-align: left;
         }
-        box-sizing: border-box;
-        @include span-columns(9);
-        text-align: left;
+      }
+    }
+    li:nth-child(even) {
+      @include direction-context(right-to-left){
+        .member-profile-image {
+          @include span-columns(3);
+          img {
+          }
+        }
+        .member-profile-text {
+          .member-name {
+            text-align: left;
+          }
+          @include span-columns(9);
+          text-align: left;
+        }
       }
     }
   }

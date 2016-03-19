@@ -8,6 +8,7 @@ en:
   map_title: Follow the journey
   latest_posts: Latest Posts
   team_title: The Team
+  about_title: About the Project
 gr:
   title: GREEK Circumnavigating Cyprus
   about: GREEK About
@@ -18,6 +19,7 @@ gr:
   map_title: GREEK Follow the journey
   latest_posts: GREEK Latest Posts
   team_title: GREEK Team
+  about_title: GREEK About the Project
 tr:
   title: TURKISH Circumnavigating Cyprus
   about: TURKISH About
@@ -28,3 +30,4 @@ tr:
   map_title: TURKISH Follow the journey
   latest_posts: TURKISH Latest Posts
   team_title: TURKISH Team
+  about_title: TURKISH About the Project

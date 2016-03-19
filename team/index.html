@@ -1,6 +1,7 @@
 ---
-layout: greek
-language: gr
+layout: default
+language: en
+title: Team
 ---
 
 {% assign locale = site.data.localization[page.language] %}
@@ -13,7 +14,7 @@ language: gr
     <li>
       <div class="member-profile-image"><img src="{{bio.image}}"/></div>
       <div class="member-profile-text">
-        <p><h2 class="member-name">{{bio.name}}</h2>{{bio.text_gr}}</p>
+        <p><h2 class="member-name">{{bio.name}}</h2>{{bio.text_en}}</p>
       </div>
     </li>
   {% endfor %}
