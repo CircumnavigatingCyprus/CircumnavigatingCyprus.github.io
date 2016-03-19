@@ -6,8 +6,8 @@
 </description>
     <link>http://circumnavigatingcyprus.github.io/</link>
     <atom:link href="http://circumnavigatingcyprus.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Mar 2016 03:42:54 -0400</pubDate>
-    <lastBuildDate>Mon, 14 Mar 2016 03:42:54 -0400</lastBuildDate>
+    <pubDate>Sat, 19 Mar 2016 11:40:10 -0400</pubDate>
+    <lastBuildDate>Sat, 19 Mar 2016 11:40:10 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -89,6 +89,25 @@
       </item>
     
       <item>
+        <title>Hello [TURKISH] World</title>
+        <description>&lt;h2 id=&quot;its-a-turkish-world&quot;&gt;Its a TURKISH WORLD&lt;/h2&gt;
+
+&lt;p&gt;This is an example of a new post using Prose.io. Using their friendly UI I was able to easily create a new post. I can also easily insert images by draggind and droppin them on the screen, like the ones you see below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/media/7525916300_5523c2ce9d_b.jpg&quot; alt=&quot;7525916300_5523c2ce9d_b.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When you drag-and-drop an image on the screen it automagically uploads the file to your “Media” directory and then includes a properly formatted link in the post to ensure that it renders correctly.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 27 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://circumnavigatingcyprus.github.io/2015/06/27/hello-turkish-prose-world.html</link>
+        <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/2015/06/27/hello-turkish-prose-world.html</guid>
+        
+        <category>trekking</category>
+        
+        
+      </item>
+    
+      <item>
         <title>Hello [Prose] World</title>
         <description>&lt;h2 id=&quot;its-a-prose-world&quot;&gt;Its a PROSE WORLD&lt;/h2&gt;
 
@@ -101,6 +120,25 @@
         <pubDate>Sat, 27 Jun 2015 00:00:00 -0400</pubDate>
         <link>http://circumnavigatingcyprus.github.io/2015/06/27/hello-prose-world.html</link>
         <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/2015/06/27/hello-prose-world.html</guid>
+        
+        <category>trekking</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Hello [Greek] World</title>
+        <description>&lt;h2 id=&quot;its-a-greek-world&quot;&gt;Its a GREEK WORLD&lt;/h2&gt;
+
+&lt;p&gt;This is an example of a new post using Prose.io. Using their friendly UI I was able to easily create a new post. I can also easily insert images by draggind and droppin them on the screen, like the ones you see below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/media/7525916300_5523c2ce9d_b.jpg&quot; alt=&quot;7525916300_5523c2ce9d_b.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When you drag-and-drop an image on the screen it automagically uploads the file to your “Media” directory and then includes a properly formatted link in the post to ensure that it renders correctly.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 27 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://circumnavigatingcyprus.github.io/2015/06/27/hello-greek-prose-world.html</link>
+        <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/2015/06/27/hello-greek-prose-world.html</guid>
         
         <category>trekking</category>
         

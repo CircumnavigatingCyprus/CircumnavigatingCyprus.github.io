@@ -9,6 +9,7 @@ lng: "33.263956"
 lat: "35.07877"
 image: "https://c1.staticflickr.com/3/2848/12005505403_b4c46cc0b9_n.jpg"
 identifier: proof_of_concept
+language: en
 tags:
   - interviews
 ---

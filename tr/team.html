@@ -1,0 +1,21 @@
+---
+layout: turkish
+language: tr
+---
+
+{% assign locale = site.data.localization[page.language] %}
+
+{% assign team_bios = site.data.team_bios.bios %}
+<div class="team-profile-wrapper section container">
+  <h1 class="team-title">{{ locale.team_title }}</h1>
+  <ul class="team-profiles">
+  {% for bio in team_bios %}
+    <li>
+      <div class="member-profile-image"><img src="{{bio.image}}"/></div>
+      <div class="member-profile-text">
+        <p><h2 class="member-name">{{bio.name}}</h2>{{bio.text_tr}}</p>
+      </div>
+    </li>
+  {% endfor %}
+  </ul>
+</div>

@@ -1,0 +1,21 @@
+{% assign posts = site.posts | where: 'language', page.language %}
+{% assign tags = site.post_tags %}
+
+<div class="post-sidebar">
+  <div class="recent-posts">
+    <h2>Recent Posts</h2>
+    <ul>
+    {% for post in posts limit: 3 %}
+      <li><a href='{{post.url}}'>{{post.title}}</a></li>
+    {% endfor %}
+    </ul>
+  </div>
+  <div class="post-categories">
+    <h2>Categories</h2>
+    <ul>
+    {% for tag in tags %}
+      <li><a>{{tag}}</a></li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>

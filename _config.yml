@@ -43,6 +43,14 @@ prose:
         field:
           element: "text"
           label: "Enter a Post Identifier. This should be same for translations of the post."
+      - name: language
+        options:
+        - name: English
+          value: 'en'
+        - name: Greek
+          value: 'gr'
+        - name: Turkish
+          value: 'tr'
       - name: "title"
         field:
           element: "text"

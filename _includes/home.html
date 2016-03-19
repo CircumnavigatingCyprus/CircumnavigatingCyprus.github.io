@@ -1,0 +1,57 @@
+<div class="page-content">
+  <div class="video-section section">
+    <div id="video">
+      <video autoplay muted loop poster="/media/cyprus-window.jpg" id="bgvid">
+        <!-- <source src="polina.webm" type="video/webm"> -->
+        <source src="/media/sample-video.mp4" type="video/mp4">
+      </video>
+      <div class="video-overlay">
+        <h1 class="header">{{ locale.video_title }}</h1>
+        <h2 class="sub-header">{{ locale.video_subtitle }}</h2>
+      </div>
+    </div>
+  </div>
+  <div class="map-section section">
+    <div class="container">
+      <h1 class="section-header">{{ locale.map_title }}</h1>
+    </div>
+    <div id="map"></div>
+  </div>
+  <div class="social-media-section section">
+    <div id="social-media-tiles" class="tile-grid container">
+      <div class="tile">
+        <i class="fa fa-instagram social-media-icon"></i>
+      </div>
+      <div class="tile">
+        <i class="fa fa-twitter social-media-icon"></i>
+      </div>
+      <div class="tile">
+        <i class="fa fa-facebook social-media-icon"></i>
+      </div>
+      <div class="tile">
+        <img class="social-media-icon" src="/media/igg.png"/>
+      </div>
+    </div>
+  </div>
+  <div class="recent-post-section section">
+    <h1 class="section-header">{{locale.latest_posts}}</h1>
+    <div id="recent-post-tiles" class="tile-grid container">
+      {% assign currentLanguagePosts = site.posts | where: 'language', page.language %}
+      {% for post in currentLanguagePosts limit:3 %}
+        <div class="tile recent-post">
+          <a href="{{post.url}}">
+            <div class="front" style="background-image: url({{post.image}})">
+              <div class="overlay"></div>
+              <div class="tile-text">
+                <h3>{{post.title}}</h3>
+                <p>{{ post.date | date: "%d %B %Y" }}</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<script src='{{site.baseurl}}/js/home_{{page.language}}.js'></script>

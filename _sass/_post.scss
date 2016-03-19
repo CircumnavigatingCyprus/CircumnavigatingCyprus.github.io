@@ -1,3 +1,13 @@
-.post {
+.post-wrapper {
   margin-top: em(20);
+}
+
+.post {
+  @include span-columns(9 of 12);
+  box-sizing: border-box;
+}
+
+.post-sidebar {
+  @include span-columns(3 of 12);
+  box-sizing: border-box;
 }

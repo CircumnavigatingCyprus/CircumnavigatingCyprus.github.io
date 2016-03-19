@@ -1,14 +1,18 @@
 ---
 layout: default
 title: Posts
+language: en
 ---
+
+{% assign locale = site.data.localization[page.language] %}
+{% assign posts = site.posts | where: 'language', page.language %}
 
 <div class="post-index home container">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">locale.posts</h1>
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 

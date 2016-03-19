@@ -9,15 +9,16 @@ var SITE_PROP_LIB = {
   baseurl: {% raw %}"{{site.baseurl}}"{% endraw %}
 }
 
+{% assign currentLanguagePosts = site.posts | where: 'language', 'tr' %}
 var postsByTag = {
   {% for tag in site.post_tags %}
     '{{tag}}' : [
-      {% for post in site.posts %}
+      {% for post in currentLanguagePosts %}
         {% if post.tags contains {{tag}} %}
           {
             'type': 'Feature',
             'properties': {
-              title: "{{ post.title }}",
+              title: '{{ post.title }}',
               image: processImageLink('{{post.image }}'),
               link: '{{site.baseurl}}{{post.url}}',
               teaser: '{{post.teaser}}',
