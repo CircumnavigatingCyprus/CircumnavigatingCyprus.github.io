@@ -9,13 +9,15 @@ image: ""
 categories: 
   - en
   - team member updates
-tags: null
+tags: 
+  - "null"
 author: Ori Pleban
 popupContent: true
 teaser: This is a post teaser which will appear on the map.
-published: false
+published: true
 title: This is a post title
 ---
+
 
 ## This is a walkthrough post.
 
