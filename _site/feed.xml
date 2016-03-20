@@ -6,9 +6,9 @@
 </description>
     <link>http://circumnavigatingcyprus.github.io/</link>
     <atom:link href="http://circumnavigatingcyprus.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 19 Mar 2016 13:09:27 -0400</pubDate>
-    <lastBuildDate>Sat, 19 Mar 2016 13:09:27 -0400</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
+    <pubDate>Sat, 19 Mar 2016 21:56:38 -0400</pubDate>
+    <lastBuildDate>Sat, 19 Mar 2016 21:56:38 -0400</lastBuildDate>
+    <generator>Jekyll v3.0.3</generator>
     
       <item>
         <title>A New Post</title>
@@ -162,6 +162,71 @@
         
         <category>team member updates</category>
         
+        
+      </item>
+    
+      <item>
+        <title>Introducing Jekyll archives!</title>
+        <description>&lt;p&gt;Post with category and tags.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 17 Aug 2014 00:00:00 -0400</pubDate>
+        <link>http://circumnavigatingcyprus.github.io/lib/jekyll-archives/test/source/plugins/2014/08/17/introducing-jekyll-archives.html</link>
+        <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/lib/jekyll-archives/test/source/plugins/2014/08/17/introducing-jekyll-archives.html</guid>
+        
+        <category>new</category>
+        
+        
+        <category>lib</category>
+        
+        <category>jekyll-archives</category>
+        
+        <category>test</category>
+        
+        <category>source</category>
+        
+        <category>plugins</category>
+        
+      </item>
+    
+      <item>
+        <title>Tagged post</title>
+        <description>&lt;p&gt;This is a tagged post&lt;/p&gt;
+</description>
+        <pubDate>Sat, 15 Mar 2014 00:00:00 -0400</pubDate>
+        <link>http://circumnavigatingcyprus.github.io/lib/jekyll-archives/test/source/2014/03/15/tagged-post.html</link>
+        <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/lib/jekyll-archives/test/source/2014/03/15/tagged-post.html</guid>
+        
+        <category>Test Tag</category>
+        
+        <category>tagged</category>
+        
+        
+        <category>lib</category>
+        
+        <category>jekyll-archives</category>
+        
+        <category>test</category>
+        
+        <category>source</category>
+        
+      </item>
+    
+      <item>
+        <title>Post from yesteryear</title>
+        <description>&lt;p&gt;This is a post from the year 2013.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 16 Aug 2013 00:00:00 -0400</pubDate>
+        <link>http://circumnavigatingcyprus.github.io/lib/jekyll-archives/test/source/2013/08/16/post-from-yesteryear.html</link>
+        <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/lib/jekyll-archives/test/source/2013/08/16/post-from-yesteryear.html</guid>
+        
+        
+        <category>lib</category>
+        
+        <category>jekyll-archives</category>
+        
+        <category>test</category>
+        
+        <category>source</category>
         
       </item>
     
