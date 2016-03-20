@@ -6,8 +6,8 @@
 </description>
     <link>http://circumnavigatingcyprus.github.io/</link>
     <atom:link href="http://circumnavigatingcyprus.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 20 Mar 2016 17:50:45 -0400</pubDate>
-    <lastBuildDate>Sun, 20 Mar 2016 17:50:45 -0400</lastBuildDate>
+    <pubDate>Sun, 20 Mar 2016 18:12:15 -0400</pubDate>
+    <lastBuildDate>Sun, 20 Mar 2016 18:12:15 -0400</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       <item>
@@ -49,15 +49,13 @@
 &lt;p&gt;This is an example of post with the tag trekking.&lt;/p&gt;
 </description>
         <pubDate>Sun, 28 Jun 2015 00:00:00 -0400</pubDate>
-        <link>http://circumnavigatingcyprus.github.io/en/photography/2015/06/28/photography/</link>
-        <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/en/photography/2015/06/28/photography/</guid>
-        
-        <category>participant photography</category>
+        <link>http://circumnavigatingcyprus.github.io/en/participant%20photography/2015/06/28/photography/</link>
+        <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/en/participant%20photography/2015/06/28/photography/</guid>
         
         
         <category>en</category>
         
-        <category>photography</category>
+        <category>participant photography</category>
         
       </item>
     
@@ -106,8 +104,6 @@
         <link>http://circumnavigatingcyprus.github.io/en/interviews/2015/06/27/proof-of-concept/</link>
         <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/en/interviews/2015/06/27/proof-of-concept/</guid>
         
-        <category>interviews</category>
-        
         
         <category>en</category>
         
@@ -128,8 +124,6 @@
         <pubDate>Sat, 27 Jun 2015 00:00:00 -0400</pubDate>
         <link>http://circumnavigatingcyprus.github.io/tr/trekking/2015/06/27/hello-turkish-prose-world/</link>
         <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/tr/trekking/2015/06/27/hello-turkish-prose-world/</guid>
-        
-        <category>trekking</category>
         
         
         <category>tr</category>
@@ -152,8 +146,6 @@
         <link>http://circumnavigatingcyprus.github.io/en/trekking/2015/06/27/hello-prose-world/</link>
         <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/en/trekking/2015/06/27/hello-prose-world/</guid>
         
-        <category>trekking</category>
-        
         
         <category>en</category>
         
@@ -175,8 +167,6 @@
         <link>http://circumnavigatingcyprus.github.io/gr/trekking/2015/06/27/hello-greek-prose-world/</link>
         <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/gr/trekking/2015/06/27/hello-greek-prose-world/</guid>
         
-        <category>trekking</category>
-        
         
         <category>gr</category>
         
@@ -191,6 +181,7 @@
 &lt;p&gt;More of the same only this time, there is a picture of hummus to enjoy!&lt;/p&gt;
 
 &lt;h2 id=&quot;hummus&quot;&gt;Hummus&lt;/h2&gt;
+
 &lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/vAN0uXNtnDESrwn4aobVzAAKi9VpWX5sd2y1Uw5RhA=w1620-h911-no&quot; alt=&quot;This hummus is from Israel not Cyprus&quot; title=&quot;Again not in Cyprus&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Israeli Hummus, as opposed to Cypriot Hummus. I don’t have any pictures from Cyprus :(.&lt;/p&gt;
@@ -198,8 +189,6 @@
         <pubDate>Sat, 27 Jun 2015 00:00:00 -0400</pubDate>
         <link>http://circumnavigatingcyprus.github.io/en/team%20member%20updates/2015/06/27/another-post-redux/</link>
         <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/en/team%20member%20updates/2015/06/27/another-post-redux/</guid>
-        
-        <category>team member updates</category>
         
         
         <category>en</category>

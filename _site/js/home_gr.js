@@ -9246,26 +9246,6 @@ var postsByTag = {
     'trekking' : [
       
         
-          {
-            'type': 'Feature',
-            'properties': {
-              title: 'Hello [Greek] World',
-              image: processImageLink('{{site.baseurl}}/media/7525916300_5523c2ce9d_b.jpg'),
-              link: '/gr/trekking/2015/06/27/hello-greek-prose-world/',
-              teaser: 'Hello World!',
-              popupContent: 'false',
-              date: '2015-06-27 00:00:00 -0400',
-              tags: ["trekking"]
-            },
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [
-                33.263356,
-                34.79770
-              ]
-            }
-          },
-        
       
     ],
   

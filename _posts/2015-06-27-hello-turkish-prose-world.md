@@ -5,8 +5,6 @@ title: "Hello [TURKISH] World"
 author: Anna Antoniou
 lat: "34.79770"
 lng: "33.263356"
-tags:
-  - trekking
 image: "{{site.baseurl}}/media/7525916300_5523c2ce9d_b.jpg"
 popupContent: false
 teaser: "Hello World!"
