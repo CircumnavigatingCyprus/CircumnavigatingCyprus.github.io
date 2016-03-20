@@ -12,106 +12,104 @@ map-tileset: 'https://api.tiles.mapbox.com/v4/opleban.mdj03cbc/{z}/{x}/{y}.png?a
 
 # Build settings
 markdown: kramdown
-gems:
-- jekyll-archives
 permalink: pretty
 post_tags:
-  - interviews
-  - participant photography
-  - team member updates
-  - trekking
+- interviews
+- participant photography
+- team member updates
+- trekking
 prose:
   ignore:
-    - _config.yml
-    - /_layouts
-    - /_includes
-    - /_sass
-    - /css
-    - /.sass-cache
-    - feed.xml
-    - index.md
-    - Gemfile
-    - Gemfile.lock
+  - _config.yml
+  - /_layouts
+  - /_includes
+  - /_sass
+  - /css
+  - /.sass-cache
+  - feed.xml
+  - index.md
+  - Gemfile
+  - Gemfile.lock
   rooturl: "_posts"
   siteurl: ""
   media: "media"
   metadata:
     _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "identifier"
-        field:
-          element: "text"
-          label: "Enter a Post Identifier. This should be same for translations of the post."
-      - name: language
-        field:
-          element: "multiselect"
-          label: "Choose the correct language"
-          options:
-          - name: English
-            value: "en"
-          - name: Greek
-            value: "gr"
-          - name: Turkish
-            value: "tr"
-      - name: "title"
-        field:
-          element: "text"
-          label: "title"
-      - name: "lng"
-        field:
-          element: "text"
-          label: "Longitude"
-          placholder: "Enter Longitude Coordinates"
-      - name: "lat"
-        field:
-          element: "text"
-          label: "Latitude"
-          placholder: "Enter Latitude Coordinates"
-      - name: "image"
-        field:
-          element: "text"
-          label: "Preview Image"
-          placeholder: "Enter the a link to your preview image"
-      - name: "categories"
-        field:
-          element: "multiselect"
-          label: "Add Categories"
-          alterable: true
-          options:
-          - name: "English"
-            value: "en"
-          - name: "Greek"
-            value: "gr"
-          - name: "Turkish"
-            value: "tr"
-          - name: "Trekking"
-            value: "trekking"
-          - name: "Interviews"
-            value: "interviews"
-          - name: "Participant Photography"
-            value: "participant photography"
-          - name: "Team Member Updates"
-            value: "team member updates"
-      - name: "tags"
-        field:
-          element: "multiselect"
-          alterable: true
-          label: "Add Tags"
-      - name: "author"
-        field:
-          element: "text"
-          label: "author, Πώς σε λένε?"
-          value: "Anna Antoniou"
-      - name: "popupContent"
-        field:
-          element: "checkbox"
-          label: "Map popup?"
-      - name: "teaser"
-        field:
-          element: "textarea"
-          label: "Post Teaser"
-          help: "The text you'd like to appear for the popup content on the map"
-          placeholder: "popup teaser text"
+    - name: "layout"
+      field:
+        element: "hidden"
+        value: "post"
+    - name: "identifier"
+      field:
+        element: "text"
+        label: "Enter a Post Identifier. This should be same for translations of the post."
+    - name: language
+      field:
+        element: "select"
+        label: "Choose the correct language"
+        options:
+        - name: English
+          value: "en"
+        - name: Greek
+          value: "gr"
+        - name: Turkish
+          value: "tr"
+    - name: "title"
+      field:
+        element: "text"
+        label: "title"
+    - name: "lng"
+      field:
+        element: "text"
+        label: "Longitude"
+        placholder: "Enter Longitude Coordinates"
+    - name: "lat"
+      field:
+        element: "text"
+        label: "Latitude"
+        placholder: "Enter Latitude Coordinates"
+    - name: "image"
+      field:
+        element: "text"
+        label: "Preview Image"
+        placeholder: "Enter the a link to your preview image"
+    - name: "categories"
+      field:
+        element: "multiselect"
+        label: "Add Categories"
+        alterable: true
+        options:
+        - name: "English"
+          value: "en"
+        - name: "Greek"
+          value: "gr"
+        - name: "Turkish"
+          value: "tr"
+        - name: "Trekking"
+          value: "trekking"
+        - name: "Interviews"
+          value: "interviews"
+        - name: "Participant Photography"
+          value: "participant photography"
+        - name: "Team Member Updates"
+          value: "team member updates"
+    - name: "tags"
+      field:
+        element: "multiselect"
+        alterable: true
+        label: "Add Tags"
+    - name: "author"
+      field:
+        element: "text"
+        label: "author, Πώς σε λένε?"
+        value: "Anna Antoniou"
+    - name: "popupContent"
+      field:
+        element: "checkbox"
+        label: "Map popup?"
+    - name: "teaser"
+      field:
+        element: "textarea"
+        label: "Post Teaser"
+        help: "The text you'd like to appear for the popup content on the map"
+        placeholder: "popup teaser text"

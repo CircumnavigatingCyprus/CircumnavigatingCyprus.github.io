@@ -1,12 +1,11 @@
 ---
 layout: post
 identifier: "update-12-2013"
-language: 
-  - en
+language: en
 lng: "13"
 lat: "25"
 image: ""
-categories: 
+categories:
   - en
   - team member updates
 tags: null
