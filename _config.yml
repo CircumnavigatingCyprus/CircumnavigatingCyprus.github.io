@@ -41,18 +41,21 @@ prose:
         field:
           element: "hidden"
           value: "post"
-      - name: identifier
+      - name: "identifier"
         field:
           element: "text"
           label: "Enter a Post Identifier. This should be same for translations of the post."
       - name: language
-        options:
-        - name: English
-          value: "en"
-        - name: Greek
-          value: "gr"
-        - name: Turkish
-          value: "tr"
+        field:
+          element: "multiselect"
+          label: "Choose the correct language"
+          options:
+          - name: English
+            value: "en"
+          - name: Greek
+            value: "gr"
+          - name: Turkish
+            value: "tr"
       - name: "title"
         field:
           element: "text"
@@ -73,11 +76,11 @@ prose:
           label: "Preview Image"
           placeholder: "Enter the a link to your preview image"
       - name: "categories"
-        element: "multiselect"
-        label: "Add Categories"
-        placeholder: "Choose Categories"
-        alterable: true
-        options:
+        field:
+          element: "multiselect"
+          label: "Add Categories"
+          alterable: true
+          options:
           - name: "English"
             value: "en"
           - name: "Greek"
