@@ -40,8 +40,6 @@ var postsByTag = {
   {% endfor %}
 };
 
-
-
 var postTagsArray = ['{{site.post_tags | join: "', '"}}'];
 
 var AnnaPostMap = function(){

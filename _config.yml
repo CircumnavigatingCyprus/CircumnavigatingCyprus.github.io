@@ -32,9 +32,9 @@ prose:
     - index.md
     - Gemfile
     - Gemfile.lock
-  rooturl: '_posts'
-  siteurl: ''
-  media: 'media'
+  rooturl: "_posts"
+  siteurl: ""
+  media: "media"
   metadata:
     _posts:
       - name: "layout"
@@ -48,11 +48,11 @@ prose:
       - name: language
         options:
         - name: English
-          value: 'en'
+          value: "en"
         - name: Greek
-          value: 'gr'
+          value: "gr"
         - name: Turkish
-          value: 'tr'
+          value: "tr"
       - name: "title"
         field:
           element: "text"
@@ -72,21 +72,31 @@ prose:
           element: "text"
           label: "Preview Image"
           placeholder: "Enter the a link to your preview image"
+      - name: "categories"
+        element: "multiselect"
+        label: "Add Categories"
+        placeholder: "Choose Categories"
+        alterable: true
+        options:
+          - name: "English"
+            value: "en"
+          - name: "Greek"
+            value: "gr"
+          - name: "Turkish"
+            value: "tr"
+          - name: "Trekking"
+            value: "trekking"
+          - name: "Interviews"
+            value: "interviews"
+          - name: "Participant Photography"
+            value: "participant photography"
+          - name: "Team Member Updates"
+            value: "team member updates"
       - name: "tags"
         field:
           element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
           alterable: true
-          options:
-            - name: "Trekking"
-              value: "trekking"
-            - name: "Interviews"
-              value: "interviews"
-            - name: "Participant Photography"
-              value: "participant photography"
-            - name: "Team Member Updates"
-              value: "team member updates"
+          label: "Add Tags"
       - name: "author"
         field:
           element: "text"

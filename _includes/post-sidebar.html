@@ -14,7 +14,7 @@
     <h2>Categories</h2>
     <ul>
     {% for tag in tags %}
-      <li><a>{{tag}}</a></li>
+      <li><a href="/{{page.language}}/posts/{{ tag | slugify }}">{{tag}}</a></li>
     {% endfor %}
     </ul>
   </div>

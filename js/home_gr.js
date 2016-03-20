@@ -1,8 +1,10 @@
 ---
 ---
+;{% include js/jquery.min.js %}
 ;{% include js/underscore.min.js %}
 ;{% include js/leaflet-src.js %}
 ;{% include js/Leaflet.AwesomeMarkers.min.js %}
+;{% include js/header.js %}
 
 
 var SITE_PROP_LIB = {
@@ -39,8 +41,6 @@ var postsByTag = {
     ],
   {% endfor %}
 };
-
-
 
 var postTagsArray = ['{{site.post_tags | join: "', '"}}'];
 

@@ -161,6 +161,26 @@ pre {
 .center-align {
   text-align: center; }
 
+.row {
+  display: block; }
+  .row::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden; }
+  body:hover .visually-hidden a, body:hover .visually-hidden input, body:hover .visually-hidden button {
+    display: none !important; }
+
 /**
  * Site header
  */
@@ -210,10 +230,32 @@ pre {
         height: 15px; }
         .site-header .site-nav .menu-icon > svg path {
           fill: #424242; }
-    .site-header .site-nav .nav-menu li {
-      list-style: none;
-      display: inline-block;
-      margin-right: 1em; }
+    .site-header .site-nav .nav-menu {
+      margin: 0;
+      padding: 0; }
+      .site-header .site-nav .nav-menu li {
+        list-style: none;
+        display: inline-block;
+        margin: 0;
+        padding: 0; }
+      .site-header .site-nav .nav-menu > li {
+        padding-right: 2em;
+        padding-left: 2em; }
+    .site-header .site-nav .dropdown-menu {
+      position: relative; }
+      .site-header .site-nav .dropdown-menu ul {
+        position: absolute;
+        display: block;
+        z-index: 100;
+        width: 10em;
+        left: 0; }
+        .site-header .site-nav .dropdown-menu ul li {
+          display: block;
+          height: 3em;
+          line-height: 3em;
+          width: 100%;
+          text-align: center;
+          background-color: #FDFDFD; }
   .site-header.non-scrolled {
     min-height: 120px; }
     .site-header.non-scrolled .site-logo img {
@@ -482,6 +524,9 @@ pre {
   width: auto;
   max-height: 250px;
   overflow-y: scroll; }
+
+.leaflet-control-layers {
+  text-align: left; }
 
 .map-popup img {
   max-height: 130px; }

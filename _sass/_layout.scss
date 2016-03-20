@@ -10,6 +10,31 @@
 .center-align {
   text-align: center;
 }
+.row {
+  display: block;
+  @include clearfix;
+}
+
+@mixin visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding:0 !important;
+  border:0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+  body:hover & {
+    a, input, button {
+      display: none !important;
+    }
+  }
+}
+
+.visually-hidden {
+  @include visually-hidden;
+}
+
 
 /**
  * Site header
@@ -77,10 +102,35 @@
       }
     }
     .nav-menu {
+      margin: 0;
+      padding: 0;
       li {
         list-style: none;
         display: inline-block;
-        margin-right: em(10);
+        margin: 0;
+        padding: 0;
+      }
+      & > li {
+        padding-right: em(20);
+        padding-left: em(20);
+      }
+    }
+    .dropdown-menu {
+      position: relative;
+      ul {
+        position: absolute;
+        display: block;
+        z-index: 100;
+        width: em(100);
+        left: 0;
+        li {
+          display: block;
+          height: em(30);
+          line-height: em(30);
+          width: 100%;
+          text-align: center;
+          background-color: #FDFDFD;
+        }
       }
     }
   }

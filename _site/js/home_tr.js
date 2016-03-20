@@ -3599,7 +3599,7 @@ L.Marker = L.Class.extend({
 			if (options.title) {
 				icon.title = options.title;
 			}
-			
+
 			if (options.alt) {
 				icon.alt = options.alt;
 			}
@@ -5089,7 +5089,7 @@ L.Path = (L.Path.SVG && !window.L_PREFER_CANVAS) || !L.Browser.canvas ? L.Path :
 		}
 
 		this._requestUpdate();
-		
+
 		this.fire('remove');
 		this._map = null;
 	},
@@ -8137,7 +8137,7 @@ L.Control.Attribution = L.Control.extend({
 				this.addAttribution(map._layers[i].getAttribution());
 			}
 		}
-		
+
 		map
 		    .on('layeradd', this._onLayerAdd, this)
 		    .on('layerremove', this._onLayerRemove, this);
@@ -8536,9 +8536,7 @@ L.Control.Layers = L.Control.extend({
 	},
 
 	_addItem: function (obj) {
-		console.log(obj);
 		var className = obj.name.replace(/\s/g, "-");
-		console.log(className);
 		var label = document.createElement('label'),
 		    input,
 		    checked = this._map.hasLayer(obj.layer);
@@ -9249,8 +9247,6 @@ var postsByTag = {
     ],
   
 };
-
-
 
 var postTagsArray = ['interviews', 'participant photography', 'team member updates', 'trekking'];
 
