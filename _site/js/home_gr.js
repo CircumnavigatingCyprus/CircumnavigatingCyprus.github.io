@@ -9223,7 +9223,7 @@ var SITE_PROP_LIB = {
 }
 
 
-var postsByTag = {
+var postsByCategories = {
   
     'interviews' : [
       
@@ -9246,19 +9246,39 @@ var postsByTag = {
     'trekking' : [
       
         
+          {
+            'type': 'Feature',
+            'properties': {
+              title: 'Hello [Greek] World',
+              image: processImageLink('{{site.baseurl}}/media/7525916300_5523c2ce9d_b.jpg'),
+              link: '/gr/trekking/2015/06/27/hello-greek-prose-world/',
+              teaser: 'Hello World!',
+              popupContent: 'false',
+              date: '2015-06-27 00:00:00 -0400',
+              categories: ["gr", "trekking"]
+            },
+            'geometry': {
+              'type': 'Point',
+              'coordinates': [
+                33.263356,
+                34.79770
+              ]
+            }
+          },
+        
       
     ],
   
 };
 
-var postTagsArray = ['interviews', 'participant photography', 'team member updates', 'trekking'];
+var postCategoriesArray = ['interviews', 'participant photography', 'team member updates', 'trekking'];
 
 var AnnaPostMap = function(){
   var that = this;
-  this.layers = _(postTagsArray)
-                  .map(function(tag){
+  this.layers = _(postCategoriesArray)
+                  .map(function(category){
                         return L.geoJson(
-                                          {type: 'FeatureCollection', features: postsByTag[tag]},
+                                          {type: 'FeatureCollection', features: postsByCategories[category]},
                                           {
                                            onEachFeature: that._onEachFeature.bind(that),
                                            pointToLayer: that._pointToLayer.bind(that)
@@ -9276,8 +9296,8 @@ var AnnaPostMap = function(){
   L.tileLayer( 'https://api.tiles.mapbox.com/v4/opleban.mdj03cbc/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoib3BsZWJhbiIsImEiOiI0VXNzcXFRIn0.uE_om5U3KbYO_Xy-tsSRiQ', {scrollWheelZoom: false}).addTo(this.map);
 
   var layerControl = {};
-  _.each(postTagsArray, function(tag, index){
-    layerControl[tag] = that.layers[index];
+  _.each(postCategoriesArray, function(category, index){
+    layerControl[category] = that.layers[index];
   });
 
   var controlLayers = L.control.layers(null, layerControl, {collapsed: false}).addTo(this.map);
@@ -9303,13 +9323,13 @@ AnnaPostMap.prototype._pointToLayer = function(feature, latlng){
 }
 
 AnnaPostMap.prototype._getMarker = function(feature){
-  if (_.include(feature.properties.tags, "interviews")){
+  if (_.include(feature.properties.categories, "interviews")){
     return L.AwesomeMarkers.icon({ icon: 'book', prefix: 'fa', markerColor: 'green'});
-  } else if (_.include(feature.properties.tags, "participant photography")){
+  } else if (_.include(feature.properties.categories, "participant photography")){
     return L.AwesomeMarkers.icon({ icon: 'camera-retro', prefix: 'fa', markerColor: 'red'});
-  } else if (_.include(feature.properties.tags, "team member updates")){
+  } else if (_.include(feature.properties.categories, "team member updates")){
     return L.AwesomeMarkers.icon({ icon: 'user', prefix: 'fa', markerColor: 'cadetblue'});
-  } else if (_.include(feature.properties.tags, "trekking")){
+  } else if (_.include(feature.properties.categories, "trekking")){
     return L.AwesomeMarkers.icon({ icon: 'binoculars', prefix: 'fa', markerColor: 'darkred'});
   }
 }

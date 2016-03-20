@@ -12,11 +12,11 @@ var SITE_PROP_LIB = {
 }
 
 {% assign currentLanguagePosts = site.posts | where: 'language', 'gr' %}
-var postsByTag = {
-  {% for tag in site.post_tags %}
-    '{{tag}}' : [
+var postsByCategories = {
+  {% for category in site.post_categories %}
+    '{{category}}' : [
       {% for post in currentLanguagePosts %}
-        {% if post.tags contains {{tag}} %}
+        {% if post.categories contains {{category}} %}
           {
             'type': 'Feature',
             'properties': {
@@ -26,7 +26,7 @@ var postsByTag = {
               teaser: '{{post.teaser}}',
               popupContent: '{{post.popupContent}}',
               date: '{{post.date}}',
-              tags: ["{{post.tags | join: '", "'}}"]
+              categories: ["{{post.categories | join: '", "'}}"]
             },
             'geometry': {
               'type': 'Point',
@@ -42,14 +42,14 @@ var postsByTag = {
   {% endfor %}
 };
 
-var postTagsArray = ['{{site.post_tags | join: "', '"}}'];
+var postCategoriesArray = ['{{site.post_categories | join: "', '"}}'];
 
 var AnnaPostMap = function(){
   var that = this;
-  this.layers = _(postTagsArray)
-                  .map(function(tag){
+  this.layers = _(postCategoriesArray)
+                  .map(function(category){
                         return L.geoJson(
-                                          {type: 'FeatureCollection', features: postsByTag[tag]},
+                                          {type: 'FeatureCollection', features: postsByCategories[category]},
                                           {
                                            onEachFeature: that._onEachFeature.bind(that),
                                            pointToLayer: that._pointToLayer.bind(that)
@@ -67,8 +67,8 @@ var AnnaPostMap = function(){
   L.tileLayer( '{{ site.map-tileset }}', {scrollWheelZoom: false}).addTo(this.map);
 
   var layerControl = {};
-  _.each(postTagsArray, function(tag, index){
-    layerControl[tag] = that.layers[index];
+  _.each(postCategoriesArray, function(category, index){
+    layerControl[category] = that.layers[index];
   });
 
   var controlLayers = L.control.layers(null, layerControl, {collapsed: false}).addTo(this.map);
@@ -94,13 +94,13 @@ AnnaPostMap.prototype._pointToLayer = function(feature, latlng){
 }
 
 AnnaPostMap.prototype._getMarker = function(feature){
-  if (_.include(feature.properties.tags, "interviews")){
+  if (_.include(feature.properties.categories, "interviews")){
     return L.AwesomeMarkers.icon({ icon: 'book', prefix: 'fa', markerColor: 'green'});
-  } else if (_.include(feature.properties.tags, "participant photography")){
+  } else if (_.include(feature.properties.categories, "participant photography")){
     return L.AwesomeMarkers.icon({ icon: 'camera-retro', prefix: 'fa', markerColor: 'red'});
-  } else if (_.include(feature.properties.tags, "team member updates")){
+  } else if (_.include(feature.properties.categories, "team member updates")){
     return L.AwesomeMarkers.icon({ icon: 'user', prefix: 'fa', markerColor: 'cadetblue'});
-  } else if (_.include(feature.properties.tags, "trekking")){
+  } else if (_.include(feature.properties.categories, "trekking")){
     return L.AwesomeMarkers.icon({ icon: 'binoculars', prefix: 'fa', markerColor: 'darkred'});
   }
 }

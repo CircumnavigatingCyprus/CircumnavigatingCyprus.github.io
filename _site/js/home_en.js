@@ -9223,7 +9223,7 @@ var SITE_PROP_LIB = {
 }
 
 
-var postsByTag = {
+var postsByCategories = {
   
     'interviews' : [
       
@@ -9233,6 +9233,26 @@ var postsByTag = {
       
         
       
+        
+          {
+            'type': 'Feature',
+            'properties': {
+              title: 'Proof of Concept',
+              image: processImageLink('https://c1.staticflickr.com/3/2848/12005505403_b4c46cc0b9_n.jpg'),
+              link: '/en/interviews/2015/06/27/proof-of-concept/',
+              teaser: 'This is the teaser text for my proof of concept.',
+              popupContent: 'true',
+              date: '2015-06-27 00:00:00 -0400',
+              categories: ["en", "interviews"]
+            },
+            'geometry': {
+              'type': 'Point',
+              'coordinates': [
+                33.263956,
+                35.07877
+              ]
+            }
+          },
         
       
         
@@ -9248,6 +9268,26 @@ var postsByTag = {
         
       
         
+          {
+            'type': 'Feature',
+            'properties': {
+              title: 'Photography',
+              image: processImageLink('https://c2.staticflickr.com/6/5521/11991518795_952046b5e3_z.jpg'),
+              link: '/en/participant%20photography/2015/06/28/photography/',
+              teaser: 'This is a photography post.',
+              popupContent: 'true',
+              date: '2015-06-28 00:00:00 -0400',
+              categories: ["en", "participant photography"]
+            },
+            'geometry': {
+              'type': 'Point',
+              'coordinates': [
+                33.722635,
+                35.202300
+              ]
+            }
+          },
+        
       
         
       
@@ -9260,7 +9300,25 @@ var postsByTag = {
     'team member updates' : [
       
         
-      
+          {
+            'type': 'Feature',
+            'properties': {
+              title: 'This is a post title',
+              image: processImageLink(''),
+              link: '/en/team%20member%20updates/2016/03/20/your-filename/',
+              teaser: 'This is a post teaser which will appear on the map.',
+              popupContent: 'true',
+              date: '2016-03-20 00:00:00 -0400',
+              categories: ["en", "team member updates"]
+            },
+            'geometry': {
+              'type': 'Point',
+              'coordinates': [
+                13,
+                25
+              ]
+            }
+          },
         
       
         
@@ -9269,6 +9327,28 @@ var postsByTag = {
       
         
       
+        
+      
+        
+          {
+            'type': 'Feature',
+            'properties': {
+              title: 'Another Post (redux)',
+              image: processImageLink('https://lh3.googleusercontent.com/vAN0uXNtnDESrwn4aobVzAAKi9VpWX5sd2y1Uw5RhA=w1620-h911-no'),
+              link: '/en/team%20member%20updates/2015/06/27/another-post-redux/',
+              teaser: 'Yet another post for much amusement.',
+              popupContent: 'true',
+              date: '2015-06-27 00:00:00 -0400',
+              categories: ["en", "team member updates"]
+            },
+            'geometry': {
+              'type': 'Point',
+              'coordinates': [
+                33.025395,
+                34.698867
+              ]
+            }
+          },
         
       
     ],
@@ -9284,6 +9364,26 @@ var postsByTag = {
         
       
         
+          {
+            'type': 'Feature',
+            'properties': {
+              title: 'Hello [Prose] World',
+              image: processImageLink('{{site.baseurl}}/media/7525916300_5523c2ce9d_b.jpg'),
+              link: '/en/trekking/2015/06/27/hello-prose-world/',
+              teaser: 'Hello World!',
+              popupContent: 'false',
+              date: '2015-06-27 00:00:00 -0400',
+              categories: ["en", "trekking"]
+            },
+            'geometry': {
+              'type': 'Point',
+              'coordinates': [
+                33.263356,
+                34.79770
+              ]
+            }
+          },
+        
       
         
       
@@ -9291,14 +9391,14 @@ var postsByTag = {
   
 };
 
-var postTagsArray = ['interviews', 'participant photography', 'team member updates', 'trekking'];
+var postCategoriesArray = ['interviews', 'participant photography', 'team member updates', 'trekking'];
 
 var AnnaPostMap = function(){
   var that = this;
-  this.layers = _(postTagsArray)
-                  .map(function(tag){
+  this.layers = _(postCategoriesArray)
+                  .map(function(category){
                         return L.geoJson(
-                                          {type: 'FeatureCollection', features: postsByTag[tag]},
+                                          {type: 'FeatureCollection', features: postsByCategories[category]},
                                           {
                                            onEachFeature: that._onEachFeature.bind(that),
                                            pointToLayer: that._pointToLayer.bind(that)
@@ -9316,8 +9416,8 @@ var AnnaPostMap = function(){
   L.tileLayer( 'https://api.tiles.mapbox.com/v4/opleban.mdj03cbc/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoib3BsZWJhbiIsImEiOiI0VXNzcXFRIn0.uE_om5U3KbYO_Xy-tsSRiQ', {scrollWheelZoom: false}).addTo(this.map);
 
   var layerControl = {};
-  _.each(postTagsArray, function(tag, index){
-    layerControl[tag] = that.layers[index];
+  _.each(postCategoriesArray, function(category, index){
+    layerControl[category] = that.layers[index];
   });
 
   var controlLayers = L.control.layers(null, layerControl, {collapsed: false}).addTo(this.map);
@@ -9343,13 +9443,13 @@ AnnaPostMap.prototype._pointToLayer = function(feature, latlng){
 }
 
 AnnaPostMap.prototype._getMarker = function(feature){
-  if (_.include(feature.properties.tags, "interviews")){
+  if (_.include(feature.properties.categories, "interviews")){
     return L.AwesomeMarkers.icon({ icon: 'book', prefix: 'fa', markerColor: 'green'});
-  } else if (_.include(feature.properties.tags, "participant photography")){
+  } else if (_.include(feature.properties.categories, "participant photography")){
     return L.AwesomeMarkers.icon({ icon: 'camera-retro', prefix: 'fa', markerColor: 'red'});
-  } else if (_.include(feature.properties.tags, "team member updates")){
+  } else if (_.include(feature.properties.categories, "team member updates")){
     return L.AwesomeMarkers.icon({ icon: 'user', prefix: 'fa', markerColor: 'cadetblue'});
-  } else if (_.include(feature.properties.tags, "trekking")){
+  } else if (_.include(feature.properties.categories, "trekking")){
     return L.AwesomeMarkers.icon({ icon: 'binoculars', prefix: 'fa', markerColor: 'darkred'});
   }
 }

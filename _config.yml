@@ -13,7 +13,7 @@ map-tileset: 'https://api.tiles.mapbox.com/v4/opleban.mdj03cbc/{z}/{x}/{y}.png?a
 # Build settings
 markdown: kramdown
 permalink: pretty
-post_tags:
+post_categories:
 - interviews
 - participant photography
 - team member updates
