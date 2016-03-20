@@ -14,7 +14,7 @@ author: Ori Pleban
 popupContent: true
 teaser: This is a post teaser which will appear on the map.
 published: false
-title: ""
+title: This is a post title
 ---
 
 ## This is a walkthrough post.
