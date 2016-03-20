@@ -9216,7 +9216,7 @@ var postsByTag = {
             'properties': {
               title: 'Proof of Concept',
               image: processImageLink('https://c1.staticflickr.com/3/2848/12005505403_b4c46cc0b9_n.jpg'),
-              link: '/2015/06/27/proof-of-concept.html',
+              link: '/en/interviews/2015/06/27/proof-of-concept/',
               teaser: 'This is the teaser text for my proof of concept.',
               popupContent: 'true',
               date: '2015-06-27 00:00:00 -0400',
@@ -9248,7 +9248,7 @@ var postsByTag = {
             'properties': {
               title: 'Photography',
               image: processImageLink('https://c2.staticflickr.com/6/5521/11991518795_952046b5e3_z.jpg'),
-              link: '/2015/06/28/photography.html',
+              link: '/en/photography/2015/06/28/photography/',
               teaser: 'This is a photography post.',
               popupContent: 'true',
               date: '2015-06-28 00:00:00 -0400',
@@ -9288,7 +9288,7 @@ var postsByTag = {
             'properties': {
               title: 'Another Post (redux)',
               image: processImageLink('https://lh3.googleusercontent.com/vAN0uXNtnDESrwn4aobVzAAKi9VpWX5sd2y1Uw5RhA=w1620-h911-no'),
-              link: '/2015/06/27/another-post-redux.html',
+              link: '/en/team%20member%20updates/2015/06/27/another-post-redux/',
               teaser: 'Yet another post for much amusement.',
               popupContent: 'true',
               date: '2015-06-27 00:00:00 -0400',
@@ -9320,7 +9320,7 @@ var postsByTag = {
             'properties': {
               title: 'Hello [Prose] World',
               image: processImageLink('{{site.baseurl}}/media/7525916300_5523c2ce9d_b.jpg'),
-              link: '/2015/06/27/hello-prose-world.html',
+              link: '/en/trekking/2015/06/27/hello-prose-world/',
               teaser: 'Hello World!',
               popupContent: 'false',
               date: '2015-06-27 00:00:00 -0400',

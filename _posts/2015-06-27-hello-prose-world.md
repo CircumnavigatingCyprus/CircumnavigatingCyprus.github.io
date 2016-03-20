@@ -12,6 +12,9 @@ popupContent: false
 teaser: "Hello World!"
 identifier: hello_world
 language: en
+categories:
+- "en"
+- "trekking"
 ---
 
 

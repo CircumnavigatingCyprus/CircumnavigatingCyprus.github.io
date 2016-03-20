@@ -12,6 +12,9 @@ identifier: proof_of_concept
 language: en
 tags:
   - interviews
+categories:
+  - "en"
+  - "interviews"
 ---
 
 

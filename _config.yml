@@ -14,20 +14,12 @@ map-tileset: 'https://api.tiles.mapbox.com/v4/opleban.mdj03cbc/{z}/{x}/{y}.png?a
 markdown: kramdown
 gems:
 - jekyll-archives
+permalink: pretty
 post_tags:
   - interviews
   - participant photography
   - team member updates
   - trekking
-jekyll-archives:
-  enabled:
-  - month
-  - tags
-  layout: 'archive'
-  permalinks:
-    month: '/:year/:month/'
-    tag: '/tag/:name/'
-
 prose:
   ignore:
     - _config.yml

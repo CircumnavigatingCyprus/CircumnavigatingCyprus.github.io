@@ -12,6 +12,9 @@ identifier: photography
 language: en
 tags:
   - participant photography
+categories:
+  - "en"
+  - "photography"
 ---
 
 
