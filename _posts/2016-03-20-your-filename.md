@@ -9,8 +9,7 @@ image: ""
 categories: 
   - en
   - team member updates
-tags: 
-  - "null"
+tags: null
 author: Ori Pleban
 popupContent: true
 teaser: This is a post teaser which will appear on the map.
