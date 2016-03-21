@@ -25,13 +25,21 @@ prose:
   - /_includes
   - /_sass
   - /css
+  - /js
+  - /en
+  - /tr
+  - /gr
+  - /_site
+  - /_plugins
+  - index.html
+  - .gitignore
+  - .ruby-version
   - /.sass-cache
   - feed.xml
   - index.md
   - Gemfile
   - Gemfile.lock
-  rooturl: "_posts"
-  siteurl: ""
+  siteurl: "http://circumnavigatingcyprus.github.io"
   media: "media"
   metadata:
     _posts:
