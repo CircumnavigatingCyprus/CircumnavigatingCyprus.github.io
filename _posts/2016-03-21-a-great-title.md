@@ -1,6 +1,6 @@
 ---
 layout: post
-identifier: ""
+identifier: great_title
 language: en
 lng: "10"
 lat: "14"
