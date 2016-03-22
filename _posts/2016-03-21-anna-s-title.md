@@ -8,13 +8,15 @@ image: "http://circumnavigatingcyprus.github.io/media/home_alone.jpg"
 categories: 
   - gr
   - interviews
-tags: null
+tags: 
+  - "null"
 author: Anna Antoniou
 popupContent: true
 teaser: Ths is an awesome teaser.
-published: false
+published: true
 title: "Anna's title"
 ---
+
 
 ## A better posting strategy
 
