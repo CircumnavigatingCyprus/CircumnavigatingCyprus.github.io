@@ -9217,7 +9217,6 @@ function collapseDropdown(evt) {
     });
 }
 
-
 var SITE_PROP_LIB = {
   baseurl: "{{site.baseurl}}"
 }
@@ -9249,11 +9248,11 @@ var postsByCategories = {
           {
             'type': 'Feature',
             'properties': {
-              title: 'Hello [Greek] World',
-              image: processImageLink('{{site.baseurl}}/media/7525916300_5523c2ce9d_b.jpg'),
-              link: '/gr/trekking/2015/06/27/hello-greek-prose-world/',
-              teaser: 'Hello World!',
-              popupContent: 'false',
+              title: "Hello [Greek] World",
+              image: processImageLink("{{site.baseurl}}/media/7525916300_5523c2ce9d_b.jpg"),
+              link: "/gr/trekking/2015/06/27/hello-greek-prose-world/",
+              teaser: "Hello World!",
+              popupContent: "false",
               date: '2015-06-27 00:00:00 -0400',
               categories: ["gr", "trekking"]
             },

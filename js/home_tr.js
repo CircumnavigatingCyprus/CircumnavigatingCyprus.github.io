@@ -13,18 +13,18 @@ var SITE_PROP_LIB = {
 {% assign currentLanguagePosts = site.posts | where: 'language', 'tr' %}
 var postsByCategories = {
   {% for category in site.post_categories %}
-    '{{category}}' : [
+    "{{category}}" : [
       {% for post in currentLanguagePosts %}
         {% if post.categories contains {{category}} %}
           {
-            'type': 'Feature',
-            'properties': {
-              title: '{{ post.title }}',
-              image: processImageLink('{{post.image }}'),
-              link: '{{site.baseurl}}{{post.url}}',
-              teaser: '{{post.teaser}}',
-              popupContent: '{{post.popupContent}}',
-              date: '{{post.date}}',
+            "type": "Feature",
+            "properties": {
+              title: "{{ post.title }}",
+              image: processImageLink("{{post.image }}"),
+              link: "{{site.baseurl}}{{post.url}}",
+              teaser: "{{post.teaser}}",
+              popupContent: "{{post.popupContent}}",
+              date: "{{post.date}}",
               categories: ["{{post.categories | join: '", "'}}"]
             },
             'geometry': {

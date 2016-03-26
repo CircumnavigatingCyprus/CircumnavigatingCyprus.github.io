@@ -6,7 +6,6 @@
 ;{% include js/Leaflet.AwesomeMarkers.min.js %}
 ;{% include js/header.js %}
 
-
 var SITE_PROP_LIB = {
   baseurl: {% raw %}"{{site.baseurl}}"{% endraw %}
 }
@@ -20,17 +19,17 @@ var postsByCategories = {
           {
             'type': 'Feature',
             'properties': {
-              title: '{{ post.title }}',
-              image: processImageLink('{{post.image }}'),
-              link: '{{site.baseurl}}{{post.url}}',
-              teaser: '{{post.teaser}}',
-              popupContent: '{{post.popupContent}}',
-              date: '{{post.date}}',
-              categories: ["{{post.categories | join: '", "'}}"]
+              title: "{{ post.title }}",
+              image: processImageLink("{{post.image }}"),
+              link: "{{site.baseurl}}{{post.url}}",
+              teaser: "{{post.teaser}}",
+              popupContent: "{{post.popupContent}}",
+              date: "{{post.date}}",
+              categories: ["{{post.categories | join: "', '"}}"]
             },
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
                 {{ post.lng }},
                 {{ post.lat }}
               ]

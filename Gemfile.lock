@@ -129,7 +129,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (= 64)
+  github-pages
   jekyll-archives
   json
 
