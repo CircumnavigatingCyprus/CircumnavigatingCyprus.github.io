@@ -5,6 +5,9 @@
 ;{% include js/leaflet-src.js %}
 ;{% include js/Leaflet.AwesomeMarkers.min.js %}
 ;{% include js/header.js %}
+;{% include js/owl.carousel.min.js %}
+;{% include js/instafeed.min.js %}
+;{% include js/instagram.js %}
 
 var SITE_PROP_LIB = {
   baseurl: {% raw %}"{{site.baseurl}}"{% endraw %}

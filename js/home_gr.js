@@ -5,6 +5,9 @@
 ;{% include js/leaflet-src.js %}
 ;{% include js/Leaflet.AwesomeMarkers.min.js %}
 ;{% include js/header.js %}
+;{% include js/owl.carousel.min.js %}
+;{% include js/instafeed.min.js %}
+;{% include js/instagram.js %}
 
 var SITE_PROP_LIB = {
   baseurl: {% raw %}"{{site.baseurl}}"{% endraw %}
@@ -48,11 +51,9 @@ var AnnaPostMap = function(){
   this.layers = _(postCategoriesArray)
                   .map(function(category){
                         return L.geoJson(
-                                          {type: 'FeatureCollection', features: postsByCategories[category]},
-                                          {
-                                           onEachFeature: that._onEachFeature.bind(that),
-                                           pointToLayer: that._pointToLayer.bind(that)
-                                          }
+                                          { type: 'FeatureCollection', features: postsByCategories[category] },
+                                          { onEachFeature: that._onEachFeature.bind(that),
+                                            pointToLayer: that._pointToLayer.bind(that) }
                                         );
                       });
 
@@ -93,6 +94,7 @@ AnnaPostMap.prototype._pointToLayer = function(feature, latlng){
 }
 
 AnnaPostMap.prototype._getMarker = function(feature){
+  console.log('FEATURE', feature);
   if (_.include(feature.properties.categories, "interviews")){
     return L.AwesomeMarkers.icon({ icon: 'book', prefix: 'fa', markerColor: 'green'});
   } else if (_.include(feature.properties.categories, "participant photography")){

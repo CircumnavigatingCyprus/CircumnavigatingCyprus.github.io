@@ -123,6 +123,7 @@ L.Util = {
 	},
 
 	setOptions: function (obj, options) {
+		console.log('OBJ', obj, options);
 		obj.options = L.extend({}, obj.options, options);
 		return obj.options;
 	},
@@ -4207,6 +4208,7 @@ L.Marker.include({
 	},
 
 	bindPopup: function (content, options) {
+		// this.options.icon = this.options.icon.options || {};
 		var anchor = L.point(this.options.icon.options.popupAnchor || [0, 0]);
 
 		anchor = anchor.add(L.Popup.prototype.options.offset);
