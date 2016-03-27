@@ -8,6 +8,8 @@
 ;{% include js/owl.carousel.min.js %}
 ;{% include js/instafeed.min.js %}
 ;{% include js/instagram.js %}
+;{% include js/recent-posts.js %}
+;{% include js/twitter-modal.js %}
 
 var SITE_PROP_LIB = {
   baseurl: {% raw %}"{{site.baseurl}}"{% endraw %}

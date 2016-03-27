@@ -133,7 +133,6 @@ L.Util = {
 	},
 
 	setOptions: function (obj, options) {
-		console.log('OBJ', obj, options);
 		obj.options = L.extend({}, obj.options, options);
 		return obj.options;
 	},
@@ -9608,9 +9607,9 @@ $(function($) {
   feed.run();
 
   function initOwl() {
-    $(".owl-carousel").owlCarousel({
+    $("#instagramCarousel").owlCarousel({
       loop: true,
-      items: 2,
+      items: 3,
       margin: 10,
       dots: false,
       nav: true,
@@ -9618,6 +9617,39 @@ $(function($) {
     });
   }
 }($))
+
+
+;$("#recent-post-tiles").owlCarousel({
+  loop: true,
+  items: 3,
+  margin: 10,
+  dots: false,
+  nav: true,
+  navText: ['<i class="fa fa-chevron-left"></i>','<i class="fa fa-chevron-right"></i>'],
+  responsive: {
+    0: {
+      items: 1,
+      nav: true
+    },
+    768: {
+      items: 3,
+      nav: true
+    }
+  }
+});
+;$(function(){
+  $('#twitter-open-modal-link').click(function(evt) {
+    evt.preventDefault();
+    $('#twitter-modal').removeClass('visually-hidden');
+    $('body').addClass('no-scroll');
+  });
+
+  $('#twitter-close-modal-link').click(function(evt){
+    evt.preventDefault();
+    $('#twitter-modal').addClass('visually-hidden');
+    $('body').addClass('no-scroll');
+  });
+});
 
 
 
@@ -9645,7 +9677,7 @@ var postsByCategories = {
             'type': 'Feature',
             'properties': {
               title: "Proof of Concept",
-              image: processImageLink("https://c1.staticflickr.com/3/2848/12005505403_b4c46cc0b9_n.jpg"),
+              image: "https://c1.staticflickr.com/3/2848/12005505403_b4c46cc0b9_n.jpg",
               link: "/en/interviews/2015/06/27/proof-of-concept/",
               teaser: "This is the teaser text for my proof of concept.",
               popupContent: "true",
@@ -9681,7 +9713,7 @@ var postsByCategories = {
             'type': 'Feature',
             'properties': {
               title: "Photography",
-              image: processImageLink("https://c2.staticflickr.com/6/5521/11991518795_952046b5e3_z.jpg"),
+              image: "https://c2.staticflickr.com/6/5521/11991518795_952046b5e3_z.jpg",
               link: "/en/participant%20photography/2015/06/28/photography/",
               teaser: "This is a photography post.",
               popupContent: "true",
@@ -9713,7 +9745,7 @@ var postsByCategories = {
             'type': 'Feature',
             'properties': {
               title: "A great title",
-              image: processImageLink("http://rlv.zcache.com/i_love_cyprus_hat-r96d69dcae41f45349d6f6ed8ef3210d4_v9wqr_8byvr_324.jpg"),
+              image: "http://rlv.zcache.com/i_love_cyprus_hat-r96d69dcae41f45349d6f6ed8ef3210d4_v9wqr_8byvr_324.jpg",
               link: "/en/team%20member%20updates/2016/03/21/a-great-title/",
               teaser: "This is another sample.",
               popupContent: "true",
@@ -9735,7 +9767,7 @@ var postsByCategories = {
             'type': 'Feature',
             'properties': {
               title: "This is a post title",
-              image: processImageLink(""),
+              image: "",
               link: "/en/team%20member%20updates/2016/03/20/your-filename/",
               teaser: "This is a post teaser which will appear on the map.",
               popupContent: "true",
@@ -9765,7 +9797,7 @@ var postsByCategories = {
             'type': 'Feature',
             'properties': {
               title: "Another Post (redux)",
-              image: processImageLink("https://lh3.googleusercontent.com/vAN0uXNtnDESrwn4aobVzAAKi9VpWX5sd2y1Uw5RhA=w1620-h911-no"),
+              image: "https://lh3.googleusercontent.com/vAN0uXNtnDESrwn4aobVzAAKi9VpWX5sd2y1Uw5RhA=w1620-h911-no",
               link: "/en/team%20member%20updates/2015/06/27/another-post-redux/",
               teaser: "Yet another post for much amusement.",
               popupContent: "true",
@@ -9801,7 +9833,7 @@ var postsByCategories = {
             'type': 'Feature',
             'properties': {
               title: "Hello [Prose] World",
-              image: processImageLink("{{site.baseurl}}/media/7525916300_5523c2ce9d_b.jpg"),
+              image: "{{site.baseurl}}/media/7525916300_5523c2ce9d_b.jpg",
               link: "/en/trekking/2015/06/27/hello-prose-world/",
               teaser: "Hello World!",
               popupContent: "false",
@@ -9875,7 +9907,6 @@ AnnaPostMap.prototype._pointToLayer = function(feature, latlng){
 }
 
 AnnaPostMap.prototype._getMarker = function(feature){
-  console.log('FEATURE', feature);
   if (_.include(feature.properties.categories, "interviews")){
     return L.AwesomeMarkers.icon({ icon: 'book', prefix: 'fa', markerColor: 'green'});
   } else if (_.include(feature.properties.categories, "participant photography")){

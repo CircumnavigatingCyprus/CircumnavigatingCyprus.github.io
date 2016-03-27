@@ -1,0 +1,19 @@
+<div class="recent-post-section section">
+  <h1 class="section-header">{{locale.latest_posts}}</h1>
+  <div id="recent-post-tiles" class="tile-grid container owl-carousel owl-theme">
+    {% assign currentLanguagePosts = site.posts | where: 'language', page.language %}
+    {% for post in currentLanguagePosts %}
+      <div class="recent-post tile">
+        <a href="{{post.url}}">
+          <div class="front" style="background-image: url({{post.image}})">
+            <div class="overlay"></div>
+            <div class="tile-text">
+              <h3>{{post.title}}</h3>
+              <p>{{ post.date | date: "%d %B %Y" }}</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>

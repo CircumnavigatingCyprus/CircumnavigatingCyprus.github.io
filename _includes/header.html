@@ -1,3 +1,4 @@
+{% assign locale = site.data.header[page.language] %}
 <header class="site-header non-scrolled">
 
   <div class="container">
@@ -28,17 +29,17 @@
           {% endif %}
           {% endfor %}
           <li class="dropdown-menu dropdown">
-            <a href="javascript:;">The Project</a>
+            <a href="javascript:;">{{locale.the_project}}</a>
             <ul class="visually-hidden">
               {% for p in dropdown_header_pages %}
-              {% if p.title %}
-                <li><a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>
-              {% endif %}
+                {% if p.title %}
+                  <li><a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>
+                {% endif %}
               {% endfor %}
             </ul>
           </li>
           <li class="dropdown-menu dropdown">
-            <a href="javascript:;">Languages</a>
+            <a href="javascript:;">{{locale.languages}}</a>
             <ul class="visually-hidden">
               <li><a class="page-link" href="/en">English</a></li>
               <li><a class="page-link" href="/gr">Ελληνικά</a></li>

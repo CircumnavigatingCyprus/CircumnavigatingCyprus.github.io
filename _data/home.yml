@@ -1,0 +1,34 @@
+en:
+  title: Circumnavigating Cyprus on Foot
+  about: About
+  posts: Posts
+  subscribe: subscribe
+  video_title: Circumnavigating [CY]
+  video_subtitle: on foot
+  map_title: Follow the journey
+  latest_posts: Latest Posts
+  home_video: http://circumnavigatingcyprus.github.io/media/sample-video.mp4
+gr:
+  title: Παράκαμψη Κύπρος για τον αφθώδη
+  about: Σχετικά με το έργο
+  posts: Δημοσιεύσεις στο blog
+  subscribe: GREEK subscribe
+  video_title: Παράκαμψη [CY]
+  video_subtitle: με τα ΠΟΔΙΑ
+  map_title: Ακολουθήστε το ταξίδι
+  latest_posts: τελευταίες Δημοσιεύσεις
+  team_title: Η ομάδα
+  about_title: Σχετικά με το έργο
+  home_video: http://circumnavigatingcyprus.github.io/media/sample-video.mp4
+tr:
+  title: Kıbrıs Çevresi Ayak Yürüyüş
+  about: Proje hakkında
+  posts: Blog Yazıları
+  subscribe: TURKISH subscribe
+  video_title: Circumnavigating [CY]
+  video_subtitle: yürüyerek
+  map_title: yolculuk takip
+  latest_posts: Son Yazılar
+  team_title: Takım
+  about_title: Proje hakkında
+  home_video: http://circumnavigatingcyprus.github.io/media/sample-video.mp4

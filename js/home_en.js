@@ -8,6 +8,10 @@
 ;{% include js/owl.carousel.min.js %}
 ;{% include js/instafeed.min.js %}
 ;{% include js/instagram.js %}
+;{% include js/recent-posts.js %}
+;{% include js/twitter-modal.js %}
+
+
 
 {% raw %}
 var SITE_PROP_LIB = {
@@ -25,7 +29,7 @@ var postsByCategories = {
             'type': 'Feature',
             'properties': {
               title: "{{ post.title }}",
-              image: processImageLink("{{post.image }}"),
+              image: "{{post.image}}",
               link: "{{site.baseurl}}{{post.url}}",
               teaser: "{{post.teaser}}",
               popupContent: "{{post.popupContent}}",
@@ -97,7 +101,6 @@ AnnaPostMap.prototype._pointToLayer = function(feature, latlng){
 }
 
 AnnaPostMap.prototype._getMarker = function(feature){
-  console.log('FEATURE', feature);
   if (_.include(feature.properties.categories, "interviews")){
     return L.AwesomeMarkers.icon({ icon: 'book', prefix: 'fa', markerColor: 'green'});
   } else if (_.include(feature.properties.categories, "participant photography")){

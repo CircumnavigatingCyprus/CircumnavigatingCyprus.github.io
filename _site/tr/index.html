@@ -26,7 +26,8 @@
 
   <body>
 
-    <header class="site-header non-scrolled">
+    
+<header class="site-header non-scrolled">
 
   <div class="container">
     <div class="row">
@@ -52,25 +53,25 @@
         <ul class="nav-menu">
           
           
-            <li><a class="page-link" href="/tr/posts/">TURKISH Posts</a></li>
+            <li><a class="page-link" href="/tr/posts/">Mesajlar</a></li>
           
           
           <li class="dropdown-menu dropdown">
-            <a href="javascript:;">The Project</a>
+            <a href="javascript:;">Proje</a>
             <ul class="visually-hidden">
               
+                
+                  <li><a class="page-link" href="/tr/about/">Bizim yolculuğumuz</a></li>
+                
               
-                <li><a class="page-link" href="/tr/about/">TURKISH Our Journey</a></li>
-              
-              
-              
-                <li><a class="page-link" href="/tr/team/">TURKISH Team Members</a></li>
-              
+                
+                  <li><a class="page-link" href="/tr/team/">Takım üyeleri</a></li>
+                
               
             </ul>
           </li>
           <li class="dropdown-menu dropdown">
-            <a href="javascript:;">Languages</a>
+            <a href="javascript:;">Diller</a>
             <ul class="visually-hidden">
               <li><a class="page-link" href="/en">English</a></li>
               <li><a class="page-link" href="/gr">Ελληνικά</a></li>
@@ -86,67 +87,91 @@
 
     <div class="page-content">
       
-
-<div class="page-content">
-  <div class="video-section section">
-    <div id="video">
-      <video autoplay muted loop poster="/media/cyprus-window.jpg" id="bgvid">
-        <!-- <source src="polina.webm" type="video/webm"> -->
-        <source src="/media/sample-video.mp4" type="video/mp4">
-      </video>
-      <div class="video-overlay">
-        <h1 class="header">TURKISH Circumnavigating [CY]</h1>
-        <h2 class="sub-header">TURKISH on foot</h2>
-      </div>
-    </div>
-  </div>
-  <div class="map-section section">
-    <div class="container">
-      <h1 class="section-header">TURKISH Follow the journey</h1>
-    </div>
-    <div id="map"></div>
-  </div>
-  <div class="social-media-section section">
-    <div id="social-media-tiles" class="tile-grid container">
-      <div class="tile">
-        <i class="fa fa-instagram"></i>
-<h3><a href="https://www.instagram.com/explore/tags/iheartcyprus/">#iheartcyprus</a></h3>
-<div class="owl-carousel owl-theme" id="instagramCarousel"></div>
-      </div>
-      <div class="tile">
-        <i class="fa fa-twitter social-media-icon"></i>
-      </div>
-      <div class="tile">
-        <i class="fa fa-facebook social-media-icon"></i>
-      </div>
-      <div class="tile">
-        <img class="social-media-icon" src="/media/igg.png"/>
-      </div>
-    </div>
-  </div>
-  <div class="recent-post-section section">
-    <h1 class="section-header">TURKISH Latest Posts</h1>
-    <div id="recent-post-tiles" class="tile-grid container">
-      
-      
-        <div class="tile recent-post">
-          <a href="/tr/trekking/2015/06/27/hello-turkish-prose-world/">
-            <div class="front" style="background-image: url({{site.baseurl}}/media/7525916300_5523c2ce9d_b.jpg)">
-              <div class="overlay"></div>
-              <div class="tile-text">
-                <h3>Hello [TURKISH] World</h3>
-                <p>27 June 2015</p>
-              </div>
-            </div>
-          </a>
-        </div>
-      
+<div class="video-section section">
+  <div id="video">
+    <video autoplay muted loop poster="/media/cyprus-window.jpg" id="bgvid">
+      <!-- <source src="polina.webm" type="video/webm"> -->
+      <source src="http://circumnavigatingcyprus.github.io/media/sample-video.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay">
+      <h1 class="header">Circumnavigating [CY]</h1>
+      <h2 class="sub-header">yürüyerek</h2>
     </div>
   </div>
 </div>
-
+<div class="map-section section">
+  <div class="container">
+    <h1 class="section-header">yolculuk takip</h1>
+  </div>
+  <div id="map"></div>
+</div>
+<div class="recent-post-section section">
+  <h1 class="section-header">Son Yazılar</h1>
+  <div id="recent-post-tiles" class="tile-grid container owl-carousel owl-theme">
+    
+    
+      <div class="recent-post tile">
+        <a href="/tr/trekking/2015/06/27/hello-turkish-prose-world/">
+          <div class="front" style="background-image: url({{site.baseurl}}/media/7525916300_5523c2ce9d_b.jpg)">
+            <div class="overlay"></div>
+            <div class="tile-text">
+              <h3>Hello [TURKISH] World</h3>
+              <p>27 June 2015</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+  </div>
+</div>
+<div class="social-media-section section">
+  <div id="social-media-tiles" class="tile-grid container">
+    <div class="tile">
+      <i class="fa fa-instagram"></i>
+<h3><a href="https://www.instagram.com/explore/tags/iheartcyprus/">#iheartcyprus</a></h3>
+<div class="owl-carousel owl-theme" id="instagramCarousel"></div>
+    </div>
+    <div class="tile">
+      <a href="javascript:;" id="twitter-open-modal-link">
+        <div class="tile-icon">
+          <i class="fa fa-twitter social-media-icon"></i>
+        </div>
+        <div class="tile-text">
+          Follow us on Twitter
+        </div>
+      </a>
+    </div>
+    <div class="tile">
+      <div class="tile-icon">
+        <i class="fa fa-facebook social-media-icon"></i>
+      </div>
+    </div>
+    <div class="tile">
+      <a href="https://www.indiegogo.com/projects/circumnavigating-cyprus-on-foot">
+        <div class="tile-icon">
+          <img class="social-media-icon" src="/media/igg.png"/>
+        </div>
+        <div class="tile-text">
+          Support our Indiegogo Campaign
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="cy-modal visually-hidden" id="twitter-modal">
+  <div class="inner-content">
+    <div class="modal-selection">
+      <a href="javascript:;" class="modal-close" id="twitter-close-modal-link"><i class="fa fa-close"></i></a>
+      <h2 class="modal-title">Follow us on Twitter</h2>
+    </div>
+    <div class="follow-accounts">
+      <a class="twitter-follow-button" href="https://twitter.com/opleban" data-size="large">Follow @opleban</a>
+    </div>
+    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/Cyprus" data-widget-id="714072210403512320">#Cyprus Tweets</a>
+  </div>
+</div>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 <script src='/js/home_tr.js'></script>
-
     </div>
 
     <footer class="site-footer">

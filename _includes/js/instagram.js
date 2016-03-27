@@ -13,9 +13,9 @@ $(function($) {
   feed.run();
 
   function initOwl() {
-    $(".owl-carousel").owlCarousel({
+    $("#instagramCarousel").owlCarousel({
       loop: true,
-      items: 2,
+      items: 3,
       margin: 10,
       dots: false,
       nav: true,

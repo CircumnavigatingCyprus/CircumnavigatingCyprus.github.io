@@ -123,7 +123,6 @@ L.Util = {
 	},
 
 	setOptions: function (obj, options) {
-		console.log('OBJ', obj, options);
 		obj.options = L.extend({}, obj.options, options);
 		return obj.options;
 	},

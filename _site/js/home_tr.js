@@ -133,7 +133,6 @@ L.Util = {
 	},
 
 	setOptions: function (obj, options) {
-		console.log('OBJ', obj, options);
 		obj.options = L.extend({}, obj.options, options);
 		return obj.options;
 	},
@@ -9608,9 +9607,9 @@ $(function($) {
   feed.run();
 
   function initOwl() {
-    $(".owl-carousel").owlCarousel({
+    $("#instagramCarousel").owlCarousel({
       loop: true,
-      items: 2,
+      items: 3,
       margin: 10,
       dots: false,
       nav: true,
@@ -9620,6 +9619,37 @@ $(function($) {
 }($))
 
 
+;$("#recent-post-tiles").owlCarousel({
+  loop: true,
+  items: 3,
+  margin: 10,
+  dots: false,
+  nav: true,
+  navText: ['<i class="fa fa-chevron-left"></i>','<i class="fa fa-chevron-right"></i>'],
+  responsive: {
+    0: {
+      items: 1,
+      nav: true
+    },
+    768: {
+      items: 3,
+      nav: true
+    }
+  }
+});
+;$(function(){
+  $('#twitter-open-modal-link').click(function(evt) {
+    evt.preventDefault();
+    $('#twitter-modal').removeClass('visually-hidden');
+    $('body').addClass('no-scroll');
+  });
+
+  $('#twitter-close-modal-link').click(function(evt){
+    evt.preventDefault();
+    $('#twitter-modal').addClass('visually-hidden');
+    $('body').addClass('no-scroll');
+  });
+});
 
 var SITE_PROP_LIB = {
   baseurl: "{{site.baseurl}}"
