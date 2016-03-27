@@ -9834,7 +9834,7 @@ var postsByCategories = {
             'type': 'Feature',
             'properties': {
               title: "Hello [Prose] World",
-              image: "http://circumnavigatingcyprus.githu.io/media/7525916300_5523c2ce9d_b.jpg",
+              image: "http://circumnavigatingcyprus.github.io/media/7525916300_5523c2ce9d_b.jpg",
               link: "/en/trekking/2015/06/27/hello-prose-world/",
               teaser: "Hello World!",
               popupContent: "false",
