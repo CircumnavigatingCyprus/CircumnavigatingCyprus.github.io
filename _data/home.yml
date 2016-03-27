@@ -3,10 +3,11 @@ en:
   about: About
   posts: Posts
   subscribe: subscribe
-  video_title: Circumnavigating [CY]
+  video_title: CIRCUMNAVIGATING [CY]
   video_subtitle: on foot
   map_title: Follow the journey
   latest_posts: Latest Posts
+  instagram_header: The journey in images
   home_video: http://circumnavigatingcyprus.github.io/media/turtle.mp4
   social_media_title: Follow the journey on social media
   twitter_call_to_action: Follow us on Twitter
@@ -21,6 +22,7 @@ gr:
   video_subtitle: με τα ΠΟΔΙΑ
   map_title: Ακολουθήστε το ταξίδι
   latest_posts: τελευταίες Δημοσιεύσεις
+  instagram_header: Το ταξίδι σε εικόνες
   team_title: Η ομάδα
   about_title: Σχετικά με το έργο
   home_video: http://circumnavigatingcyprus.github.io/media/turtle.mp4
@@ -37,6 +39,7 @@ tr:
   video_subtitle: yürüyerek
   map_title: yolculuk takip
   latest_posts: Son Yazılar
+  instagram_header: Görüntülerde yolculuk
   team_title: Takım
   about_title: Proje hakkında
   home_video: http://circumnavigatingcyprus.github.io/media/turtle.mp4

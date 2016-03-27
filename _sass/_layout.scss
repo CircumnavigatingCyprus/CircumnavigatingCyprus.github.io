@@ -4,9 +4,22 @@
   box-sizing: border-box;
 }
 
+@mixin focus-ring {
+  outline: thin dotted;
+  // WebKit
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
 .section {
   padding: em(20) 0;
   text-align: center;
+  border-bottom: 2px solid #DDD;
+}
+.section-header {
+  i {
+    margin-right: em(5);
+  }
 }
 
 .page-content {
@@ -46,112 +59,112 @@
  * Site header
  */
 
- $header-height: 80px;
- $header-height-big: 120px;
-
 .site-header {
-  border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
-  min-height: $header-height;
   background-color: #FDFDFD;
-
-  // Positioning context for the mobile navigation icon
   position: relative;
+  height: 80px;
   .header-logo {
-    .site-logo {
-      float: left;
-      line-height: 100%;
-      display: inline-block;
+    display: inline-block;
+    position: absolute;
+    z-index: 100000000;
+    left: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    .site-title {
       img {
-        height: $header-height;
+        height: 120px;
       }
     }
-  }
-  .site-title {
-    display: inline-block;
-    font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-    line-height: $header-height;
-    &:hover, &:focus {
-      text-decoration: none;
-    }
-    &, &:visited {
-      color: $grey-color-dark;
+    @include media(min-width $medium){
+      left: 100px;
     }
   }
   .site-nav {
-    float: right;
-    line-height: $header-height;
-    ul {
-      @include clearfix;
-      margin-left: 0;
-    }
     .menu-icon {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      padding-top: 10px;
-      text-align: center;
-
-      > svg {
-        width: 18px;
-        height: 15px;
-
-        path {
-          fill: $grey-color-dark;
-        }
+      right: 15px;
+      top: 20px;
+      position: absolute;
+      &:hover, &:focus, &.active {
+        @include focus-ring;
+      }
+      svg {
+        height: 40px;
       }
     }
-    .nav-menu {
+    .mobile-nav-menu {
       margin: 0;
-      padding: 0;
+      right: 0;
+      left: 0;
+      top: 70px;
+      padding-top: 40px;
+      text-align: center;
+      position: absolute;
+      z-index: 10000000;
+      background-color: #FFF;
       li {
-        list-style: none;
-        display: inline-block;
-        margin: 0;
-        padding: 0;
-      }
-      & > li {
-        padding-right: em(20);
-        padding-left: em(20);
-      }
-    }
-    .dropdown-menu {
-      position: relative;
-      ul {
-        position: absolute;
-        display: block;
-        z-index: 100;
-        width: em(100);
-        left: 0;
-        li {
-          display: block;
-          height: em(30);
-          line-height: em(30);
-          width: 100%;
-          text-align: center;
-          background-color: #FDFDFD;
+        line-height: 3em;
+        border-bottom: 1px solid #DEDEDE;
+        &:first-child {
+          border-top: 1px solid #DEDEDE;
+        }
+        &:last-child {
+          border-bottom: 0;
         }
       }
     }
   }
-  &.non-scrolled {
-    min-height: $header-height-big;
-    .site-logo {
-      img {
-        height: $header-height-big;
-      }
+  @include media (max-width $medium) {
+    .nav-menu {
+      display: none;
     }
-    .site-title {
-      line-height: $header-height-big;
+  }
+
+  @include media (min-width $medium) {
+    height: 70px;
+    .mobile-nav-menu {
+      display: none;
+    }
+    .menu-icon {
+      display: none;
     }
     .site-nav {
-      line-height: $header-height-big;
+      float: right;
+      ul {
+        @include clearfix;
+        margin-left: 0;
+      }
+      .nav-menu {
+        margin: 0;
+        padding: 0;
+        li {
+          list-style: none;
+          display: inline-block;
+          margin: 0;
+          padding: 0;
+          line-height: 70px;
+        }
+        & > li {
+          padding-right: em(20);
+          padding-left: em(20);
+        }
+      }
+      .dropdown-menu {
+        position: relative;
+        ul {
+          position: absolute;
+          display: block;
+          z-index: 100;
+          width: em(100);
+          left: 0;
+          li {
+            display: block;
+            line-height: em(30);
+            width: 100%;
+            text-align: center;
+            background-color: #FDFDFD;
+          }
+        }
+      }
     }
   }
 }

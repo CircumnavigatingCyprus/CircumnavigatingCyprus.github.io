@@ -1,5 +1,5 @@
 <div class="recent-post-section section">
-  <h1 class="section-header">{{locale.latest_posts}}</h1>
+  <h1 class="section-header"><i class="fa fa-book"></i>{{locale.latest_posts}}</h1>
   <div id="recent-post-tiles" class="tile-grid container owl-carousel owl-theme">
     {% assign currentLanguagePosts = site.posts | where: 'language', page.language %}
     {% for post in currentLanguagePosts %}

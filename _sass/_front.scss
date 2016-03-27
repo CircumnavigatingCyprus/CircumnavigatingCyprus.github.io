@@ -1,4 +1,5 @@
 .map-section {
+  padding: 0;
   #map {
     height: 400px;
     width: 100%;
@@ -25,6 +26,11 @@
 
 .home {
   padding: 30px 0;
+}
+
+.video-section {
+  padding: 0;
+  margin-bottom: 2em;
 }
 
 #video {
@@ -54,6 +60,9 @@
     margin: 0 auto;
     h1.header {
       font-size: 2.8em;
+      @include media(max-width $medium) {
+        font-size: 1.8em;
+      }
       font-weight: 600;
       color: #D1761D;
       text-transform: uppercase;
@@ -233,6 +242,6 @@
   }
 }
 
-.instagram-logo {
-  font-size: em(30);
+.section-logo {
+  font-size: 2rem;
 }

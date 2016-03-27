@@ -158,7 +158,11 @@ pre {
 
 .section {
   padding: 2em 0;
-  text-align: center; }
+  text-align: center;
+  border-bottom: 2px solid #DDD; }
+
+.section-header i {
+  margin-right: 0.5em; }
 
 .page-content {
   margin: 1em; }
@@ -190,85 +194,92 @@ pre {
  * Site header
  */
 .site-header {
-  border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
-  min-height: 80px;
   background-color: #FDFDFD;
-  position: relative; }
-  .site-header .header-logo .site-logo {
-    float: left;
-    line-height: 100%;
-    display: inline-block; }
-    .site-header .header-logo .site-logo img {
-      height: 80px; }
-  .site-header .site-title {
+  position: relative;
+  height: 80px; }
+  .site-header .header-logo {
     display: inline-block;
-    font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-    line-height: 80px; }
-    .site-header .site-title:hover, .site-header .site-title:focus {
-      text-decoration: none; }
-    .site-header .site-title, .site-header .site-title:visited {
-      color: #424242; }
-  .site-header .site-nav {
-    float: right;
-    line-height: 80px; }
-    .site-header .site-nav ul {
-      margin-left: 0; }
-      .site-header .site-nav ul::after {
-        clear: both;
-        content: "";
-        display: table; }
-    .site-header .site-nav .menu-icon {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      padding-top: 10px;
-      text-align: center; }
-      .site-header .site-nav .menu-icon > svg {
-        width: 18px;
-        height: 15px; }
-        .site-header .site-nav .menu-icon > svg path {
-          fill: #424242; }
-    .site-header .site-nav .nav-menu {
-      margin: 0;
-      padding: 0; }
-      .site-header .site-nav .nav-menu li {
-        list-style: none;
-        display: inline-block;
-        margin: 0;
-        padding: 0; }
-      .site-header .site-nav .nav-menu > li {
-        padding-right: 2em;
-        padding-left: 2em; }
-    .site-header .site-nav .dropdown-menu {
-      position: relative; }
-      .site-header .site-nav .dropdown-menu ul {
-        position: absolute;
-        display: block;
-        z-index: 100;
-        width: 10em;
-        left: 0; }
-        .site-header .site-nav .dropdown-menu ul li {
-          display: block;
-          height: 3em;
-          line-height: 3em;
-          width: 100%;
-          text-align: center;
-          background-color: #FDFDFD; }
-  .site-header.non-scrolled {
-    min-height: 120px; }
-    .site-header.non-scrolled .site-logo img {
+    position: absolute;
+    z-index: 100000000;
+    left: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
+    .site-header .header-logo .site-title img {
       height: 120px; }
-    .site-header.non-scrolled .site-title {
-      line-height: 120px; }
-    .site-header.non-scrolled .site-nav {
-      line-height: 120px; }
+    @media screen and (min-width: 768px) {
+      .site-header .header-logo {
+        left: 100px; } }
+  .site-header .site-nav .menu-icon {
+    right: 15px;
+    top: 20px;
+    position: absolute; }
+    .site-header .site-nav .menu-icon:hover, .site-header .site-nav .menu-icon:focus, .site-header .site-nav .menu-icon.active {
+      outline: thin dotted;
+      outline: 5px auto -webkit-focus-ring-color;
+      outline-offset: -2px; }
+    .site-header .site-nav .menu-icon svg {
+      height: 40px; }
+  .site-header .site-nav .mobile-nav-menu {
+    margin: 0;
+    right: 0;
+    left: 0;
+    top: 70px;
+    padding-top: 40px;
+    text-align: center;
+    position: absolute;
+    z-index: 10000000;
+    background-color: #FFF; }
+    .site-header .site-nav .mobile-nav-menu li {
+      line-height: 3em;
+      border-bottom: 1px solid #DEDEDE; }
+      .site-header .site-nav .mobile-nav-menu li:first-child {
+        border-top: 1px solid #DEDEDE; }
+      .site-header .site-nav .mobile-nav-menu li:last-child {
+        border-bottom: 0; }
+  @media screen and (max-width: 768px) {
+    .site-header .nav-menu {
+      display: none; } }
+  @media screen and (min-width: 768px) {
+    .site-header {
+      height: 70px; }
+      .site-header .mobile-nav-menu {
+        display: none; }
+      .site-header .menu-icon {
+        display: none; }
+      .site-header .site-nav {
+        float: right; }
+        .site-header .site-nav ul {
+          margin-left: 0; }
+          .site-header .site-nav ul::after {
+            clear: both;
+            content: "";
+            display: table; }
+        .site-header .site-nav .nav-menu {
+          margin: 0;
+          padding: 0; }
+          .site-header .site-nav .nav-menu li {
+            list-style: none;
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            line-height: 70px; }
+          .site-header .site-nav .nav-menu > li {
+            padding-right: 2em;
+            padding-left: 2em; }
+        .site-header .site-nav .dropdown-menu {
+          position: relative; }
+          .site-header .site-nav .dropdown-menu ul {
+            position: absolute;
+            display: block;
+            z-index: 100;
+            width: 10em;
+            left: 0; }
+            .site-header .site-nav .dropdown-menu ul li {
+              display: block;
+              line-height: 3em;
+              width: 100%;
+              text-align: center;
+              background-color: #FDFDFD; } }
 
 /**
  * Site footer
@@ -516,10 +527,12 @@ pre {
   .highlight .il {
     color: #099; }
 
-.map-section #map {
-  height: 400px;
-  width: 100%;
-  position: relative; }
+.map-section {
+  padding: 0; }
+  .map-section #map {
+    height: 400px;
+    width: 100%;
+    position: relative; }
 
 .leaflet-popup-content {
   width: auto;
@@ -537,6 +550,10 @@ pre {
 
 .home {
   padding: 30px 0; }
+
+.video-section {
+  padding: 0;
+  margin-bottom: 2em; }
 
 #video {
   height: 400px;
@@ -567,6 +584,9 @@ pre {
       font-weight: 600;
       color: #D1761D;
       text-transform: uppercase; }
+      @media screen and (max-width: 768px) {
+        #video .video-overlay h1.header {
+          font-size: 1.8em; } }
     #video .video-overlay h2.sub-header {
       font-weight: 600;
       color: #005745;
@@ -706,8 +726,8 @@ pre {
 .home .page-content {
   margin: 0; }
 
-.instagram-logo {
-  font-size: 3em; }
+.section-logo {
+  font-size: 2rem; }
 
 .post-wrapper {
   margin-top: 2em; }

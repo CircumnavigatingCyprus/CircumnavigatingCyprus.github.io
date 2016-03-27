@@ -4,7 +4,6 @@
 ;{% include js/underscore.min.js %}
 ;{% include js/leaflet-src.js %}
 ;{% include js/Leaflet.AwesomeMarkers.min.js %}
-;{% include js/header.js %}
 ;{% include js/owl.carousel.min.js %}
 ;{% include js/instafeed.min.js %}
 ;{% include js/instagram.js %}
