@@ -13,8 +13,8 @@
   <div class="post-categories">
     <h2>Categories</h2>
     <ul>
-    {% for tag in tags %}
-      <li><a href="/{{page.language}}/posts/{{ tag | slugify }}">{{tag}}</a></li>
+    {% for category in categories %}
+      <li><a href="/{{page.language}}/posts/{{ category | slugify }}">{{category}}</a></li>
     {% endfor %}
     </ul>
   </div>
