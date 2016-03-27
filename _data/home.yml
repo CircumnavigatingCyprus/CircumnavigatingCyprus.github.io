@@ -7,28 +7,40 @@ en:
   video_subtitle: on foot
   map_title: Follow the journey
   latest_posts: Latest Posts
-  home_video: http://circumnavigatingcyprus.github.io/media/sample-video.mp4
+  home_video: http://circumnavigatingcyprus.github.io/media/turtle.mp4
+  social_media_title: Follow the journey on social media
+  twitter_call_to_action: Follow us on Twitter
+  indiegogo_call_to_action: Support our Indiegogo campaign
+  facebook_call_to_action: Follow us on Facebook
 gr:
   title: Παράκαμψη Κύπρος για τον αφθώδη
   about: Σχετικά με το έργο
   posts: Δημοσιεύσεις στο blog
-  subscribe: GREEK subscribe
+  subscribe: Συνεισφέρω
   video_title: Παράκαμψη [CY]
   video_subtitle: με τα ΠΟΔΙΑ
   map_title: Ακολουθήστε το ταξίδι
   latest_posts: τελευταίες Δημοσιεύσεις
   team_title: Η ομάδα
   about_title: Σχετικά με το έργο
-  home_video: http://circumnavigatingcyprus.github.io/media/sample-video.mp4
+  home_video: http://circumnavigatingcyprus.github.io/media/turtle.mp4
+  social_media_title: Ακολουθήστε το ταξίδι για την κοινωνική μέσων μαζικής ενημέρωσης
+  twitter_call_to_action: Ακολουθήστε μας στο Twitter
+  indiegogo_call_to_action: Υποστηρίξτε την εκστρατεία μας Indiegogo
+  facebook_call_to_action: Ακολουθήστε μας στο Facebook
 tr:
   title: Kıbrıs Çevresi Ayak Yürüyüş
   about: Proje hakkında
   posts: Blog Yazıları
-  subscribe: TURKISH subscribe
+  subscribe: Abone
   video_title: Circumnavigating [CY]
   video_subtitle: yürüyerek
   map_title: yolculuk takip
   latest_posts: Son Yazılar
   team_title: Takım
   about_title: Proje hakkında
-  home_video: http://circumnavigatingcyprus.github.io/media/sample-video.mp4
+  home_video: http://circumnavigatingcyprus.github.io/media/turtle.mp4
+  social_media_title: Sosyal medyada yolculuk izleyin
+  twitter_call_to_action: Bizi Twitter'da takip edin
+  indiegogo_call_to_action: Bizim Indiegogo kampanyasına destek
+  facebook_call_to_action: Bizi Facebook'ta takip et

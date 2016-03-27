@@ -149,11 +149,16 @@ pre {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 40px; }
+  padding: 0 40px;
+  box-sizing: border-box; }
   .container::after {
     clear: both;
     content: "";
     display: table; }
+
+.section {
+  padding: 2em 0;
+  text-align: center; }
 
 .page-content {
   margin: 1em; }
@@ -511,10 +516,6 @@ pre {
   .highlight .il {
     color: #099; }
 
-.section {
-  margin-top: 2em;
-  text-align: center; }
-
 .map-section #map {
   height: 400px;
   width: 100%;
@@ -587,23 +588,13 @@ pre {
       text-decoration: none; }
   @media screen and (min-width: 768px) and (max-width: 1050px) {
     #social-media-tiles .tile {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%;
-      margin-top: 1em; }
-      #social-media-tiles .tile:last-child {
-        margin-right: 0; }
-      #social-media-tiles .tile:nth-child(2n) {
-        margin-right: 0; }
-      #social-media-tiles .tile:nth-child(2n+1) {
-        clear: left; } }
+      margin-top: 1em; } }
   @media screen and (min-width: 1050px) {
     #social-media-tiles .tile {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 23.23176%; }
+      width: 31.76157%; }
       #social-media-tiles .tile:last-child {
         margin-right: 0; }
       #social-media-tiles .tile:nth-child(4n) {
@@ -666,22 +657,22 @@ pre {
     box-sizing: border-box;
     margin-top: 1em; }
 
-#recent-post-tiles .owl-stage-outer {
+#recent-post-tiles .owl-stage-outer, #instagram-feed .owl-stage-outer {
   z-index: 1000; }
 @media screen and (min-width: 768px) {
-  #recent-post-tiles .owl-nav {
+  #recent-post-tiles .owl-nav, #instagram-feed .owl-nav {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0; }
-    #recent-post-tiles .owl-nav .fa {
+    #recent-post-tiles .owl-nav .fa, #instagram-feed .owl-nav .fa {
       font-size: 4em; }
-    #recent-post-tiles .owl-nav .owl-prev {
+    #recent-post-tiles .owl-nav .owl-prev, #instagram-feed .owl-nav .owl-prev {
       left: -15px;
       position: absolute;
       top: 30%; }
-    #recent-post-tiles .owl-nav .owl-next {
+    #recent-post-tiles .owl-nav .owl-next, #instagram-feed .owl-nav .owl-next {
       right: -15px;
       position: absolute;
       top: 30%; } }
@@ -714,6 +705,9 @@ pre {
 
 .home .page-content {
   margin: 0; }
+
+.instagram-logo {
+  font-size: 3em; }
 
 .post-wrapper {
   margin-top: 2em; }

@@ -1,55 +1,10 @@
 {% assign locale = site.data.home[page.language] %}
-<div class="video-section section">
-  <div id="video">
-    <video autoplay muted loop poster="/media/cyprus-window.jpg" id="bgvid">
-      <!-- <source src="polina.webm" type="video/webm"> -->
-      <source src="{{locale.home_video}}" type="video/mp4">
-    </video>
-    <div class="video-overlay">
-      <h1 class="header">{{ locale.video_title }}</h1>
-      <h2 class="sub-header">{{ locale.video_subtitle }}</h2>
-    </div>
-  </div>
-</div>
-<div class="map-section section">
-  <div class="container">
-    <h1 class="section-header">{{ locale.map_title }}</h1>
-  </div>
-  <div id="map"></div>
-</div>
+
+{% include home-video.html %}
+{% include home-map.html %}
+{% include instafeed.html %}
 {% include recent-posts.html %}
-<div class="social-media-section section">
-  <div id="social-media-tiles" class="tile-grid container">
-    <div class="tile">
-      {% include instafeed.html %}
-    </div>
-    <div class="tile">
-      <a href="javascript:;" id="twitter-open-modal-link">
-        <div class="tile-icon">
-          <i class="fa fa-twitter social-media-icon"></i>
-        </div>
-        <div class="tile-text">
-          Follow us on Twitter
-        </div>
-      </a>
-    </div>
-    <div class="tile">
-      <div class="tile-icon">
-        <i class="fa fa-facebook social-media-icon"></i>
-      </div>
-    </div>
-    <div class="tile">
-      <a href="https://www.indiegogo.com/projects/circumnavigating-cyprus-on-foot">
-        <div class="tile-icon">
-          <img class="social-media-icon" src="/media/igg.png"/>
-        </div>
-        <div class="tile-text">
-          Support our Indiegogo Campaign
-        </div>
-      </a>
-    </div>
-  </div>
-</div>
+{% include social-media-tiles.html %}
 {% include twitter.html %}
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 <script src='{{site.baseurl}}/js/home_{{page.language}}.js'></script>

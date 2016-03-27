@@ -1,8 +1,3 @@
-.section {
-  margin-top: em(20);
-  text-align: center;
-}
-
 .map-section {
   #map {
     height: 400px;
@@ -86,13 +81,11 @@
       }
     }
     @include media(min-width $medium max-width $large) {
-      @include span-columns(6 of 12);
-      @include omega(2n);
       margin-top: em(10);
     }
 
     @include media(min-width $large) {
-      @include span-columns(3 of 12);
+      @include span-columns(4 of 12);
       @include omega(4n);
     }
     .tile-icon {
@@ -176,7 +169,7 @@
     margin-top: em(10);
   }
 }
-#recent-post-tiles {
+#recent-post-tiles, #instagram-feed {
   .owl-stage-outer {
     z-index: 1000;
   }
@@ -238,4 +231,8 @@
   .page-content {
     margin: 0;
   }
+}
+
+.instagram-logo {
+  font-size: em(30);
 }

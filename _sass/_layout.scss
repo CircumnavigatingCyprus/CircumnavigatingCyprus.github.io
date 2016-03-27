@@ -1,6 +1,12 @@
 .container {
   @include outer-container();
   padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.section {
+  padding: em(20) 0;
+  text-align: center;
 }
 
 .page-content {
