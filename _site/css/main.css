@@ -156,6 +156,9 @@ pre {
     content: "";
     display: table; }
 
+ul, ol {
+  margin: 0; }
+
 .section {
   padding: 2em 0;
   text-align: center;
@@ -387,6 +390,9 @@ pre {
     @media screen and (max-width: 768px) {
       .post-content h4 {
         font-size: 18px; } }
+
+body.post-page .site-header .header-logo .site-logo .site-title img, body.posts-archive .site-header .header-logo .site-logo .site-title img, body.category-archive .site-header .header-logo .site-logo .site-title img {
+  height: 70px; }
 
 /**
  * Syntax highlighting styles

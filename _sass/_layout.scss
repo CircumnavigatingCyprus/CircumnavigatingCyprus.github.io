@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+ul, ol {
+  margin: 0;
+}
+
 @mixin focus-ring {
   outline: thin dotted;
   // WebKit
@@ -312,6 +316,24 @@
 
     @include media(max-width $medium) {
       font-size: 18px;
+    }
+  }
+}
+
+body {
+  &.post-page,
+  &.posts-archive,
+  &.category-archive {
+    .site-header {
+      .header-logo {
+        .site-logo {
+          .site-title {
+            img {
+              height: 70px;
+            }
+          }
+        }
+      }
     }
   }
 }

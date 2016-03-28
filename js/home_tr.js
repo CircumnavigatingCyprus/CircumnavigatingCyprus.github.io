@@ -10,30 +10,34 @@
 ;{% include js/recent-posts.js %}
 ;{% include js/twitter-modal.js %}
 
-var SITE_PROP_LIB = {
-  baseurl: {% raw %}"{{site.baseurl}}"{% endraw %}
-}
 
-{% assign currentLanguagePosts = site.posts | where: 'language', 'tr' %}
+
+{% raw %}
+var SITE_PROP_LIB = {
+  baseurl: "{{site.baseurl}}"
+};
+{% endraw %}
+
+{% assign currentLanguagePosts = site.posts | where: "language", "tr" %}
 var postsByCategories = {
   {% for category in site.post_categories %}
-    "{{category}}" : [
+    '{{category}}' : [
       {% for post in currentLanguagePosts %}
         {% if post.categories contains {{category}} %}
           {
-            "type": "Feature",
-            "properties": {
+            'type': 'Feature',
+            'properties': {
               title: "{{ post.title }}",
-              image: processImageLink("{{post.image }}"),
+              image: "{{post.image}}",
               link: "{{site.baseurl}}{{post.url}}",
               teaser: "{{post.teaser}}",
               popupContent: "{{post.popupContent}}",
               date: "{{post.date}}",
               categories: ["{{post.categories | join: '", "'}}"]
             },
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
                 {{ post.lng }},
                 {{ post.lat }}
               ]
@@ -45,18 +49,17 @@ var postsByCategories = {
   {% endfor %}
 };
 
+
 var postCategoriesArray = ['{{site.post_categories | join: "', '"}}'];
 
 var AnnaPostMap = function(){
   var that = this;
   this.layers = _(postCategoriesArray)
-                  .map(function(category){
+                  .map(function(category) {
                         return L.geoJson(
-                                          {type: 'FeatureCollection', features: postsByCategories[category]},
-                                          {
-                                           onEachFeature: that._onEachFeature.bind(that),
-                                           pointToLayer: that._pointToLayer.bind(that)
-                                          }
+                                          { type: 'FeatureCollection', features: postsByCategories[category] },
+                                          { onEachFeature: that._onEachFeature.bind(that),
+                                            pointToLayer: that._pointToLayer.bind(that) }
                                         );
                       });
 

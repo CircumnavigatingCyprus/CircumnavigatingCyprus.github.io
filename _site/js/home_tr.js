@@ -9633,48 +9633,52 @@ $(function($) {
   });
 });
 
+
+
+
 var SITE_PROP_LIB = {
   baseurl: "{{site.baseurl}}"
-}
+};
+
 
 
 var postsByCategories = {
   
-    "interviews" : [
+    'interviews' : [
       
         
       
     ],
   
-    "participant photography" : [
+    'participant photography' : [
       
         
       
     ],
   
-    "team member updates" : [
+    'team member updates' : [
       
         
       
     ],
   
-    "trekking" : [
+    'trekking' : [
       
         
           {
-            "type": "Feature",
-            "properties": {
+            'type': 'Feature',
+            'properties': {
               title: "Hello [TURKISH] World",
-              image: processImageLink("{{site.baseurl}}/media/7525916300_5523c2ce9d_b.jpg"),
+              image: "{{site.baseurl}}/media/7525916300_5523c2ce9d_b.jpg",
               link: "/tr/trekking/2015/06/27/hello-turkish-prose-world/",
               teaser: "Hello World!",
               popupContent: "false",
               date: "2015-06-27 00:00:00 -0400",
               categories: ["tr", "trekking"]
             },
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
                 33.263356,
                 34.79770
               ]
@@ -9686,18 +9690,17 @@ var postsByCategories = {
   
 };
 
+
 var postCategoriesArray = ['interviews', 'participant photography', 'team member updates', 'trekking'];
 
 var AnnaPostMap = function(){
   var that = this;
   this.layers = _(postCategoriesArray)
-                  .map(function(category){
+                  .map(function(category) {
                         return L.geoJson(
-                                          {type: 'FeatureCollection', features: postsByCategories[category]},
-                                          {
-                                           onEachFeature: that._onEachFeature.bind(that),
-                                           pointToLayer: that._pointToLayer.bind(that)
-                                          }
+                                          { type: 'FeatureCollection', features: postsByCategories[category] },
+                                          { onEachFeature: that._onEachFeature.bind(that),
+                                            pointToLayer: that._pointToLayer.bind(that) }
                                         );
                       });
 

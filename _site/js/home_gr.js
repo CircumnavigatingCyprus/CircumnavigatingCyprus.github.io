@@ -9633,9 +9633,13 @@ $(function($) {
   });
 });
 
+
+
+
 var SITE_PROP_LIB = {
   baseurl: "{{site.baseurl}}"
-}
+};
+
 
 
 var postsByCategories = {
@@ -9647,16 +9651,16 @@ var postsByCategories = {
             'type': 'Feature',
             'properties': {
               title: "Anna's title",
-              image: processImageLink("http://circumnavigatingcyprus.github.io/media/home_alone.jpg"),
+              image: "http://circumnavigatingcyprus.github.io/media/home_alone.jpg",
               link: "/gr/interviews/2016/03/21/anna-s-title/",
               teaser: "Ths is an awesome teaser.",
               popupContent: "true",
-              date: '2016-03-21 00:00:00 -0400',
+              date: "2016-03-21 00:00:00 -0400",
               categories: ["gr", "interviews"]
             },
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
                 14,
                 14
               ]
@@ -9693,16 +9697,16 @@ var postsByCategories = {
             'type': 'Feature',
             'properties': {
               title: "Hello [Greek] World",
-              image: processImageLink("{{site.baseurl}}/media/7525916300_5523c2ce9d_b.jpg"),
+              image: "{{site.baseurl}}/media/7525916300_5523c2ce9d_b.jpg",
               link: "/gr/trekking/2015/06/27/hello-greek-prose-world/",
               teaser: "Hello World!",
               popupContent: "false",
-              date: '2015-06-27 00:00:00 -0400',
+              date: "2015-06-27 00:00:00 -0400",
               categories: ["gr", "trekking"]
             },
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
                 33.263356,
                 34.79770
               ]
@@ -9714,12 +9718,13 @@ var postsByCategories = {
   
 };
 
+
 var postCategoriesArray = ['interviews', 'participant photography', 'team member updates', 'trekking'];
 
 var AnnaPostMap = function(){
   var that = this;
   this.layers = _(postCategoriesArray)
-                  .map(function(category){
+                  .map(function(category) {
                         return L.geoJson(
                                           { type: 'FeatureCollection', features: postsByCategories[category] },
                                           { onEachFeature: that._onEachFeature.bind(that),
@@ -9764,7 +9769,6 @@ AnnaPostMap.prototype._pointToLayer = function(feature, latlng){
 }
 
 AnnaPostMap.prototype._getMarker = function(feature){
-  console.log('FEATURE', feature);
   if (_.include(feature.properties.categories, "interviews")){
     return L.AwesomeMarkers.icon({ icon: 'book', prefix: 'fa', markerColor: 'green'});
   } else if (_.include(feature.properties.categories, "participant photography")){
