@@ -4,19 +4,16 @@ ul.team-profiles {
     @include clearfix;
     .member-profile-image {
       box-sizing: border-box;
-      img {
-        height: em(150);
-      }
     }
     .member-profile-text {
       position: relative;
       box-sizing: border-box;
-      .member-name {
-        line-height: em(10);
-      }
     }
-    padding: em(20) 0;
+    padding: em(20);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     border-bottom: 1px solid #DEDEDE;
+    background: #FFF;
+    margin-bottom: em(20);
     &:last-child {
       border-bottom: none;
     }
@@ -24,18 +21,14 @@ ul.team-profiles {
   @include media(min-width $large) {
     li {
       .member-profile-image {
-        height: em(90);
+        height: em(150);
         img {
           height: 100%;
         }
       }
       .member-profile-text {
-        height: em(90);
-        p {
-          position: absolute;
-          top: 50%;
-          transform: translateY(-50%);
-        }
+        height: em(150);
+        padding-top: em(25);
       }
     }
     li:nth-child(odd) {
@@ -48,7 +41,7 @@ ul.team-profiles {
         .member-profile-text {
           @include span-columns(9);
           .member-name {
-            text-align: right;
+            text-align: left;
           }
           text-align: left;
         }

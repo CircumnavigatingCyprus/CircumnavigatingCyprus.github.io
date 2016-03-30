@@ -1,51 +1,45 @@
 en:
+  team_title: The Team
   bios:
-  - name: Team Member 1
-    image: /media/hp.jpg
-    text: Squashy armchairs dirt on your nose brass scales crush the Sopophorous bean with flat side of silver dagger, releases juice better than cutting. Full moon Whomping Willow three turns should do it lemon drops. Locomotor trunks owl treats that will be 50 points, Mr. Potter. Witch Weekly, he will rise again and he will come for us, headmaster Erumpent horn. Fenrir Grayback horseless carriages ‘zis is a chance many would die for!
-  - name: Team Member 2
-    image: /media/hp.jpg
-    text: Squashy armchairs dirt on your nose brass scales crush the Sopophorous bean with flat side of silver dagger, releases juice better than cutting. Full moon Whomping Willow three turns should do it lemon drops. Locomotor trunks owl treats that will be 50 points, Mr. Potter. Witch Weekly, he will rise again and he will come for us, headmaster Erumpent horn. Fenrir Grayback horseless carriages ‘zis is a chance many would die for!
-  - name: Team Member 3
-    image: /media/hp.jpg
-    text: Squashy armchairs dirt on your nose brass scales crush the Sopophorous bean with flat side of silver dagger, releases juice better than cutting. Full moon Whomping Willow three turns should do it lemon drops. Locomotor trunks owl treats that will be 50 points, Mr. Potter. Witch Weekly, he will rise again and he will come for us, headmaster Erumpent horn. Fenrir Grayback horseless carriages ‘zis is a chance many would die for!
-  - name: Team Member 4
-    image: /media/hp.jpg
-    text: Squashy armchairs dirt on your nose brass scales crush the Sopophorous bean with flat side of silver dagger, releases juice better than cutting. Full moon Whomping Willow three turns should do it lemon drops. Locomotor trunks owl treats that will be 50 points, Mr. Potter. Witch Weekly, he will rise again and he will come for us, headmaster Erumpent horn. Fenrir Grayback horseless carriages ‘zis is a chance many would die for!
-  - name: Team Member 5
-    image: /media/hp.jpg
-    text: Squashy armchairs dirt on your nose brass scales crush the Sopophorous bean with flat side of silver dagger, releases juice better than cutting. Full moon Whomping Willow three turns should do it lemon drops. Locomotor trunks owl treats that will be 50 points, Mr. Potter. Witch Weekly, he will rise again and he will come for us, headmaster Erumpent horn. Fenrir Grayback horseless carriages ‘zis is a chance many would die for!
+  - name: Anna - Team Leader, National Geographic Young Explorer, & Sister
+    image: /media/anna_profile.png
+    text: Behind every great group of men, is an even better woman! Anna is the brains behind this expedition, and the team-wrangler. As an archaeologist, she’s an expert at managing small teams in rural and outdoor environments, and coordinating logistics in remote places.
+  - name: Charalampos  – Local Guide, Cultural Expert, & Cousin
+    image: /media/chara_profile.png
+    text: The Sacagawea to our Lewis & Clark, Charalampos knows it all! Avid outdoorsman, local expert, and all around charmer, there’s nothing he can’t handle.
+  - name: Vasili – Logistics Coordinator, Business Operations, & Brother-From-Another-Mother
+    image: /media/vasil_profile.png
+    text: With a background in the outdoor adventure industry, Vasili has always been drawn toward the next adventure.  Vasili is an accomplished sailor, fantastic dancer, and he once caught a fish with his bare hands.
+  - name: Alexi – Cypriot Political Relations Expert, Modern-Day McGyver, & Brother
+    image: /media/alexi_profile.png
+    text: Alexi is acting as the Mr. Miyagi to this group of merry explorers.  A political dork with itchy feet, Alexi is offering the trailblazers his sage advice from the Cyprus of the west—California.
 gr:
+  team_title: Η ομάδα
   bios:
-  - name: GREEK Team Member 1
-    image: /media/hp.jpg
-    text: Squashy armchairs dirt on your nose brass scales crush the Sopophorous bean with flat side of silver dagger, releases juice better than cutting. Full moon Whomping Willow three turns should do it lemon drops. Locomotor trunks owl treats that will be 50 points, Mr. Potter. Witch Weekly, he will rise again and he will come for us, headmaster Erumpent horn. Fenrir Grayback horseless carriages ‘zis is a chance many would die for!
-  - name: Team Member 2
-    image: /media/hp.jpg
-    text: Squashy armchairs dirt on your nose brass scales crush the Sopophorous bean with flat side of silver dagger, releases juice better than cutting. Full moon Whomping Willow three turns should do it lemon drops. Locomotor trunks owl treats that will be 50 points, Mr. Potter. Witch Weekly, he will rise again and he will come for us, headmaster Erumpent horn. Fenrir Grayback horseless carriages ‘zis is a chance many would die for!
-  - name: Team Member 3
-    image: /media/hp.jpg
-    text: Squashy armchairs dirt on your nose brass scales crush the Sopophorous bean with flat side of silver dagger, releases juice better than cutting. Full moon Whomping Willow three turns should do it lemon drops. Locomotor trunks owl treats that will be 50 points, Mr. Potter. Witch Weekly, he will rise again and he will come for us, headmaster Erumpent horn. Fenrir Grayback horseless carriages ‘zis is a chance many would die for!
-  - name: Team Member 4
-    image: /media/hp.jpg
-    text: Squashy armchairs dirt on your nose brass scales crush the Sopophorous bean with flat side of silver dagger, releases juice better than cutting. Full moon Whomping Willow three turns should do it lemon drops. Locomotor trunks owl treats that will be 50 points, Mr. Potter. Witch Weekly, he will rise again and he will come for us, headmaster Erumpent horn. Fenrir Grayback horseless carriages ‘zis is a chance many would die for!
-  - name: Team Member 5
-    image: /media/hp.jpg
-    text: Squashy armchairs dirt on your nose brass scales crush the Sopophorous bean with flat side of silver dagger, releases juice better than cutting. Full moon Whomping Willow three turns should do it lemon drops. Locomotor trunks owl treats that will be 50 points, Mr. Potter. Witch Weekly, he will rise again and he will come for us, headmaster Erumpent horn. Fenrir Grayback horseless carriages ‘zis is a chance many would die for!
+  - name: Άννα – Ομαδάρχης , νέα εξερευνήτρια του National Geographic, & αδελφή
+    image: /media/anna_profile.png
+    text: Πίσω από κάθε μεγάλη ομάδα ανδρών, είναι μια ακόμα καλύτερη γυναίκα! Η Άννα είναι ο εγκέφαλος πίσω από αυτή την εκστρατεία, και η ομαδάρχης . Ως αρχαιολόγος, είναι ειδικός στη διαχείριση μικρών  ομάδων σε υπαίθριες  περιοχές  και εξωτερικούς χώρους, καθώς και στο συντονισμό καθηκόντων σε  απομακρυσμένες περιοχές.
+  - name: Χαράλαμπος - Τοπικός Οδηγός, γνώστης της κουλτούρας , και εξάδελφος
+    image: /media/chara_profile.png
+    text: Ο Χαράλαμπος τα ξέρει όλα! Διαθέτει μεγάλη εμπειρία σε υπαίθριες δραστηριότητες και γνώστης της κουλτούρας , δεν υπάρχει κάτι που δεν μπορεί να χειριστεί.
+  - name: Βασίλης  - Συντονιστής , Επιχειρηματικές εργασίες , και  αδελφικός φίλος
+    image: /media/vasil_profile.png
+    text: Με εργασιακό παρελθόν στο κλάδο  της υπαίθριας περιπέτειας ο Βασίλης πάντα  περιμένει την επόμενη ευκαιρία για μια νέα περιπέτεια. Ο Βασίλης  είναι ένας καταξιωμένος ναυτικός, φανταστική χορευτής, αξίζει να σημειωθεί ότι έχει καταφέρει να πιάσει ψάρι μόνο με τα χέρια του.
+  - name: Alexi – Εμπειρογνώμονας Κυπριακής πολιτικής, σύγχρονος  MacGyver, & Αδελφός
+    image: /media/alexi_profile.png
+    text: Ο Αλέξης  ενεργεί ως ο κ Miyagi σε αυτή την ομάδα από εξερευνητές. Σπασίκλας με μεγάλη γνώση στην πολιτική διακυβέρνηση  όπου του αρέσουν οι νέες περιπέτειες. O Αλέξης  θα προσφέρει τις συμβουλές του προς τα μέλη της ομάδας από την Καλιφόρνια.
 tr:
+  team_title: Takım
   bios:
-  - name: TURKISH Team Member 1
-    image: /media/hp.jpg
-    text: Squashy armchairs dirt on your nose brass scales crush the Sopophorous bean with flat side of silver dagger, releases juice better than cutting. Full moon Whomping Willow three turns should do it lemon drops. Locomotor trunks owl treats that will be 50 points, Mr. Potter. Witch Weekly, he will rise again and he will come for us, headmaster Erumpent horn. Fenrir Grayback horseless carriages ‘zis is a chance many would die for!
-  - name: Team Member 2
-    image: /media/hp.jpg
-    text: Squashy armchairs dirt on your nose brass scales crush the Sopophorous bean with flat side of silver dagger, releases juice better than cutting. Full moon Whomping Willow three turns should do it lemon drops. Locomotor trunks owl treats that will be 50 points, Mr. Potter. Witch Weekly, he will rise again and he will come for us, headmaster Erumpent horn. Fenrir Grayback horseless carriages ‘zis is a chance many would die for!
-  - name: Team Member 3
-    image: /media/hp.jpg
-    text: Squashy armchairs dirt on your nose brass scales crush the Sopophorous bean with flat side of silver dagger, releases juice better than cutting. Full moon Whomping Willow three turns should do it lemon drops. Locomotor trunks owl treats that will be 50 points, Mr. Potter. Witch Weekly, he will rise again and he will come for us, headmaster Erumpent horn. Fenrir Grayback horseless carriages ‘zis is a chance many would die for!
-  - name: Team Member 4
-    image: /media/hp.jpg
-    text: Squashy armchairs dirt on your nose brass scales crush the Sopophorous bean with flat side of silver dagger, releases juice better than cutting. Full moon Whomping Willow three turns should do it lemon drops. Locomotor trunks owl treats that will be 50 points, Mr. Potter. Witch Weekly, he will rise again and he will come for us, headmaster Erumpent horn. Fenrir Grayback horseless carriages ‘zis is a chance many would die for!
-  - name: Team Member 5
-    image: /media/hp.jpg
-    text: Squashy armchairs dirt on your nose brass scales crush the Sopophorous bean with flat side of silver dagger, releases juice better than cutting. Full moon Whomping Willow three turns should do it lemon drops. Locomotor trunks owl treats that will be 50 points, Mr. Potter. Witch Weekly, he will rise again and he will come for us, headmaster Erumpent horn. Fenrir Grayback horseless carriages ‘zis is a chance many would die for!
+  - name: Anna – Ekip Lideri, National Geographic Genç Kaşifi
+    image: /media/anna_profile.png
+    text: Her başarılı bir grup erkeğin arkasında çok daha başarılı bir kadın vardır! Anna keşif heyetimizin beyni ve ekibimizin lideri. Bir arkeolog olarak, kırsal alanlarda çalışan küçük ekipleri yönetmekte, ve ulaşılması zor yerlerde lojistik meseleleri koordine etmekte uzmandır.
+  - name: Charalampos  – Yerel Rehber, Kültürel Uzman, Anna’nın Kuzeni
+    image: /media/chara_profile.png
+    text: Charalampos herşeyi bilir! Açık hava tutkunu, yerel uzman, pek cazibeli bir arkadaşımız. Hem de on parmağında on marifet!
+  - name: Vasili – Lojistik Koordinator, & Anna’nın Can Kardeşi
+    image: /media/vasil_profile.png
+    text: Açık hava etkinlikleri sektöründe çalışmışlığı olan Vasili, her zaman bir sonraki macernın peşinde olmuştur.  Başarılı bir yelkenci ve harika bir dansçı olmasının yanında bir kere elleriyle balık tuttuğu olmuştur.
+  - name: Alexi – Kıbrıs Siyasi İlişkiler Uzmanı, Günümüz McGyver’ı, & Anna’nın Ağabeyi
+    image: /media/alexi_profile.png
+    text: Alexi, neşeli gezginler grubumuzun üstadı.  Siyaset hastası ve seyahat etmeden duramayan bu bilge arkadaşımız, Garbin Kıbrıs’ı Kaliforniya’dan bizlere nasihat edecek.

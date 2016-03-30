@@ -758,34 +758,30 @@ body.post-page .site-header .header-logo .site-logo .site-title img, body.posts-
 
 ul.team-profiles li {
   list-style: none;
-  padding: 2em 0;
-  border-bottom: 1px solid #DEDEDE; }
+  padding: 2em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid #DEDEDE;
+  background: #FFF;
+  margin-bottom: 2em; }
   ul.team-profiles li::after {
     clear: both;
     content: "";
     display: table; }
   ul.team-profiles li .member-profile-image {
     box-sizing: border-box; }
-    ul.team-profiles li .member-profile-image img {
-      height: 15em; }
   ul.team-profiles li .member-profile-text {
     position: relative;
     box-sizing: border-box; }
-    ul.team-profiles li .member-profile-text .member-name {
-      line-height: 1em; }
   ul.team-profiles li:last-child {
     border-bottom: none; }
 @media screen and (min-width: 1050px) {
   ul.team-profiles li .member-profile-image {
-    height: 9em; }
+    height: 15em; }
     ul.team-profiles li .member-profile-image img {
       height: 100%; }
   ul.team-profiles li .member-profile-text {
-    height: 9em; }
-    ul.team-profiles li .member-profile-text p {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%); }
+    height: 15em;
+    padding-top: 2.5em; }
   ul.team-profiles li:nth-child(odd) .member-profile-image {
     float: left;
     display: block;
@@ -802,7 +798,7 @@ ul.team-profiles li {
     ul.team-profiles li:nth-child(odd) .member-profile-text:last-child {
       margin-right: 0; }
     ul.team-profiles li:nth-child(odd) .member-profile-text .member-name {
-      text-align: right; }
+      text-align: left; }
   ul.team-profiles li:nth-child(even) .member-profile-image {
     float: right;
     display: block;
