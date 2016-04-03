@@ -5,20 +5,8 @@ title: Bizim yolculuğumuz
 dropdown: true
 ---
 
-{% assign locale = site.data.localization[page.language] %}
+{% capture about %}
+{% include about_tr.md %}
+{% endcapture %}
 
-{% assign sections = site.data.about[page.language] %}
-<div class="about-wrapper section container">
-  <h1 class="about-title">{{ locale.about_title }}</h1>
-  <ol class="about-sub-sections">
-  {% for section in sections %}
-    <li class="sub-section">
-      <h2>{{section.title}}</h2>
-      <div class="about-image"><img src="{{section.image}}"/></div>
-      <div class="about-text">
-        <p>{{section.text}}</p>
-      </div>
-    </li>
-  {% endfor %}
-  </ol>
-</div>
+{% include about.html %}

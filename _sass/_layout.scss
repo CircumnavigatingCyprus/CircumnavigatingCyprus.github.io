@@ -2,6 +2,9 @@
   @include outer-container();
   padding: 0 40px;
   box-sizing: border-box;
+  // .about-page &, .team-page & {
+  //   max-width: 800px;
+  // }
 }
 
 ul, ol {
