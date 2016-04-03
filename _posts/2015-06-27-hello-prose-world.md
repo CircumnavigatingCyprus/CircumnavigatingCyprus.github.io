@@ -13,19 +13,20 @@ language: en
 categories: 
   - en
   - trekking
-tags: null
+tags: 
+  - "null"
 ---
+
 
 
 ## Its a PROSE WORLD
 
 This is an example of a new post using Prose.io. Using their friendly UI I was able to easily create a new post. I can also easily insert images by draggind and droppin them on the screen, like the ones you see below:
 
-![7525916300_5523c2ce9d_b.jpg]({{site.baseurl}}/media/7525916300_5523c2ce9d_b.jpg)
+![IndiegogoLink](https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_limit,w_620/v1457545267/qfwlbbltuluxagujhxtq.png)
 
 When you drag-and-drop an image on the screen it automagically uploads the file to your "Media" directory and then includes a properly formatted link in the post to ensure that it renders correctly.
 
 ![logo-ayuntamientogv.png]({{site.baseurl}}/media/logo-ayuntamientogv.png)
 
 ![Jedi Cats]({{site.baseurl}}/media/Jedi-Cats-Facebook-Profile-Timeline-Cover.jpg)
-
