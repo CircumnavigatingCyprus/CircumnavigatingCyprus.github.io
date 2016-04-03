@@ -391,7 +391,10 @@ ul, ol {
       .post-content h4 {
         font-size: 18px; } }
 
-body.post-page .site-header .header-logo .site-logo .site-title img, body.posts-archive .site-header .header-logo .site-logo .site-title img, body.category-archive .site-header .header-logo .site-logo .site-title img {
+body.post-page .site-header .header-logo img {
+  height: 70px; }
+
+body .site-header.secondary .header-logo img {
   height: 70px; }
 
 /**
@@ -585,8 +588,13 @@ body.post-page .site-header .header-logo .site-logo .site-title img, body.posts-
     transform: translateY(-50%);
     max-width: 50em;
     margin: 0 auto; }
+    #video .video-overlay .compass-wrapper {
+      margin-bottom: 0.5rem; }
+      #video .video-overlay .compass-wrapper img {
+        height: 3em; }
     #video .video-overlay h1.header {
       font-size: 2.8em;
+      margin-bottom: 0.5rem;
       font-weight: 600;
       color: #D1761D;
       text-transform: uppercase; }
@@ -771,6 +779,8 @@ ul.team-profiles li {
     display: table; }
   ul.team-profiles li .member-profile-image {
     box-sizing: border-box; }
+    ul.team-profiles li .member-profile-image img {
+      height: 20em; }
   ul.team-profiles li .member-profile-text {
     position: relative;
     box-sizing: border-box; }

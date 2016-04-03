@@ -323,20 +323,25 @@ ul, ol {
   }
 }
 
+body.post-page {
+  .site-header {
+    .header-logo {
+      img {
+        height: 70px;
+      }
+    }
+  }
+}
 body {
-  &.post-page,
-  &.posts-archive,
-  &.category-archive {
-    .site-header {
+  .site-header {
+    &.secondary {
       .header-logo {
-        .site-logo {
-          .site-title {
-            img {
-              height: 70px;
-            }
-          }
+        img {
+          height: 70px;
         }
       }
     }
   }
 }
+
+

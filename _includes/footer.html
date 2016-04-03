@@ -1,10 +1,11 @@
+{% assign locale = site.data.footer[page.language] %}
 <footer class="site-footer">
   <div class="wrapper">
-    <h2 class="footer-heading">{{ site.title }}</h2>
+    <h2 class="footer-heading">{{ locale.title }}</h2>
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
+          <li>{{ locale.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
@@ -20,7 +21,7 @@
         </ul>
       </div>
       <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.description }}</p>
+        <p class="text">{{ locale.description }}</p>
       </div>
     </div>
   </div>

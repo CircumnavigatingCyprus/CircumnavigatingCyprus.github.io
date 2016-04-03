@@ -58,8 +58,15 @@
     transform: translateY(-50%);
     max-width: 50em;
     margin: 0 auto;
+    .compass-wrapper {
+      margin-bottom: rem(5);
+      img {
+        height: 3em;
+      }
+    }
     h1.header {
       font-size: 2.8em;
+      margin-bottom: rem(5);
       @include media(max-width $medium) {
         font-size: 1.8em;
       }

@@ -1,5 +1,6 @@
 {% assign locale = site.data.header[page.language] %}
-<header class="site-header">
+{% assign page_type = page.page_type %}
+<header class="site-header {{page_type}}">
   <div class="container">
     <div class="row">
       <div class="header-logo">

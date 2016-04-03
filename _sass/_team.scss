@@ -4,6 +4,9 @@ ul.team-profiles {
     @include clearfix;
     .member-profile-image {
       box-sizing: border-box;
+      img {
+        height: 20em;
+      }
     }
     .member-profile-text {
       position: relative;
