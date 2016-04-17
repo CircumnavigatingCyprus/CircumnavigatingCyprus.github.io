@@ -9642,6 +9642,7 @@ var SITE_PROP_LIB = {
 
 
 
+
 var postsByCategories = {
   
     'interviews' : [
@@ -9670,9 +9671,13 @@ var postsByCategories = {
       
         
       
+        
+      
     ],
   
     'participant photography' : [
+      
+        
       
         
       
@@ -9685,6 +9690,48 @@ var postsByCategories = {
         
       
         
+          {
+            'type': 'Feature',
+            'properties': {
+              title: "A great title",
+              image: "http://rlv.zcache.com/i_love_cyprus_hat-r96d69dcae41f45349d6f6ed8ef3210d4_v9wqr_8byvr_324.jpg",
+              link: "/en/team%20member%20updates/2016/03/21/a-great-title/",
+              teaser: "This is another sample.",
+              popupContent: "true",
+              date: "2016-03-21 00:00:00 -0400",
+              categories: ["en", "team member updates"]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                10,
+                14
+              ]
+            }
+          },
+        
+      
+        
+          {
+            'type': 'Feature',
+            'properties': {
+              title: "This is a post title",
+              image: "",
+              link: "/en/team%20member%20updates/2016/03/20/your-filename/",
+              teaser: "This is a post teaser which will appear on the map.",
+              popupContent: "true",
+              date: "2016-03-20 00:00:00 -0400",
+              categories: ["en", "team member updates"]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                13,
+                25
+              ]
+            }
+          },
+        
       
     ],
   
@@ -9693,25 +9740,7 @@ var postsByCategories = {
         
       
         
-          {
-            'type': 'Feature',
-            'properties': {
-              title: "Hello [Greek] World",
-              image: "{{site.baseurl}}/media/7525916300_5523c2ce9d_b.jpg",
-              link: "/gr/trekking/2015/06/27/hello-greek-prose-world/",
-              teaser: "Hello World!",
-              popupContent: "false",
-              date: "2015-06-27 00:00:00 -0400",
-              categories: ["gr", "trekking"]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                33.263356,
-                34.79770
-              ]
-            }
-          },
+      
         
       
     ],
