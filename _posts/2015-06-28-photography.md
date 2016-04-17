@@ -13,6 +13,7 @@ language: en
 categories:
   - "en"
   - "participant photography"
+map: true
 ---
 
 

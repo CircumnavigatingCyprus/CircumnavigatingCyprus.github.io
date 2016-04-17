@@ -10,11 +10,12 @@ popupContent: false
 teaser: "Hello World!"
 identifier: hello_world
 language: en
-categories: 
+categories:
   - en
   - trekking
-tags: 
+tags:
   - "null"
+map: true
 ---
 
 

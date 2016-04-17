@@ -13,6 +13,7 @@ language: tr
 categories:
   - "tr"
   - "trekking"
+map: true
 ---
 
 

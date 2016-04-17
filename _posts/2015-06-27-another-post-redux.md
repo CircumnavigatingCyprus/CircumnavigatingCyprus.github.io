@@ -13,6 +13,7 @@ categories:
 - "en"
 - "team member updates"
 language: en
+map: true
 ---
 
 Here is another post. As you can see, there are two markers that appear on the map

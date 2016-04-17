@@ -13,6 +13,7 @@ language: en
 categories:
   - "en"
   - "interviews"
+map: true
 ---
 
 
