@@ -5,15 +5,17 @@ language: en
 lng: "13"
 lat: "25"
 image: ""
-categories:
+categories: 
   - en
   - team member updates
-tags: null
+tags: 
+  - "null"
 author: Ori Pleban
 popupContent: true
 teaser: This is a post teaser which will appear on the map.
 published: true
 title: This is a post title
+map: true
 ---
 
 
