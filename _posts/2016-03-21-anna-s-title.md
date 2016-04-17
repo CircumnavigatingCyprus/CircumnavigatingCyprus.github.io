@@ -15,6 +15,7 @@ popupContent: true
 teaser: Ths is an awesome teaser.
 published: true
 title: "Anna's title"
+map: true
 ---
 
 
