@@ -15,9 +15,9 @@ popupContent: true
 teaser: This is another sample.
 published: true
 title: A great title
+map: true
 ---
 
 ## This is another sample post
 
 ![Hat of Cyprus](http://rlv.zcache.com/i_love_cyprus_hat-r96d69dcae41f45349d6f6ed8ef3210d4_v9wqr_8byvr_324.jpg)
-
