@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
 /**
  * Reset some basic elements
  */
@@ -597,15 +598,17 @@ h1 {
     #video .video-overlay h1.header {
       font-size: 2.8em;
       margin-bottom: 0.5rem;
-      font-weight: 600;
-      color: #D1761D;
+      font-family: 'Oswald', Helvetica, Arial, sans-serif;
+      font-weight: 300;
+      color: #F37900;
       text-transform: uppercase; }
       @media screen and (max-width: 768px) {
         #video .video-overlay h1.header {
           font-size: 1.8em; } }
     #video .video-overlay h2.sub-header {
-      font-weight: 600;
-      color: #005745;
+      font-family: 'Oswald', Helvetica, Arial, sans-serif;
+      font-weight: 300;
+      color: #00492D;
       text-transform: uppercase; }
     @media screen and (min-width: 768px) {
       #video .video-overlay {

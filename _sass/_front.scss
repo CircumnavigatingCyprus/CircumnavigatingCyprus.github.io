@@ -70,16 +70,18 @@ h1 {
     h1.header {
       font-size: 2.8em;
       margin-bottom: rem(5);
+      font-family: 'Oswald', Helvetica, Arial, sans-serif;
+      font-weight: 300;
+      color: #F37900;
       @include media(max-width $medium) {
         font-size: 1.8em;
       }
-      font-weight: 600;
-      color: #D1761D;
       text-transform: uppercase;
     }
     h2.sub-header {
-      font-weight: 600;
-      color: #005745;
+      font-family: 'Oswald', Helvetica, Arial, sans-serif;
+      font-weight: 300;
+      color: #00492D;
       text-transform: uppercase;
     }
     @include media(min-width $medium) {
