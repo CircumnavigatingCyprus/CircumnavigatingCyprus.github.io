@@ -1,13 +1,15 @@
 ---
 layout: post
-identifier: ""
+identifier: VS_4_18_16
 language: en
 lng: ""
 lat: ""
 image: ""
-categories: null
+categories: 
+  - en
+  - team member updates
 tags: null
-author: Anna Antoniou
+author: Vasili Sotiropulos
 popupContent: false
 teaser: null
 published: false
