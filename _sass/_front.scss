@@ -56,13 +56,16 @@ h1 {
     position: relative;
     z-index: 100000;
     color: #FFF;
-    background: rgba(250, 250, 250, 0.6);
-    padding: 2em 0;
     text-align: center;
     top: 50%;
     transform: translateY(-50%);
-    max-width: 50em;
+    max-width: 40em;
     margin: 0 auto;
+    .video-content-wrapper {
+      background: rgba(250, 250, 250, 0.7);
+      margin: 1em;
+      padding: 1em;
+    }
     .compass-wrapper {
       margin-bottom: rem(5);
       img {
@@ -70,11 +73,12 @@ h1 {
       }
     }
     h1.header {
-      font-size: 2.8em;
+      font-size: 3em;
       margin-bottom: rem(5);
       font-family: 'Oswald', Helvetica, Arial, sans-serif;
-      font-weight: 300;
+      font-weight: 400;
       color: #F37900;
+      letter-spacing: 3px;
       @include media(max-width $medium) {
         font-size: 1.8em;
       }
@@ -82,12 +86,14 @@ h1 {
     }
     h2.sub-header {
       font-family: 'Oswald', Helvetica, Arial, sans-serif;
-      font-weight: 300;
+      font-size: 2em;
+      font-weight: 600;
+      letter-spacing: 5px;
       color: #00492D;
       text-transform: uppercase;
     }
     @include media(min-width $medium) {
-      border: 7px solid #FFF;
+      border: 7px solid #F37900;
       width: 70%;
     }
   }
