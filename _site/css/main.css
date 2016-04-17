@@ -553,7 +553,9 @@ h1 {
   overflow-y: scroll; }
 
 .leaflet-control-layers {
-  text-align: left; }
+  text-align: left;
+  font-size: 1.4em;
+  text-transform: capitalize; }
 
 .map-popup img {
   max-height: 130px; }
