@@ -5,6 +5,7 @@ en:
   subscribe: subscribe
   video_title: CIRCUMNAVIGATING [CY]
   video_subtitle: on foot
+  above_the_fold: Follow us as we walk the entire island of Cyprus—over 400 miles in 60 days—to gather stories, pictures, and information about what unites this divided island.
   map_title: Follow the journey
   latest_posts: Latest Posts
   instagram_header: The journey in images
@@ -20,6 +21,7 @@ gr:
   subscribe: Συνεισφέρω
   video_title: Παράκαμψη [CY]
   video_subtitle: με τα ΠΟΔΙΑ
+  above_the_fold: Ακολουθήστε μας καθώς περπατάμε ολόκληρο το νησί της Κύπρος-πάνω από 400 μίλια σε 60 ημέρες, για να συγκεντρώσει τις ιστορίες, φωτογραφίες και πληροφορίες για το τι ενώνει αυτό το διαιρεμένο νησί.
   map_title: Ακολουθήστε το ταξίδι
   latest_posts: τελευταίες Δημοσιεύσεις
   instagram_header: Το ταξίδι σε εικόνες
@@ -37,6 +39,7 @@ tr:
   subscribe: Abone
   video_title: Circumnavigating [CY]
   video_subtitle: yürüyerek
+  above_the_fold: Bu bölünmüş adayı birleştiren şey hakkında hikayeler, resimler ve bilgi toplamak için gün-60 Kıbrıs üzerinde 400 mil adanın tamamını yürürken bizi takip edin.
   map_title: yolculuk takip
   latest_posts: Son Yazılar
   instagram_header: Görüntülerde yolculuk
