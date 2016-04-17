@@ -19,10 +19,11 @@ var SITE_PROP_LIB = {
 {% endraw %}
 
 {% assign currentLanguagePosts = site.posts | where: "language", "en" %}
+{% assign currentLanguageMapPosts = site.posts | where: "map", true %}
 var postsByCategories = {
   {% for category in site.post_categories %}
     '{{category}}' : [
-      {% for post in currentLanguagePosts %}
+      {% for post in currentLanguageMapPosts %}
         {% if post.categories contains {{category}} %}
           {
             'type': 'Feature',

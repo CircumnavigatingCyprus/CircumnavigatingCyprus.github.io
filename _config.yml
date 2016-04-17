@@ -111,6 +111,10 @@ prose:
         element: "text"
         label: "author, Πώς σε λένε?"
         value: "Anna Antoniou"
+    - name: "map"
+      field:
+        element: "checkbox"
+        label: "Appears on Map?"
     - name: "popupContent"
       field:
         element: "checkbox"
