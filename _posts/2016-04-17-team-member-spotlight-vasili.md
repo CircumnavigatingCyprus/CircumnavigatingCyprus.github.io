@@ -15,6 +15,7 @@ popupContent: false
 teaser: null
 published: true
 title: "Team Member Spotlight: Vasili"
+map: false
 ---
 ## Meet Vasili Sotiropulos 
 
@@ -23,6 +24,3 @@ Hi! I'm Vasili. My life has changed quite a bit over the past year. I decided la
 This expedition gives me the opportunity combine my love for the outdoors with a firsthand look at the sociopolitical landscape of this Mediterranean Island. I'm most excited for the unknown. Who will we meet? What will we learn? What problems will we solve? What will we find?
  
 The team we have put together is incredible and we all have roots in the Mediterranean. We have an eclectic set of skills and knowledge that will lend themselves nicely to our voyage. Beyond that, I consider this team family, and I can't wait to take the first step with them.
-## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
