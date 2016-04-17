@@ -9629,7 +9629,7 @@ $(function($) {
   $('#twitter-close-modal-link').click(function(evt){
     evt.preventDefault();
     $('#twitter-modal').addClass('visually-hidden');
-    $('body').addClass('no-scroll');
+    $('body').removeClass('no-scroll');
   });
 });
 
