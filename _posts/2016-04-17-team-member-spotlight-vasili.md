@@ -8,11 +8,12 @@ image: ""
 categories: 
   - en
   - team member updates
-tags: null
+tags: 
+  - "null"
 author: Vasili Sotiropulos
 popupContent: false
 teaser: null
-published: false
+published: true
 title: "Team Member Spotlight: Vasili"
 ---
 ## Meet Vasili Sotiropulos 
