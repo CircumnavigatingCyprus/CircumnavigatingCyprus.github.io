@@ -1,0 +1,25 @@
+---
+layout: post
+identifier: ""
+language: en
+lng: ""
+lat: ""
+image: ""
+categories: null
+tags: null
+author: Anna Antoniou
+popupContent: false
+teaser: null
+published: false
+title: "Team Member Spotlight: Vasili"
+---
+## Meet Vasili Sotiropulos 
+
+Hi! I'm Vasili. My life has changed quite a bit over the past year. I decided last fall to trade in my 9-to-5 office-life of spreadsheets and fluorescent lighting for a year of adventure. I quit my job, moved out of my home and haven't looked back since. So far I've sailed Mexico's Pacific Coast and the Caribbean Sea, snow shoed in Oregon, road tripped from Long Beach to Montana, hiked glaciers in Alaska and surfed the Southern California Coast.  But I couldn't be more excited for what's next...our journey around Cyprus!
+ 
+This expedition gives me the opportunity combine my love for the outdoors with a firsthand look at the sociopolitical landscape of this Mediterranean Island. I'm most excited for the unknown. Who will we meet? What will we learn? What problems will we solve? What will we find?
+ 
+The team we have put together is incredible and we all have roots in the Mediterranean. We have an eclectic set of skills and knowledge that will lend themselves nicely to our voyage. Beyond that, I consider this team family, and I can't wait to take the first step with them.
+## A New Post
+
+Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
