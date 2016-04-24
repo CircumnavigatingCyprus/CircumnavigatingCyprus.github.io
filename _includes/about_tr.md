@@ -1,4 +1,4 @@
-#About the Project
+# Proje hakkında
 
 ## Nasıl Başladı
 
