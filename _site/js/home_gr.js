@@ -9656,7 +9656,7 @@ var postsByCategories = {
               link: "/gr/interviews/2016/03/21/anna-s-title/",
               teaser: "Ths is an awesome teaser.",
               popupContent: "true",
-              date: "2016-03-21 00:00:00 -0400",
+              date: "2016-03-21 00:00:00 +0200",
               categories: ["gr", "interviews"]
             },
             "geometry": {
@@ -9684,7 +9684,7 @@ var postsByCategories = {
               link: "/en/interviews/2015/06/27/proof-of-concept/",
               teaser: "This is the teaser text for my proof of concept.",
               popupContent: "true",
-              date: "2015-06-27 00:00:00 -0400",
+              date: "2015-06-27 00:00:00 +0300",
               categories: ["en", "interviews"]
             },
             "geometry": {
@@ -9724,7 +9724,7 @@ var postsByCategories = {
               link: "/en/participant%20photography/2015/06/28/photography/",
               teaser: "This is a photography post.",
               popupContent: "true",
-              date: "2015-06-28 00:00:00 -0400",
+              date: "2015-06-28 00:00:00 +0300",
               categories: ["en", "participant photography"]
             },
             "geometry": {
@@ -9762,7 +9762,7 @@ var postsByCategories = {
               link: "/en/team%20member%20updates/2016/03/21/a-great-title/",
               teaser: "This is another sample.",
               popupContent: "true",
-              date: "2016-03-21 00:00:00 -0400",
+              date: "2016-03-21 00:00:00 +0200",
               categories: ["en", "team member updates"]
             },
             "geometry": {
@@ -9784,7 +9784,7 @@ var postsByCategories = {
               link: "/en/team%20member%20updates/2016/03/20/your-filename/",
               teaser: "This is a post teaser which will appear on the map.",
               popupContent: "true",
-              date: "2016-03-20 00:00:00 -0400",
+              date: "2016-03-20 00:00:00 +0200",
               categories: ["en", "team member updates"]
             },
             "geometry": {
@@ -9816,7 +9816,7 @@ var postsByCategories = {
               link: "/en/team%20member%20updates/2015/06/27/another-post-redux/",
               teaser: "Yet another post for much amusement.",
               popupContent: "true",
-              date: "2015-06-27 00:00:00 -0400",
+              date: "2015-06-27 00:00:00 +0300",
               categories: ["en", "team member updates"]
             },
             "geometry": {
@@ -9852,7 +9852,7 @@ var postsByCategories = {
               link: "/tr/trekking/2015/06/27/hello-turkish-prose-world/",
               teaser: "Hello World!",
               popupContent: "false",
-              date: "2015-06-27 00:00:00 -0400",
+              date: "2015-06-27 00:00:00 +0300",
               categories: ["tr", "trekking"]
             },
             "geometry": {
@@ -9874,7 +9874,7 @@ var postsByCategories = {
               link: "/en/trekking/2015/06/27/hello-prose-world/",
               teaser: "Hello World!",
               popupContent: "false",
-              date: "2015-06-27 00:00:00 -0400",
+              date: "2015-06-27 00:00:00 +0300",
               categories: ["en", "trekking"]
             },
             "geometry": {
@@ -9896,7 +9896,7 @@ var postsByCategories = {
               link: "/gr/trekking/2015/06/27/hello-greek-prose-world/",
               teaser: "Hello World!",
               popupContent: "false",
-              date: "2015-06-27 00:00:00 -0400",
+              date: "2015-06-27 00:00:00 +0300",
               categories: ["gr", "trekking"]
             },
             "geometry": {

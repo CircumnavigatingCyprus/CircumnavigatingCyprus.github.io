@@ -27,11 +27,6 @@
               <li><a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>
             {% endif %}
           {% endfor %}
-          {% for p in dropdown_header_pages %}
-            {% if p.title %}
-              <li><a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>
-            {% endif %}
-          {% endfor %}
           <li><a class="page-link" href="/en">English</a></li>
           <li><a class="page-link" href="/gr">Ελληνικά</a></li>
           <li><a class="page-link" href="/tr">Türkçe</a></li>
