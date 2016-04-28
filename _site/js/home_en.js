@@ -9668,7 +9668,7 @@ var postsByCategories = {
               link: "/en/team%20member%20updates/2016/04/28/a-dream-was-born/",
               teaser: "The Origin Story of the Expedition",
               popupContent: "true",
-              date: "2016-04-28 00:00:00 +0300",
+              date: "28 Apr 2016",
               categories: ["en", "team member updates"]
             },
             "geometry": {

@@ -33,7 +33,7 @@ var postsByCategories = {
               link: "{{site.baseurl}}{{post.url}}",
               teaser: "{{post.teaser}}",
               popupContent: "{{post.popupContent}}",
-              date: "{{post.date}}",
+              date: "{{post.date | date_to_string }}",
               categories: ["{{post.categories | join: '", "'}}"]
             },
             "geometry": {
