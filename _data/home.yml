@@ -15,13 +15,13 @@ en:
   indiegogo_call_to_action: Support our Indiegogo campaign
   facebook_call_to_action: Follow us on Facebook
 gr:
-  title: Παράκαμψη Κύπρος για τον αφθώδη
+  title: Περπατώντας την Κύπρο
   about: Σχετικά με το έργο
   posts: Δημοσιεύσεις στο blog
   subscribe: Συνεισφέρω
-  video_title: Παράκαμψη <b>[CY]</b>
-  video_subtitle: με τα ΠΟΔΙΑ
-  above_the_fold: Ακολουθήστε μας καθώς περπατάμε ολόκληρο το νησί της Κύπρος-πάνω από 400 μίλια σε 60 ημέρες, για να συγκεντρώσει τις ιστορίες, φωτογραφίες και πληροφορίες για το τι ενώνει αυτό το διαιρεμένο νησί.
+  video_title: ΠΕΡΠΑΤΏΝΤΑΣ <b>[CY]</b>
+  video_subtitle: με τα πόδια
+  above_the_fold: Ακολουθήστε μας καθώς περπατάμε ολόκληρο το νησί της Κύπρου-πάνω από 400 μίλια σε 60 ημέρες, για να συγκεντρώσουμειστορίες, φωτογραφίες και πληροφορίες για το τι ενώνει αυτό το διαιρεμένο νησί.
   map_title: Ακολουθήστε το ταξίδι
   latest_posts: τελευταίες Δημοσιεύσεις
   instagram_header: Το ταξίδι σε εικόνες
@@ -33,13 +33,13 @@ gr:
   indiegogo_call_to_action: Υποστηρίξτε την εκστρατεία μας Indiegogo
   facebook_call_to_action: Ακολουθήστε μας στο Facebook
 tr:
-  title: Kıbrıs Çevresi Ayak Yürüyüş
+  title: "Yaya Olarak Dolasmak Kibris'i"
   about: Proje hakkında
   posts: Blog Yazıları
   subscribe: Abone
   video_title: Circumnavigating <b>[CY]</b>
-  video_subtitle: yürüyerek
-  above_the_fold: Bu bölünmüş adayı birleştiren şey hakkında hikayeler, resimler ve bilgi toplamak için gün-60 Kıbrıs üzerinde 400 mil adanın tamamını yürürken bizi takip edin.
+  video_subtitle: "Yaya Olarak Dolasmak Kibris'i" 
+  above_the_fold: "2016 Mayıs'ından itibaren, 60 gün boyunca Ada'da yaklaşık 640 km yürüyeceğiz ve 40 seneden uzun süredir devam eden ayrışma ilgili anlatılar, videolar, ve fotoğraflar toplayacağız."   
   map_title: yolculuk takip
   latest_posts: Son Yazılar
   instagram_header: Görüntülerde yolculuk
