@@ -4,7 +4,7 @@ identifier: VS_4_18_16
 language: en
 lng: ""
 lat: ""
-image: ""
+image: "https://scontent-fra3-1.xx.fbcdn.net/t31.0-8/12471872_10153851739748844_7079054740535570838_o.jpg"
 categories: 
   - en
   - team member updates
