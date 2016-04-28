@@ -1,18 +1,17 @@
 ---
 layout: post
-identifier: ""
+identifier: AA_4_28_16
 language: en
-lng: ""
-lat: ""
+lng: "33.159378"
+lat: "34.736882"
 image: ""
 categories: 
-  - "null"
-tags: 
-  - "null"
+  - en
+tags: null
 author: Anna Antoniou
-map: false
-popupContent: false
-teaser: null
+map: true
+popupContent: true
+teaser: The Origin Story of the Expedition
 published: false
 title: A dream was born...
 ---
