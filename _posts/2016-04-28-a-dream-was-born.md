@@ -7,6 +7,7 @@ lat: "34.736882"
 image: ""
 categories: 
   - en
+  - team member updates
 tags: null
 author: Anna Antoniou
 map: true
