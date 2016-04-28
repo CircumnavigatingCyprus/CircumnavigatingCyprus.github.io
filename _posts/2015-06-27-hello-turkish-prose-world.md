@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false
 title: "Hello [TURKISH] World"
 author: Anna Antoniou
 lat: "34.79770"
@@ -10,10 +10,11 @@ popupContent: false
 teaser: "Hello World!"
 identifier: hello_world
 language: tr
-categories:
-  - "tr"
-  - "trekking"
+categories: 
+  - tr
+  - trekking
 map: true
+tags: null
 ---
 
 
