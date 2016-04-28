@@ -25,5 +25,9 @@ This expedition gives me the opportunity combine my love for the outdoors with a
  
 The team we have put together is incredible and we all have roots in the Mediterranean. We have an eclectic set of skills and knowledge that will lend themselves nicely to our voyage. Beyond that, I consider this team family, and I can't wait to take the first step with them.
 
-![V yosemite]({{site.baseurl}}/https://scontent-fra3-1.xx.fbcdn.net/hphotos-xat1/v/t1.0-0/q84/p206x206/11218455_1695064557381511_397204977700404661_n.jpg?oh=defc8d7b79c8270293624a56bdef123d&oe=57A6FF85)
-![Vsailing]({{site.baseurl}}/https://scontent-fra3-1.xx.fbcdn.net/t31.0-8/12471872_10153851739748844_7079054740535570838_o.jpg)![V alaska]({{site.baseurl}}/file:///Users/annaantoniou/Pictures/IMG_1262.jpg)
+![V yosemite](https://scontent-fra3-1.xx.fbcdn.net/hphotos-xat1/v/t1.0-0/q84/p206x206/11218455_1695064557381511_397204977700404661_n.jpg?oh=defc8d7b79c8270293624a56bdef123d&oe=57A6FF85)
+
+![Vsailing](https://scontent-fra3-1.xx.fbcdn.net/t31.0-8/12471872_10153851739748844_7079054740535570838_o.jpg)
+
+![V alaska]({{site.baseurl}}/media/IMG_1262.jpg)
+
