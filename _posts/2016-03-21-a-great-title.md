@@ -13,7 +13,7 @@ tags:
 author: Ori Pleban
 popupContent: true
 teaser: This is another sample.
-published: true
+published: false
 title: A great title
 map: true
 ---
