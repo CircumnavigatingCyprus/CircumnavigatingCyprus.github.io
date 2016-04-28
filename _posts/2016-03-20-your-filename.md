@@ -13,7 +13,7 @@ tags:
 author: Ori Pleban
 popupContent: true
 teaser: This is a post teaser which will appear on the map.
-published: true
+published: false
 title: This is a post title
 map: true
 ---
