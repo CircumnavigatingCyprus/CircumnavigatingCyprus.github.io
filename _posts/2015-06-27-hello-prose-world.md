@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false
 title: "Hello [Prose] World"
 author: Anna Antoniou
 lat: "34.79770"
@@ -10,10 +10,10 @@ popupContent: false
 teaser: "Hello World!"
 identifier: hello_world
 language: en
-categories:
+categories: 
   - en
   - trekking
-tags:
+tags: 
   - "null"
 map: true
 ---
