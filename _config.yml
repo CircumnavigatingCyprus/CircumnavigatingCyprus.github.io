@@ -66,16 +66,16 @@ prose:
       field:
         element: "text"
         label: "title"
-    - name: "lng"
-      field:
-        element: "text"
-        label: "Longitude"
-        placholder: "Enter Longitude Coordinates"
     - name: "lat"
       field:
         element: "text"
         label: "Latitude"
         placholder: "Enter Latitude Coordinates"
+    - name: "lng"
+      field:
+        element: "text"
+        label: "Longitude"
+        placholder: "Enter Longitude Coordinates"
     - name: "image"
       field:
         element: "text"

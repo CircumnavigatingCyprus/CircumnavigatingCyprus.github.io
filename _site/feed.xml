@@ -6,9 +6,36 @@
 </description>
     <link>http://circumnavigatingcyprus.github.io/</link>
     <atom:link href="http://circumnavigatingcyprus.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 24 Apr 2016 10:02:06 +0300</pubDate>
-    <lastBuildDate>Sun, 24 Apr 2016 10:02:06 +0300</lastBuildDate>
+    <pubDate>Thu, 28 Apr 2016 10:50:52 +0300</pubDate>
+    <lastBuildDate>Thu, 28 Apr 2016 10:50:52 +0300</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
+    
+      <item>
+        <title>A dream was born...</title>
+        <description>&lt;h2 id=&quot;the-origin-story-of-the-expedition&quot;&gt;The Origin Story of the Expedition&lt;/h2&gt;
+
+&lt;p&gt;Like all good ideas, this expedition was born from good food, great company, and lots of wine.&lt;/p&gt;
+
+&lt;p&gt;It was a blisteringly hot evening in the summer of 2014. I sat at a taverna in Parekklisia, Cyprus, surrounded by aunts, uncles, cousins, and siblings. It was here that my brother, my cousin, and I decided we would walk the entire island.&lt;/p&gt;
+
+&lt;p&gt;Growing up in California, my brother and I became accustomed to long haul drives spanning the entire state.  So when visiting Cyprus, we are often struck by the size of the island. And during this particular trip to visit family, we noticed that our cousins viewed the Turkish occupation of northern Cyprus differently from our aunts and uncles. We decided that walking the island, and talking to young Cypriots along the way, would help us understand the true meaning of Cypriot identity.&lt;/p&gt;
+
+&lt;p&gt;Almost two years later, after applying for and receiving the National Geographic Society Young Explorers grant, raising over $6,000 through a crowdfunding campaign, and adding Vasili to our team, we are finally ready to start walking!&lt;/p&gt;
+
+&lt;p&gt;Stay tuned for images, videos, and stories of the Cypriot identity – Greek, Turkish and everything in between!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 28 Apr 2016 00:00:00 +0300</pubDate>
+        <link>http://circumnavigatingcyprus.github.io/en/team%20member%20updates/2016/04/28/a-dream-was-born/</link>
+        <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/en/team%20member%20updates/2016/04/28/a-dream-was-born/</guid>
+        
+        <category>null</category>
+        
+        
+        <category>en</category>
+        
+        <category>team member updates</category>
+        
+      </item>
     
       <item>
         <title>Team Member Spotlight: Vasili</title>
@@ -19,6 +46,13 @@
 &lt;p&gt;This expedition gives me the opportunity combine my love for the outdoors with a firsthand look at the sociopolitical landscape of this Mediterranean Island. I’m most excited for the unknown. Who will we meet? What will we learn? What problems will we solve? What will we find?&lt;/p&gt;
 
 &lt;p&gt;The team we have put together is incredible and we all have roots in the Mediterranean. We have an eclectic set of skills and knowledge that will lend themselves nicely to our voyage. Beyond that, I consider this team family, and I can’t wait to take the first step with them.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://scontent-fra3-1.xx.fbcdn.net/hphotos-xat1/v/t1.0-0/q84/p206x206/11218455_1695064557381511_397204977700404661_n.jpg?oh=defc8d7b79c8270293624a56bdef123d&amp;amp;oe=57A6FF85&quot; alt=&quot;V yosemite&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://scontent-fra3-1.xx.fbcdn.net/t31.0-8/12471872_10153851739748844_7079054740535570838_o.jpg&quot; alt=&quot;Vsailing&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/media/IMG_1262.jpg&quot; alt=&quot;V alaska&quot; /&gt;&lt;/p&gt;
+
 </description>
         <pubDate>Sun, 17 Apr 2016 00:00:00 +0300</pubDate>
         <link>http://circumnavigatingcyprus.github.io/en/team%20member%20updates/2016/04/17/team-member-spotlight-vasili/</link>
@@ -34,217 +68,67 @@
       </item>
     
       <item>
-        <title>Anna&#39;s title</title>
-        <description>&lt;h2 id=&quot;a-better-posting-strategy&quot;&gt;A better posting strategy&lt;/h2&gt;
-
-&lt;p&gt;And some text. YAY!
-&lt;img src=&quot;http://www.sabc2.co.za/sabc/wcm/connect/c2a9d819-f4d3-41b5-b756-d1fe423b7790/MornLive_700.jpg?MOD=AJPERES&amp;amp;CACHEID=c2a9d819-f4d3-41b5-b756-d1fe423b7790&quot; alt=&quot;Random Image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/media/cityofprov_favicon.ico&quot; alt=&quot;cityofprov_favicon.ico&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Enter text in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;. Use the toolbar above, or click the &lt;strong&gt;?&lt;/strong&gt; button for formatting help.&lt;/p&gt;
+        <title>Introducing Jekyll archives!</title>
+        <description>&lt;p&gt;Post with category and tags.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 21 Mar 2016 00:00:00 +0200</pubDate>
-        <link>http://circumnavigatingcyprus.github.io/gr/interviews/2016/03/21/anna-s-title/</link>
-        <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/gr/interviews/2016/03/21/anna-s-title/</guid>
+        <pubDate>Sun, 17 Aug 2014 00:00:00 +0300</pubDate>
+        <link>http://circumnavigatingcyprus.github.io/lib/jekyll-archives/test/source/plugins/2014/08/17/introducing-jekyll-archives/</link>
+        <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/lib/jekyll-archives/test/source/plugins/2014/08/17/introducing-jekyll-archives/</guid>
         
-        <category>null</category>
+        <category>new</category>
         
         
-        <category>gr</category>
+        <category>lib</category>
         
-        <category>interviews</category>
+        <category>jekyll-archives</category>
+        
+        <category>test</category>
+        
+        <category>source</category>
+        
+        <category>plugins</category>
         
       </item>
     
       <item>
-        <title>A great title</title>
-        <description>&lt;h2 id=&quot;this-is-another-sample-post&quot;&gt;This is another sample post&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://rlv.zcache.com/i_love_cyprus_hat-r96d69dcae41f45349d6f6ed8ef3210d4_v9wqr_8byvr_324.jpg&quot; alt=&quot;Hat of Cyprus&quot; /&gt;&lt;/p&gt;
+        <title>Tagged post</title>
+        <description>&lt;p&gt;This is a tagged post&lt;/p&gt;
 </description>
-        <pubDate>Mon, 21 Mar 2016 00:00:00 +0200</pubDate>
-        <link>http://circumnavigatingcyprus.github.io/en/team%20member%20updates/2016/03/21/a-great-title/</link>
-        <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/en/team%20member%20updates/2016/03/21/a-great-title/</guid>
+        <pubDate>Sat, 15 Mar 2014 00:00:00 +0200</pubDate>
+        <link>http://circumnavigatingcyprus.github.io/lib/jekyll-archives/test/source/2014/03/15/tagged-post/</link>
+        <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/lib/jekyll-archives/test/source/2014/03/15/tagged-post/</guid>
         
-        <category>null</category>
+        <category>Test Tag</category>
+        
+        <category>tagged</category>
         
         
-        <category>en</category>
+        <category>lib</category>
         
-        <category>team member updates</category>
+        <category>jekyll-archives</category>
+        
+        <category>test</category>
+        
+        <category>source</category>
         
       </item>
     
       <item>
-        <title>This is a post title</title>
-        <description>&lt;h2 id=&quot;this-is-a-walkthrough-post&quot;&gt;This is a walkthrough post.&lt;/h2&gt;
-
-&lt;p&gt;With brand new text!&lt;/p&gt;
+        <title>Post from yesteryear</title>
+        <description>&lt;p&gt;This is a post from the year 2013.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 20 Mar 2016 00:00:00 +0200</pubDate>
-        <link>http://circumnavigatingcyprus.github.io/en/team%20member%20updates/2016/03/20/your-filename/</link>
-        <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/en/team%20member%20updates/2016/03/20/your-filename/</guid>
-        
-        <category>null</category>
+        <pubDate>Fri, 16 Aug 2013 00:00:00 +0300</pubDate>
+        <link>http://circumnavigatingcyprus.github.io/lib/jekyll-archives/test/source/2013/08/16/post-from-yesteryear/</link>
+        <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/lib/jekyll-archives/test/source/2013/08/16/post-from-yesteryear/</guid>
         
         
-        <category>en</category>
+        <category>lib</category>
         
-        <category>team member updates</category>
+        <category>jekyll-archives</category>
         
-      </item>
-    
-      <item>
-        <title>A New Post</title>
-        <description>&lt;h2 id=&quot;another-new-post&quot;&gt;Another New Post&lt;/h2&gt;
-
-&lt;p&gt;More More New Posts&lt;/p&gt;
-</description>
-        <pubDate>Sun, 05 Jul 2015 00:00:00 +0300</pubDate>
-        <link>http://circumnavigatingcyprus.github.io/en/2015/07/05/a-new-post/</link>
-        <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/en/2015/07/05/a-new-post/</guid>
+        <category>test</category>
         
-        
-        <category>en</category>
-        
-      </item>
-    
-      <item>
-        <title>Photography</title>
-        <description>&lt;h2 id=&quot;another-post-with-photography&quot;&gt;ANOTHER POST WITH PHOTOGRAPHY&lt;/h2&gt;
-
-&lt;p&gt;This is an example of post with the tag trekking.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 28 Jun 2015 00:00:00 +0300</pubDate>
-        <link>http://circumnavigatingcyprus.github.io/en/participant%20photography/2015/06/28/photography/</link>
-        <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/en/participant%20photography/2015/06/28/photography/</guid>
-        
-        
-        <category>en</category>
-        
-        <category>participant photography</category>
-        
-      </item>
-    
-      <item>
-        <title>Proof of Concept</title>
-        <description>&lt;p&gt;This is just a proof of concept post. There is still quite a bit of work to be done to get this ready for prime time.&lt;/p&gt;
-
-&lt;p&gt;In general a post contains the actual text content and the “metadata” content (or what we’ll call metadata) which will be stored in the “YAML” front-matter part of each post file. Lots of jargon, I know, but I’ll walk you through it step-by-step as we build this out together.&lt;/p&gt;
-
-&lt;p&gt;The main “metadata” information you’ll want to provide with each post is:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;lat, latitude. The latitude coordinate for the travel map.&lt;/li&gt;
-  &lt;li&gt;lng, longitude. The longitude coordinate for the travel map.&lt;/li&gt;
-  &lt;li&gt;title, post title, Your post title. This will also appear on the map popup&lt;/li&gt;
-  &lt;li&gt;teaser, post teaser, This will appear as the teaser text at the bottom of your map popup&lt;/li&gt;
-  &lt;li&gt;popupContent, a true/false value, If this is set to false, a marker will appear on the map for this post sans popup or post link. In general, you’ll want to set this to true.&lt;/li&gt;
-  &lt;li&gt;image, preview image. This is the preview image that will appear on the map. I think the easiest way to handle images on your blog will be to upload them to flickr or some other image/file hosting service and then get the image link. Just make sure whatever service you use allows “hotlinking”.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;images&quot;&gt;Images&lt;/h2&gt;
-&lt;p&gt;You can upload all of your photos to Flickr and then grab the “embed” link and use that to embed images in your blog posts. You can also use the same link for the preview image that will appear on the map.&lt;/p&gt;
-
-&lt;p&gt;Here is an image:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://c3.staticflickr.com/3/2848/12005505403_b4c46cc0b9_z.jpg&quot; alt=&quot;Ronda is not in Cyprus&quot; title=&quot;Ronda is not in Cyprus&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Here is an image caption: Ronda is not in Cyprus&lt;/p&gt;
-
-&lt;p&gt;Here is another image:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://c2.staticflickr.com/4/3786/12016956776_606a4a61d9_z.jpg&quot; alt=&quot;Ouled Ali is also not in Cyprus&quot; title=&quot;Ouled Ali is not in Cyrpus&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Ouled Ali is also not in Cyprus&lt;/p&gt;
-
-&lt;h2 id=&quot;markdown&quot;&gt;Markdown&lt;/h2&gt;
-&lt;p&gt;Check out the &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown Docs&lt;/a&gt; for more info on Markdown Syntax.&lt;/p&gt;
-
-&lt;p&gt;Also here: &lt;a href=&quot;http://makandracards.com/makandra/6683-markdown-kramdown-examples&quot;&gt;Markdown/Kramdown examples&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h2&gt;
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on some of what’s going on behind the scenes in Jekyll.&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 27 Jun 2015 00:00:00 +0300</pubDate>
-        <link>http://circumnavigatingcyprus.github.io/en/interviews/2015/06/27/proof-of-concept/</link>
-        <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/en/interviews/2015/06/27/proof-of-concept/</guid>
-        
-        
-        <category>en</category>
-        
-        <category>interviews</category>
-        
-      </item>
-    
-      <item>
-        <title>Hello [TURKISH] World</title>
-        <description>&lt;h2 id=&quot;its-a-turkish-world&quot;&gt;Its a TURKISH WORLD&lt;/h2&gt;
-
-&lt;p&gt;This is an example of a new post using Prose.io. Using their friendly UI I was able to easily create a new post. I can also easily insert images by draggind and droppin them on the screen, like the ones you see below:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/media/7525916300_5523c2ce9d_b.jpg&quot; alt=&quot;7525916300_5523c2ce9d_b.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;When you drag-and-drop an image on the screen it automagically uploads the file to your “Media” directory and then includes a properly formatted link in the post to ensure that it renders correctly.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 27 Jun 2015 00:00:00 +0300</pubDate>
-        <link>http://circumnavigatingcyprus.github.io/tr/trekking/2015/06/27/hello-turkish-prose-world/</link>
-        <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/tr/trekking/2015/06/27/hello-turkish-prose-world/</guid>
-        
-        
-        <category>tr</category>
-        
-        <category>trekking</category>
-        
-      </item>
-    
-      <item>
-        <title>Hello [Prose] World</title>
-        <description>&lt;h2 id=&quot;its-a-prose-world&quot;&gt;Its a PROSE WORLD&lt;/h2&gt;
-
-&lt;p&gt;This is an example of a new post using Prose.io. Using their friendly UI I was able to easily create a new post. I can also easily insert images by draggind and droppin them on the screen, like the ones you see below:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_limit,w_620/v1457545267/qfwlbbltuluxagujhxtq.png&quot; alt=&quot;IndiegogoLink&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;When you drag-and-drop an image on the screen it automagically uploads the file to your “Media” directory and then includes a properly formatted link in the post to ensure that it renders correctly.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/media/logo-ayuntamientogv.png&quot; alt=&quot;logo-ayuntamientogv.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/media/Jedi-Cats-Facebook-Profile-Timeline-Cover.jpg&quot; alt=&quot;Jedi Cats&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 27 Jun 2015 00:00:00 +0300</pubDate>
-        <link>http://circumnavigatingcyprus.github.io/en/trekking/2015/06/27/hello-prose-world/</link>
-        <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/en/trekking/2015/06/27/hello-prose-world/</guid>
-        
-        <category>null</category>
-        
-        
-        <category>en</category>
-        
-        <category>trekking</category>
-        
-      </item>
-    
-      <item>
-        <title>Hello [Greek] World</title>
-        <description>&lt;h2 id=&quot;its-a-greek-world&quot;&gt;Its a GREEK WORLD&lt;/h2&gt;
-
-&lt;p&gt;This is an example of a new post using Prose.io. Using their friendly UI I was able to easily create a new post. I can also easily insert images by draggind and droppin them on the screen, like the ones you see below:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/media/7525916300_5523c2ce9d_b.jpg&quot; alt=&quot;7525916300_5523c2ce9d_b.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;When you drag-and-drop an image on the screen it automagically uploads the file to your “Media” directory and then includes a properly formatted link in the post to ensure that it renders correctly.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 27 Jun 2015 00:00:00 +0300</pubDate>
-        <link>http://circumnavigatingcyprus.github.io/gr/trekking/2015/06/27/hello-greek-prose-world/</link>
-        <guid isPermaLink="true">http://circumnavigatingcyprus.github.io/gr/trekking/2015/06/27/hello-greek-prose-world/</guid>
-        
-        
-        <category>gr</category>
-        
-        <category>trekking</category>
+        <category>source</category>
         
       </item>
     
