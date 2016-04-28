@@ -101,11 +101,6 @@ prose:
           value: "participant photography"
         - name: "Team Member Updates"
           value: "team member updates"
-    - name: "tags"
-      field:
-        element: "multiselect"
-        alterable: true
-        label: "Add Tags"
     - name: "author"
       field:
         element: "text"
