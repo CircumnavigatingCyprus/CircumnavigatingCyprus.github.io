@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false
 title: "Hello [Greek] World"
 author: Anna Antoniou
 lat: "34.79770"
@@ -10,10 +10,11 @@ popupContent: false
 teaser: "Hello World!"
 identifier: hello_world
 language: gr
-categories:
-- "gr"
-- "trekking"
+categories: 
+  - gr
+  - trekking
 map: true
+tags: null
 ---
 
 
