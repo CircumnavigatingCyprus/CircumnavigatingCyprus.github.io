@@ -1,6 +1,6 @@
 ---
 layout: post
-identifier: AA_4_28_16
+identifier: ASA_4_28_16
 language: en
 lng: "33.159378"
 lat: "34.736882"
@@ -8,7 +8,8 @@ image: ""
 categories: 
   - en
   - team member updates
-tags: null
+tags: 
+  - "null"
 author: Anna Antoniou
 map: true
 popupContent: true
@@ -27,6 +28,3 @@ Growing up in California, my brother and I became accustomed to long haul drives
 Almost two years later, after applying for and receiving the National Geographic Society Young Explorers grant, raising over $6,000 through a crowdfunding campaign, and adding Vasili to our team, we are finally ready to start walking!
 
 Stay tuned for images, videos, and stories of the Cypriot identity – Greek, Turkish and everything in between!
-
-
-
