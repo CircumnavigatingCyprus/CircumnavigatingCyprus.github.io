@@ -12,7 +12,7 @@ author: Anna Antoniou
 map: true
 popupContent: true
 teaser: The Origin Story of the Expedition
-published: false
+published: true
 title: A dream was born...
 ---
 ## The Origin Story of the Expedition
