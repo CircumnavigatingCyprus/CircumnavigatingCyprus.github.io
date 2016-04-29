@@ -4,7 +4,7 @@ identifier: ASA_4_28_16
 language: en
 lng: "33.159378"
 lat: "34.736882"
-image: ""
+image: "![how it started.jpg](/media/how it started.jpg)"
 categories: 
   - en
   - team member updates
