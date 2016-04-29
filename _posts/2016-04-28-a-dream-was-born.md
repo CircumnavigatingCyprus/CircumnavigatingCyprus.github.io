@@ -15,7 +15,7 @@ map: true
 popupContent: true
 teaser: The Origin Story of the Expedition
 published: true
-title: A dream was born...
+title: How it started...
 ---
 ## The Origin Story of the Expedition
 
