@@ -9641,23 +9641,39 @@ var SITE_PROP_LIB = {
 };
 
 
+var turkishCategoryLib = {
+  
+    'interviews': 'görüşmeler',
+  
+    'participant photography': 'katılımcı fotoğrafçılık',
+  
+    'team member updates': 'takım üyesi güncellemeleri',
+  
+    'trekking': 'yürüyüş',
+  
+};
+
 
 
 var postsByCategories = {
   
-    'interviews' : [
+    
+    'görüşmeler' : [
       
     ],
   
-    'participant photography' : [
+    
+    'katılımcı fotoğrafçılık' : [
       
     ],
   
-    'team member updates' : [
+    
+    'takım üyesi güncellemeleri' : [
       
     ],
   
-    'trekking' : [
+    
+    'yürüyüş' : [
       
     ],
   
@@ -9671,7 +9687,7 @@ var AnnaPostMap = function(){
   this.layers = _(postCategoriesArray)
                   .map(function(category) {
                         return L.geoJson(
-                                          { type: 'FeatureCollection', features: postsByCategories[category] },
+                                          { type: 'FeatureCollection', features: postsByCategories[turkishCategoryLib[category]] },
                                           { onEachFeature: that._onEachFeature.bind(that),
                                             pointToLayer: that._pointToLayer.bind(that) }
                                         );
@@ -9688,7 +9704,7 @@ var AnnaPostMap = function(){
 
   var layerControl = {};
   _.each(postCategoriesArray, function(category, index){
-    layerControl[category] = that.layers[index];
+    layerControl[turkishCategoryLib[category]] = that.layers[index];
   });
 
   var controlLayers = L.control.layers(null, layerControl, {collapsed: false}).addTo(this.map);

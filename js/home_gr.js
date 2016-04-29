@@ -18,11 +18,18 @@ var SITE_PROP_LIB = {
 };
 {% endraw %}
 
+var greekCategoryLib = {
+  {% for category in site.post_categories %}
+    '{{category}}': '{{site.greekCategoryLib[category]}}',
+  {% endfor %}
+};
+
 {% assign currentLanguagePosts = site.posts | where: "language", "gr" %}
 {% assign currentLanguageMapPosts = currentLanguagePosts | where: "map", true %}
 var postsByCategories = {
   {% for category in site.post_categories %}
-    '{{category}}' : [
+    {% assign localizedCategory = site.greekCategoryLib[category] %}
+    '{{localizedCategory}}' : [
       {% for post in currentLanguageMapPosts %}
         {% if post.categories contains {{category}} %}
           {
@@ -44,7 +51,7 @@ var postsByCategories = {
               ]
             }
           },
-        {% endif%}
+        {% endif %}
       {% endfor %}
     ],
   {% endfor %}
@@ -58,7 +65,7 @@ var AnnaPostMap = function(){
   this.layers = _(postCategoriesArray)
                   .map(function(category) {
                         return L.geoJson(
-                                          { type: 'FeatureCollection', features: postsByCategories[category] },
+                                          { type: 'FeatureCollection', features: postsByCategories[greekCategoryLib[category]] },
                                           { onEachFeature: that._onEachFeature.bind(that),
                                             pointToLayer: that._pointToLayer.bind(that) }
                                         );
@@ -75,7 +82,7 @@ var AnnaPostMap = function(){
 
   var layerControl = {};
   _.each(postCategoriesArray, function(category, index){
-    layerControl[category] = that.layers[index];
+    layerControl[greekCategoryLib[category]] = that.layers[index];
   });
 
   var controlLayers = L.control.layers(null, layerControl, {collapsed: false}).addTo(this.map);

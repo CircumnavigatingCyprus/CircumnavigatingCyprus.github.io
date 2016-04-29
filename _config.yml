@@ -18,6 +18,19 @@ post_categories:
 - participant photography
 - team member updates
 - trekking
+
+greekCategoryLib:
+  'interviews': 'συνεντεύξεις'
+  'participant photography': 'συμμετέχων φωτογραφίας'
+  'team member updates': 'ενημερώσεις μέλος της ομάδας'
+  'trekking': 'πεζοπορία'
+
+turkishCategoryLib:
+  'interviews': görüşmeler
+  'participant photography': katılımcı fotoğrafçılık
+  'team member updates': takım üyesi güncellemeleri
+  'trekking': 'yürüyüş'
+
 prose:
   ignore:
   - _config.yml
