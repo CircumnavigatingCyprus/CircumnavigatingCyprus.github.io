@@ -4,7 +4,7 @@ identifier: ASA_4_28_16
 language: en
 lng: "33.159378"
 lat: "34.736882"
-image: "https://circumnavigatingcyprus.github.io/media/how it started.jpg"
+image: "/media/how%20it%20started.jpg"
 categories: 
   - en
   - team member updates
