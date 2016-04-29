@@ -12,7 +12,7 @@ author: Anna Antoniou
 map: true
 popupContent: true
 teaser: Visiting The Antonious Plantation
-published: false
+published: true
 title: "Expedition Prep: Day 1"
 ---
 ## Visiting the Antoniou Plantation 
@@ -29,6 +29,3 @@ The carob tree is common throughout the eastern Mediterranean, and the pod can b
 
 
 In the next couple of days, we’ll be prepping for the walk and exploring the Easter (Πάσχα) festivities in Parekklisia. We look forward to showing you more of our family’s village and beyond!
-
-
-
