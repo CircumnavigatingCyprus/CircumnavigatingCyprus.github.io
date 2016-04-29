@@ -4,14 +4,14 @@ identifier: ASA_4_29_16
 language: en
 lat: "34.754698"
 lng: "33.166214"
-image: "https://photos-2.dropbox.com/t/2/AABdiwfrAoFEWAR36Maf7sEb1gOtSzs3lOzxIchxxVc5uQ/12/58095057/jpeg/32x32/1/_/1/2/IMG_1448.jpg/EICO8SwY4AIgAigC/mbkO5hmvZTU7MZ3a7CqE1D837VLYfwMTt_58EeHBC4c?size_mode=3&size=1024x768)"
+image: "https://photos-2.dropbox.com/t/2/AABdiwfrAoFEWAR36Maf7sEb1gOtSzs3lOzxIchxxVc5uQ/12/58095057/jpeg/32x32/1/_/1/2/IMG_1448.jpg/EICO8SwY4AIgAigC/mbkO5hmvZTU7MZ3a7CqE1D837VLYfwMTt_58EeHBC4c?size_mode=3&size=1024x768"
 categories: 
   - en
   - team member updates
 author: Anna Antoniou
 map: true
 popupContent: true
-teaser: Visiting The Antonious Plantation
+teaser: Visiting The Antoniou Plantation
 published: true
 title: "Expedition Prep: Day 1"
 ---
