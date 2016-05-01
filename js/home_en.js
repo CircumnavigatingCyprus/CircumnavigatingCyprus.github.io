@@ -52,7 +52,6 @@ var postsByCategories = {
   {% endfor %}
 };
 
-
 var postCategoriesArray = ['{{site.post_categories | join: "', '"}}'];
 
 var AnnaPostMap = function() {

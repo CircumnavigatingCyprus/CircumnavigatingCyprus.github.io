@@ -9732,7 +9732,6 @@ var postsByCategories = {
   
 };
 
-
 var postCategoriesArray = ['interviews', 'participant photography', 'team member updates', 'trekking'];
 
 var AnnaPostMap = function() {
