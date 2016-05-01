@@ -55,11 +55,9 @@ var postsByCategories = {
 
 var postCategoriesArray = ['{{site.post_categories | join: "', '"}}'];
 
-var AnnaPostMap = function(){
+var AnnaPostMap = function() {
   var that = this;
   var clusteredMarkers = L.markerClusterGroup();
-
-  var postLayers = {};
   var control = L.control.layers(null, null, { collapsed: false });
 
   that.map = L.map('map', {
@@ -68,6 +66,8 @@ var AnnaPostMap = function(){
     maxZoom: 18,
     scrollWheelZoom: false,
   });
+
+  L.tileLayer( '{{ site.map-tileset }}', {scrollWheelZoom: false}).addTo(this.map);
 
   clusteredMarkers.addTo(that.map);
 
@@ -84,7 +84,6 @@ var AnnaPostMap = function(){
 
   control.addTo(that.map);
 
-  L.tileLayer( '{{ site.map-tileset }}', {scrollWheelZoom: false}).addTo(this.map);
 
   // this.map.fitBounds(this.geojson.getBounds());
 }

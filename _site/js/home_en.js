@@ -9735,11 +9735,9 @@ var postsByCategories = {
 
 var postCategoriesArray = ['interviews', 'participant photography', 'team member updates', 'trekking'];
 
-var AnnaPostMap = function(){
+var AnnaPostMap = function() {
   var that = this;
   var clusteredMarkers = L.markerClusterGroup();
-
-  var postLayers = {};
   var control = L.control.layers(null, null, { collapsed: false });
 
   that.map = L.map('map', {
@@ -9748,6 +9746,8 @@ var AnnaPostMap = function(){
     maxZoom: 18,
     scrollWheelZoom: false,
   });
+
+  L.tileLayer( 'https://api.tiles.mapbox.com/v4/opleban.mdj03cbc/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoib3BsZWJhbiIsImEiOiI0VXNzcXFRIn0.uE_om5U3KbYO_Xy-tsSRiQ', {scrollWheelZoom: false}).addTo(this.map);
 
   clusteredMarkers.addTo(that.map);
 
@@ -9764,7 +9764,6 @@ var AnnaPostMap = function(){
 
   control.addTo(that.map);
 
-  L.tileLayer( 'https://api.tiles.mapbox.com/v4/opleban.mdj03cbc/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoib3BsZWJhbiIsImEiOiI0VXNzcXFRIn0.uE_om5U3KbYO_Xy-tsSRiQ', {scrollWheelZoom: false}).addTo(this.map);
 
   // this.map.fitBounds(this.geojson.getBounds());
 }

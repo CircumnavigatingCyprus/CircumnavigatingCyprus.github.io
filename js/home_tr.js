@@ -4,6 +4,8 @@
 ;{% include js/underscore.min.js %}
 ;{% include js/leaflet-src.js %}
 ;{% include js/Leaflet.AwesomeMarkers.min.js %}
+;{% include js/leaflet.markercluster.min.js %}
+;{% include js/leaflet.featuregroup.subgroup.js %}
 ;{% include js/owl.carousel.min.js %}
 ;{% include js/instafeed.min.js %}
 ;{% include js/instagram.js %}
@@ -60,32 +62,40 @@ var postsByCategories = {
 
 var postCategoriesArray = ['{{site.post_categories | join: "', '"}}'];
 
-var AnnaPostMap = function(){
+var AnnaPostMap = function() {
   var that = this;
-  this.layers = _(postCategoriesArray)
-                  .map(function(category) {
-                        return L.geoJson(
-                                          { type: 'FeatureCollection', features: postsByCategories[turkishCategoryLib[category]] },
-                                          { onEachFeature: that._onEachFeature.bind(that),
-                                            pointToLayer: that._pointToLayer.bind(that) }
-                                        );
-                      });
 
-  this.map = L.map('map', {
+  // create legend/controls
+  var control = L.control.layers(null, null, { collapsed: false });
+
+  // create cluster group
+  var clusteredMarkers = L.markerClusterGroup();
+
+  // create map and set default settings
+  that.map = L.map('map', {
     center: [35.078770, 33.263956],
     zoom: 9,
+    maxZoom: 18,
     scrollWheelZoom: false,
-    layers: this.layers
   });
 
+  // Add tile layer to map
   L.tileLayer( '{{ site.map-tileset }}', {scrollWheelZoom: false}).addTo(this.map);
 
-  var layerControl = {};
-  _.each(postCategoriesArray, function(category, index){
-    layerControl[turkishCategoryLib[category]] = that.layers[index];
+  // add empty cluster markers to map
+  clusteredMarkers.addTo(that.map);
+   _(postCategoriesArray).each(function(category) {
+    var geoJSONLayer = L.geoJson(
+      { type: 'FeatureCollection', features: postsByCategories[turkishCategoryLib[category]] },
+      { onEachFeature: that._onEachFeature.bind(that),
+        pointToLayer: that._pointToLayer.bind(that) }
+    );
+    var group = L.featureGroup.subGroup(clusteredMarkers, _.values(geoJSONLayer._layers));
+    group.addTo(that.map);
+    control.addOverlay(group, turkishCategoryLib[category]);
   });
 
-  var controlLayers = L.control.layers(null, layerControl, {collapsed: false}).addTo(this.map);
+  control.addTo(that.map);
 
   // this.map.fitBounds(this.geojson.getBounds());
 }
@@ -120,12 +130,14 @@ AnnaPostMap.prototype._getMarker = function(feature){
 }
 
 AnnaPostMap.prototype._generatePopupContent = function(feature){
-  return "<div class='map-popup'>" +
+  return "<div class='map-popup' style='background-image: url(" + feature.properties.image+ ")'>" +
             "<a href='" + feature.properties.link + "'>" +
-              "<h3 class='title'>" + feature.properties.title + "</h3>" +
-              "<h4 class='date'>" + feature.properties.date + "</h4>" +
-              "<img src='" + feature.properties.image + "'/>" +
-              "<p>" + feature.properties.teaser + "</p>" +
+              "<div class='overlay'></div>" +
+              "<div class='tile-text'>" +
+                "<h3 class='title'>" + feature.properties.title + "</h3>" +
+                "<h4 class='teaser'>" + feature.properties.teaser + "</h4>" +
+                "<p class='date'>" + feature.properties.date + "</p>" +
+              "</div>" +
             "</a>" +
           "</div>";
 };
