@@ -153,6 +153,9 @@ ul, ol {
       .nav-menu {
         margin: 0;
         padding: 0;
+        a {
+          color: inherit;
+        }
         li {
           list-style: none;
           display: inline-block;
@@ -167,6 +170,7 @@ ul, ol {
       }
       .dropdown-menu {
         position: relative;
+        cursor: pointer;
         ul {
           position: absolute;
           display: block;

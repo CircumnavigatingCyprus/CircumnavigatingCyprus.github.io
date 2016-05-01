@@ -267,6 +267,8 @@ ul, ol {
         .site-header .site-nav .nav-menu {
           margin: 0;
           padding: 0; }
+          .site-header .site-nav .nav-menu a {
+            color: inherit; }
           .site-header .site-nav .nav-menu li {
             list-style: none;
             display: inline-block;
@@ -277,7 +279,8 @@ ul, ol {
             padding-right: 2em;
             padding-left: 2em; }
         .site-header .site-nav .dropdown-menu {
-          position: relative; }
+          position: relative;
+          cursor: pointer; }
           .site-header .site-nav .dropdown-menu ul {
             position: absolute;
             display: block;
