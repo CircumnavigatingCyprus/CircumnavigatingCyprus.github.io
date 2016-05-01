@@ -3,8 +3,10 @@
 }
 .post-page {
   .post {
-    @include span-columns(9 of 12);
     box-sizing: border-box;
+    @include media(min-width $medium) {
+      @include span-columns(9 of 12);
+    }
     p {
       img {
         max-height: em(360);
@@ -15,7 +17,9 @@
   }
 
   .post-sidebar {
-    @include span-columns(3 of 12);
     box-sizing: border-box;
+    @include media(min-width $medium) {
+      @include span-columns(3 of 12);
+    }
   }
 }

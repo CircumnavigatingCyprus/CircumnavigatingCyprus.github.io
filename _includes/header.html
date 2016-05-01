@@ -24,12 +24,12 @@
         <ul class="mobile-nav-menu visually-hidden">
           {% for p in dropdown_header_pages %}
             {% if p.title %}
-              <li><a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>
+              <a class="page-link" href="{{ p.url | prepend: site.baseurl }}"><li>{{ p.title }}</li></a>
             {% endif %}
           {% endfor %}
-          <li><a class="page-link" href="/en">English</a></li>
-          <li><a class="page-link" href="/gr">Ελληνικά</a></li>
-          <li><a class="page-link" href="/tr">Türkçe</a></li>
+          <a class="page-link" href="/en"><li>English</li></a>
+          <a class="page-link" href="/gr"><li>Ελληνικά</li></a>
+          <a class="page-link" href="/tr"><li>Türkçe</li></a>
         </ul>
         <ul class="nav-menu">
           {% for p in main_header_pages %}

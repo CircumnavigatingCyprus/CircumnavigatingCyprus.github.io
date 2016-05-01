@@ -232,12 +232,19 @@ ul, ol {
     position: absolute;
     z-index: 10000000;
     background-color: #FFF; }
+    .site-header .site-nav .mobile-nav-menu a:hover, .site-header .site-nav .mobile-nav-menu a:focus {
+      text-decoration: none; }
     .site-header .site-nav .mobile-nav-menu li {
       line-height: 3em;
-      border-bottom: 1px solid #DEDEDE; }
-      .site-header .site-nav .mobile-nav-menu li:first-child {
+      border-bottom: 1px solid #DEDEDE;
+      transition: background-color 0.2s, color 0.2s, font-weight 0.2s; }
+      .site-header .site-nav .mobile-nav-menu li:hover, .site-header .site-nav .mobile-nav-menu li:focus {
+        background-color: #D1761D;
+        color: #FFF;
+        font-weight: 600; }
+      a:last-child .site-header .site-nav .mobile-nav-menu li {
         border-top: 1px solid #DEDEDE; }
-      .site-header .site-nav .mobile-nav-menu li:last-child {
+      a:last-child .site-header .site-nav .mobile-nav-menu li {
         border-bottom: 0; }
   @media screen and (max-width: 768px) {
     .site-header .nav-menu {
@@ -791,25 +798,29 @@ h1 {
   margin-top: 2em; }
 
 .post-page .post {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 74.41059%;
   box-sizing: border-box; }
-  .post-page .post:last-child {
-    margin-right: 0; }
+  @media screen and (min-width: 768px) {
+    .post-page .post {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 74.41059%; }
+      .post-page .post:last-child {
+        margin-right: 0; } }
   .post-page .post p img {
     max-height: 36em;
     display: block;
     margin: 0 auto; }
 .post-page .post-sidebar {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 23.23176%;
   box-sizing: border-box; }
-  .post-page .post-sidebar:last-child {
-    margin-right: 0; }
+  @media screen and (min-width: 768px) {
+    .post-page .post-sidebar {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .post-page .post-sidebar:last-child {
+        margin-right: 0; } }
 
 .post-index .page-heading {
   font-size: 2em; }
