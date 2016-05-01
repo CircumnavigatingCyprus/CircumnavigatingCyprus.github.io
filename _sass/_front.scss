@@ -21,7 +21,8 @@ h1 {
 }
 
 .leaflet-popup-close-button {
-  z-index: 1;
+  display: block;
+  z-index: 1000000;
 }
 
 .leaflet-popup-content{

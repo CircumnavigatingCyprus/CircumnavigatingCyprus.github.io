@@ -37,18 +37,18 @@
             <li><a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>
           {% endif %}
           {% endfor %}
-          <li class="dropdown-menu dropdown">
-            <a href="javascript:;">{{locale.the_project}}</a>
-            <ul class="visually-hidden">
-              {% for p in dropdown_header_pages %}
-                {% if p.title %}
-                  <li><a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>
-                {% endif %}
-              {% endfor %}
-            </ul>
+          <li tabindex="0" class="dropdown-menu dropdown">
+            {{locale.the_project}}
+              <ul class="visually-hidden">
+                {% for p in dropdown_header_pages %}
+                  {% if p.title %}
+                    <li><a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
           </li>
-          <li class="dropdown-menu dropdown">
-            <a href="javascript:;">{{locale.languages}}</a>
+          <li tabindex="0" class="dropdown-menu dropdown">
+            {{locale.languages}}
             <ul class="visually-hidden">
               <li><a class="page-link" href="/en">English</a></li>
               <li><a class="page-link" href="/gr">Ελληνικά</a></li>
