@@ -4,6 +4,8 @@
 ;{% include js/underscore.min.js %}
 ;{% include js/leaflet-src.js %}
 ;{% include js/Leaflet.AwesomeMarkers.min.js %}
+;{% include js/leaflet.markercluster.min.js %}
+;{% include js/leaflet.featuregroup.subgroup.js %}
 ;{% include js/owl.carousel.min.js %}
 ;{% include js/instafeed.min.js %}
 ;{% include js/instagram.js %}
@@ -55,30 +57,34 @@ var postCategoriesArray = ['{{site.post_categories | join: "', '"}}'];
 
 var AnnaPostMap = function(){
   var that = this;
-  this.layers = _(postCategoriesArray)
-                  .map(function(category) {
-                        return L.geoJson(
-                                          { type: 'FeatureCollection', features: postsByCategories[category] },
-                                          { onEachFeature: that._onEachFeature.bind(that),
-                                            pointToLayer: that._pointToLayer.bind(that) }
-                                        );
-                      });
+  var clusteredMarkers = L.markerClusterGroup();
 
-  this.map = L.map('map', {
+  var postLayers = {};
+  var control = L.control.layers(null, null, { collapsed: false });
+
+  that.map = L.map('map', {
     center: [35.078770, 33.263956],
     zoom: 9,
+    maxZoom: 18,
     scrollWheelZoom: false,
-    layers: this.layers
   });
+
+  clusteredMarkers.addTo(that.map);
+
+  _(postCategoriesArray).each(function(category) {
+    var geoJSONLayer = L.geoJson(
+      { type: 'FeatureCollection', features: postsByCategories[category] },
+      { onEachFeature: that._onEachFeature.bind(that),
+        pointToLayer: that._pointToLayer.bind(that) }
+    );
+    var group = L.featureGroup.subGroup(clusteredMarkers, _.values(geoJSONLayer._layers));
+    group.addTo(that.map);
+    control.addOverlay(group, category);
+  });
+
+  control.addTo(that.map);
 
   L.tileLayer( '{{ site.map-tileset }}', {scrollWheelZoom: false}).addTo(this.map);
-
-  var layerControl = {};
-  _.each(postCategoriesArray, function(category, index){
-    layerControl[category] = that.layers[index];
-  });
-
-  var controlLayers = L.control.layers(null, layerControl, {collapsed: false}).addTo(this.map);
 
   // this.map.fitBounds(this.geojson.getBounds());
 }
