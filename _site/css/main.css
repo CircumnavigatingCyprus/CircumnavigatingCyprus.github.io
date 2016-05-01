@@ -572,6 +572,8 @@ h1 {
       .leaflet-popup-content .map-popup a:hover, .leaflet-popup-content .map-popup a:focus {
         color: #FFF;
         text-decoration: none; }
+        .leaflet-popup-content .map-popup a:hover .overlay, .leaflet-popup-content .map-popup a:focus .overlay {
+          background-color: rgba(0, 0, 0, 0.6); }
     .leaflet-popup-content .map-popup .tile-text {
       position: relative;
       z-index: 10;

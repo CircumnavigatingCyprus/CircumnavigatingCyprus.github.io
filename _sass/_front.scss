@@ -39,6 +39,9 @@ h1 {
       &:hover, &:focus {
         color: #FFF;
         text-decoration: none;
+        .overlay {
+          background-color: rgba(0, 0, 0, 0.6);
+        }
       }
     }
     .tile-text {
