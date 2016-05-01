@@ -547,18 +547,40 @@ h1 {
     width: 100%;
     position: relative; }
 
+.leaflet-popup-content-wrapper {
+  background: none;
+  box-shadow: none; }
+
+.leaflet-popup-tip {
+  background-color: #333; }
+
+.leaflet-popup-close-button {
+  z-index: 1; }
+
 .leaflet-popup-content {
   width: auto;
   max-height: 250px;
-  overflow-y: scroll; }
+  overflow-y: scroll;
+  margin: 0; }
+  .leaflet-popup-content .map-popup {
+    background-size: cover;
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4);
+    position: relative;
+    padding: 0.25em 0.5em; }
+    .leaflet-popup-content .map-popup a {
+      color: #FFF; }
+      .leaflet-popup-content .map-popup a:hover, .leaflet-popup-content .map-popup a:focus {
+        color: #FFF;
+        text-decoration: none; }
+    .leaflet-popup-content .map-popup .tile-text {
+      position: relative;
+      z-index: 10;
+      font-size: 1.4em; }
 
 .leaflet-control-layers {
   text-align: left;
   font-size: 1.4em;
   text-transform: capitalize; }
-
-.map-popup img {
-  max-height: 130px; }
 
 .page-content {
   padding-top: 0; }
@@ -683,13 +705,6 @@ h1 {
       bottom: 0;
       right: 0;
       left: 0; }
-      #recent-post-tiles .tile a .front .overlay {
-        background-color: rgba(0, 0, 0, 0.4);
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0; }
       #recent-post-tiles .tile a .front .tile-text {
         position: absolute;
         z-index: 10;
@@ -762,6 +777,14 @@ h1 {
 .section-logo {
   font-size: 2rem; }
 
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
 .post-wrapper {
   margin-top: 2em; }
 
@@ -773,6 +796,10 @@ h1 {
   box-sizing: border-box; }
   .post-page .post:last-child {
     margin-right: 0; }
+  .post-page .post p img {
+    max-height: 36em;
+    display: block;
+    margin: 0 auto; }
 .post-page .post-sidebar {
   float: left;
   display: block;

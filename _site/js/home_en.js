@@ -9649,9 +9649,13 @@ var postsByCategories = {
       
         
       
+        
+      
     ],
   
     'participant photography' : [
+      
+        
       
         
       
@@ -9663,8 +9667,30 @@ var postsByCategories = {
           {
             'type': 'Feature',
             'properties': {
-              title: "A dream was born...",
-              image: "",
+              title: "Expedition Prep: Day 1",
+              image: "https://www.dropbox.com/s/tzhmhwbybko32aa/IMG_1448.jpg?dl=1",
+              link: "/en/team%20member%20updates/2016/04/29/expedition-prep-day-1/",
+              teaser: "Visiting The Antoniou Plantation",
+              popupContent: "true",
+              date: "29 Apr 2016",
+              categories: ["en", "team member updates"]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                33.166214,
+                34.754698
+              ]
+            }
+          },
+        
+      
+        
+          {
+            'type': 'Feature',
+            'properties': {
+              title: "How it started...",
+              image: "/media/how%20it%20started.jpg",
               link: "/en/team%20member%20updates/2016/04/28/a-dream-was-born/",
               teaser: "The Origin Story of the Expedition",
               popupContent: "true",
@@ -9684,6 +9710,8 @@ var postsByCategories = {
     ],
   
     'trekking' : [
+      
+        
       
         
       
@@ -9754,12 +9782,14 @@ AnnaPostMap.prototype._getMarker = function(feature){
 }
 
 AnnaPostMap.prototype._generatePopupContent = function(feature){
-  return "<div class='map-popup'>" +
+  return "<div class='map-popup' style='background-image: url(" + feature.properties.image+ ")'>" +
             "<a href='" + feature.properties.link + "'>" +
-              "<h3 class='title'>" + feature.properties.title + "</h3>" +
-              "<h4 class='date'>" + feature.properties.date + "</h4>" +
-              "<img src='" + feature.properties.image + "'/>" +
-              "<p>" + feature.properties.teaser + "</p>" +
+              "<div class='overlay'></div>" +
+              "<div class='tile-text'>" +
+                "<h3 class='title'>" + feature.properties.title + "</h3>" +
+                "<h4 class='teaser'>" + feature.properties.teaser + "</h4>" +
+                "<p class='date'>" + feature.properties.date + "</p>" +
+              "</div>" +
             "</a>" +
           "</div>";
 };

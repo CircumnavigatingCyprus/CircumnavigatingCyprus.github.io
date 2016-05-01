@@ -113,12 +113,14 @@ AnnaPostMap.prototype._getMarker = function(feature){
 }
 
 AnnaPostMap.prototype._generatePopupContent = function(feature){
-  return "<div class='map-popup'>" +
+  return "<div class='map-popup' style='background-image: url(" + feature.properties.image+ ")'>" +
             "<a href='" + feature.properties.link + "'>" +
-              "<h3 class='title'>" + feature.properties.title + "</h3>" +
-              "<h4 class='date'>" + feature.properties.date + "</h4>" +
-              "<img src='" + feature.properties.image + "'/>" +
-              "<p>" + feature.properties.teaser + "</p>" +
+              "<div class='overlay'></div>" +
+              "<div class='tile-text'>" +
+                "<h3 class='title'>" + feature.properties.title + "</h3>" +
+                "<h4 class='teaser'>" + feature.properties.teaser + "</h4>" +
+                "<p class='date'>" + feature.properties.date + "</p>" +
+              "</div>" +
             "</a>" +
           "</div>";
 };
