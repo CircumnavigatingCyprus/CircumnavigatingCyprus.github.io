@@ -18,7 +18,6 @@ function toggleMobileDropdown(evt) {
 
 function openDropdown(evt) {
   if ($('.highlight').length > 0 && evt.type === 'focus') {
-    console.log($('.highlight'), "SLIIIIIIDE");
     $('.highlight').slideUp(150).promise().done(function() {
       $(this).addClass('visually-hidden');
       $(this).removeClass('highlight');

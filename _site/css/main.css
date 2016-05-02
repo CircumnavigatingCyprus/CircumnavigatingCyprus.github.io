@@ -694,7 +694,8 @@ h1 {
   #social-media-tiles .tile .tile-icon img.social-media-icon {
     height: 4em; }
   #social-media-tiles .tile .tile-text {
-    margin-top: 1em; }
+    margin-top: 1em;
+    font-size: 1.2em; }
 
 #recent-post-tiles .tile {
   position: relative;
