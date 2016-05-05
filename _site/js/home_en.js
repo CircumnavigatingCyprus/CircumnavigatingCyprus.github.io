@@ -9661,6 +9661,28 @@ var postsByCategories = {
     'interviews' : [
       
         
+          {
+            'type': 'Feature',
+            'properties': {
+              title: "Don’t Rain on my….Expedition",
+              image: "media/thumb_IMG_0715_1024.jpg",
+              link: "/en/interviews/2016/05/05/don-t-rain-on-my-expedition/",
+              teaser: "How we met George",
+              popupContent: "true",
+              date: "05 May 2016",
+              categories: ["en", "interviews"]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                33.412105,
+                34.751772
+              ]
+            }
+          },
+        
+      
+        
       
         
       
@@ -9672,9 +9694,13 @@ var postsByCategories = {
       
         
       
+        
+      
     ],
   
     'team member updates' : [
+      
+        
       
         
           {
@@ -9723,6 +9749,8 @@ var postsByCategories = {
     ],
   
     'trekking' : [
+      
+        
       
         
       
