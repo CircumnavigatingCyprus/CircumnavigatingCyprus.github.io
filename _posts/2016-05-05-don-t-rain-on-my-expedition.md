@@ -4,7 +4,7 @@ identifier: VS_5_5_16
 language: en
 lat: "34.751772"
 lng: "33.412105"
-image: ""
+image: "![thumb_IMG_0715_1024.jpg]({{site.baseurl}}/media/thumb_IMG_0715_1024.jpg)"
 categories: 
   - en
   - interviews
