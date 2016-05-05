@@ -12,7 +12,7 @@ author: Vasili Sotiropulos
 map: true
 popupContent: true
 teaser: How we met George
-published: false
+published: true
 title: Don’t Rain on my….Expedition
 ---
 ## How we met George
@@ -37,4 +37,4 @@ As a child, George went to school and played along side Turkish Cypriots, all of
 Ideally, George would like to see Cyprus as a unified independent nation but fears that it will not happen due to the island’s strategic location. He thinks the United States, United Kingdom and Turkey have a shared interest in the island because it is a stepping-stone to the Middle East, Africa and Europe, and keeping the island segregated makes it easier to control. 
 ![thumb_IMG_2019_1024.jpg]({{site.baseurl}}/media/thumb_IMG_2019_1024.jpg)
 
-Thank you George and Chris for keeping us out of the rain, for the amazing bourekia, and for the insight on your island.     
+Thank you George and Chris for keeping us out of the rain, for the amazing bourekia, and for the insight on your island.
