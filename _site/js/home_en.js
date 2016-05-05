@@ -9686,6 +9686,8 @@ var postsByCategories = {
       
         
       
+        
+      
     ],
   
     'participant photography' : [
@@ -9696,9 +9698,13 @@ var postsByCategories = {
       
         
       
+        
+      
     ],
   
     'team member updates' : [
+      
+        
       
         
       
@@ -9750,6 +9756,28 @@ var postsByCategories = {
   
     'trekking' : [
       
+        
+      
+        
+          {
+            'type': 'Feature',
+            'properties': {
+              title: "A treasure found on the trail ",
+              image: "/media/IMG_2009.jpg",
+              link: "/en/trekking/2016/05/05/a-treasure-found-on-the-trail/",
+              teaser: "",
+              popupContent: "true",
+              date: "05 May 2016",
+              categories: ["en", "trekking"]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                33.381618,
+                34.746253
+              ]
+            }
+          },
         
       
         
