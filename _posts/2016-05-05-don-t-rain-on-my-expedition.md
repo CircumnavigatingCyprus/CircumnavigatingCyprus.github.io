@@ -1,15 +1,17 @@
 ---
 layout: post
-identifier: ""
+identifier: VS_5_5_16
 language: en
-lat: ""
-lng: ""
+lat: "34.751772"
+lng: "33.412105"
 image: ""
-categories: ""
-author: Anna Antoniou
-map: false
-popupContent: false
-teaser: null
+categories: 
+  - en
+  - interviews
+author: Vasili Sotiropulos
+map: true
+popupContent: true
+teaser: How we met George
 published: false
 title: Don’t Rain on my….Expedition
 ---
