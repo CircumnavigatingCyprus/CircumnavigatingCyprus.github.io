@@ -12,7 +12,7 @@ author: Alexi Antoniou
 map: true
 popupContent: true
 teaser: "A brief and overly-simplified history of the Cyprus conflict."
-published: false
+published: true
 title: A bit about Cyprus
 ---
 ## A brief and overly-simplified history of the Cyprus conflict
@@ -31,4 +31,3 @@ The matter stands at a stalemate with the island divided- Greek Cypriots in the 
 ![border](https://scontent.fath3-2.fna.fbcdn.net/t31.0-8/13116047_1157624697602684_6687651883232887284_o.jpg)
 
 For roughly a decade, crossing the border that divides North from South has been possible.  This expedition will examine the attitudes of the communities on both sides of that border.
-
