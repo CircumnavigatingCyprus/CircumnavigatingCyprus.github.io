@@ -51,3 +51,4 @@ And for the rest of our day, we’re just trying to stay dry…
 ...and enjoying a Frappé in Larnaca.
 
 ![thumb_IMG_8918_1024.jpg]({{site.baseurl}}/media/thumb_IMG_8918_1024.jpg)
+
