@@ -26,7 +26,7 @@ Our first stop when we arrived in the city was the [Larnaca Salt Lake](https://e
 
 ![thumb_IMG_1799_1024.jpg]({{site.baseurl}}/media/thumb_IMG_1799_1024.jpg)
 
-On the lake’s west bank stands a mosque that was impossible to miss so we made our way there to find the _Hala Sultan Tekke_ also known as the Mosque of Umm Haram, one of the holiest of shrines within Ottomana Islam. 
+On the lake’s west bank stands a mosque that was impossible to miss so we made our way there to find the _Hala Sultan Tekke_ also known as the Mosque of Umm Haram, one of the holiest of shrines within Ottoman Islam. 
 
 ![thumb_IMG_1820_1024.jpg]({{site.baseurl}}/media/thumb_IMG_1820_1024.jpg)
 
