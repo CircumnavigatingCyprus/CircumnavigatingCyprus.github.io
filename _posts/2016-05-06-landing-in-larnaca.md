@@ -12,7 +12,7 @@ author: Vasili Sotiropulos
 map: true
 popupContent: true
 teaser: Salty Shores and Hallowed Grounds
-published: false
+published: true
 title: Landing in Larnaca
 ---
 
@@ -51,4 +51,3 @@ And for the rest of our day, we’re just trying to stay dry…
 ...and enjoying a Frappé in Larnaca.
 
 ![thumb_IMG_8918_1024.jpg]({{site.baseurl}}/media/thumb_IMG_8918_1024.jpg)
-
