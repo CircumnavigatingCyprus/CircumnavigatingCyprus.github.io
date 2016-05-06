@@ -40,7 +40,7 @@ These grounds, composed of the mosque, mausoleum, minaret, cemetery and living q
 
 ![thumb_IMG_1846_1024.jpg]({{site.baseurl}}/media/thumb_IMG_1846_1024.jpg)
 
-Though the southern Cypriot side of the island is predominantly Orthodox Christian, this holy sight is preserved and functions today as a mosque. It stands as a reminder of the islands history and short-lived unification. 
+Though the southern side of the island is predominantly Orthodox Christian, this holy sight is preserved and functions today as a mosque. It stands as a reminder of the islands history and short-lived unification. 
 
 ![thumb_IMG_1832_1024.jpg]({{site.baseurl}}/media/thumb_IMG_1832_1024.jpg)
 
