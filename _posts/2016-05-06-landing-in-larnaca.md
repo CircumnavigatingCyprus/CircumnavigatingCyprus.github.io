@@ -30,7 +30,7 @@ On the lake’s west bank stands a mosque that was impossible to miss so we made
 
 ![thumb_IMG_1820_1024.jpg]({{site.baseurl}}/media/thumb_IMG_1820_1024.jpg)
 
-Umm Haram was the wet nurse of the Islamic prophet Muhammad and it is believed she passed away and was entumbed here in the seventh century A.D. during the first Arab raids on Cyprus.   
+Umm Haram was the wet nurse of the Islamic prophet Muhammad and it is believed she passed away and was entombed here in the seventh century A.D. during the first Arab raids on Cyprus.   
 
 ![thumb_IMG_1881_1024.jpg]({{site.baseurl}}/media/thumb_IMG_1881_1024.jpg)
 
