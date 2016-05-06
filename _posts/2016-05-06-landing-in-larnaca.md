@@ -4,7 +4,7 @@ identifier: VS_5_6_16
 language: en
 lat: "34.885539 "
 lng: "33.610301"
-image: /media/thumb_IMG_1830_1024.jpg)
+image: /media/thumb_IMG_1830_1024.jpg
 categories: 
   - en
   - trekking
