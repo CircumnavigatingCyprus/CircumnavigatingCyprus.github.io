@@ -26,19 +26,23 @@ Our first stop when we arrived in the city was the [Larnaca Salt Lake](https://e
 
 ![thumb_IMG_1799_1024.jpg]({{site.baseurl}}/media/thumb_IMG_1799_1024.jpg)
 
-On the lake’s west bank stands a mosque that was impossible to miss so we made our way there to find the Hala Sultan Tekke also known as the Mosque of Umm Haram, one of the holiest of shrines within Ottomana Islam. 
+On the lake’s west bank stands a mosque that was impossible to miss so we made our way there to find the _Hala Sultan Tekke_ also known as the Mosque of Umm Haram, one of the holiest of shrines within Ottomana Islam. 
 
 ![thumb_IMG_1820_1024.jpg]({{site.baseurl}}/media/thumb_IMG_1820_1024.jpg)
 
-This area, composed of a mosque, mausoleum, minaret, cemetery, and living quarters is believed to house the tomb of Umm Haram, the Islamic prophet Muhammad’s wet nurse and the wife of Ubada bin al-Samit. It is believed that she passed away here in the seventh century A.D. during the first Arab raids on Cyprus. 
-
-![thumb_IMG_1846_1024.jpg]({{site.baseurl}}/media/thumb_IMG_1846_1024.jpg)
+Umm Haram was the wet nurse of the Islamic prophet Muhammad and it is believed she passed away and was entumbed here in the seventh century A.D. during the first Arab raids on Cyprus.   
 
 ![thumb_IMG_1881_1024.jpg]({{site.baseurl}}/media/thumb_IMG_1881_1024.jpg)
 
 ![thumb_IMG_1883_1024.jpg]({{site.baseurl}}/media/thumb_IMG_1883_1024.jpg)
 
+These grounds, composed of the mosque, mausoleum, minaret, cemetery and living quarters have been preserved and are still being used for worship today.
+
+![thumb_IMG_1846_1024.jpg]({{site.baseurl}}/media/thumb_IMG_1846_1024.jpg)
+
 Though the southern Cypriot side of the island is predominantly Orthodox Christian, this holy sight is preserved and functions today as a mosque. It stands as a reminder of the islands history and short-lived unification. 
+
+![thumb_IMG_1832_1024.jpg]({{site.baseurl}}/media/thumb_IMG_1832_1024.jpg)
 
 And for the rest of our day, we’re just trying to stay dry…
 
