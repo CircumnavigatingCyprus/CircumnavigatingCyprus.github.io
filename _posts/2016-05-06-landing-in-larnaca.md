@@ -1,15 +1,17 @@
 ---
 layout: post
-identifier: ""
+identifier: VS_5_6_16
 language: en
-lat: ""
-lng: ""
-image: ""
-categories: ""
-author: Anna Antoniou
-map: false
-popupContent: false
-teaser: null
+lat: "34.885539 "
+lng: "33.610301"
+image: "![thumb_IMG_1830_1024.jpg]({{site.baseurl}}/media/thumb_IMG_1830_1024.jpg)"
+categories: 
+  - en
+  - trekking
+author: Vasili Sotiropulos
+map: true
+popupContent: true
+teaser: Salty Shores and Hallowed Grounds
 published: false
 title: Landing in Larnaca
 ---
@@ -45,8 +47,4 @@ And for the rest of our day, we’re just trying to stay dry…
 ...and enjoying a Frappé in Larnaca.
 
 ![thumb_IMG_8918_1024.jpg]({{site.baseurl}}/media/thumb_IMG_8918_1024.jpg)
-
-
-
-
 
