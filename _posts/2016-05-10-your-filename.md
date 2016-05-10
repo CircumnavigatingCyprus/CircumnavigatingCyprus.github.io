@@ -4,7 +4,7 @@ language: en
 author: Vasili Sotiropulos
 map: true
 popupContent: true
-published: false
+published: true
 title: Stella’s Story
 identifier: "Stella's Story"
 lat: "34.933192"
@@ -31,7 +31,3 @@ The neighboring village of Galinoporni, populated by Turkish Cypriots were good 
 Moving forward, She would like to see Cyprus unified and she believes the Turkish Cypriot friends she remembers would want the same. 
 
 “We all want Cyprus to be unified so we can all go back to our homes and our land. Our families were farmers. We lived off this land and we want to go back to it.”
- 
- 
- 
- 
