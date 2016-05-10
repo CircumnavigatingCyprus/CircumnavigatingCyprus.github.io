@@ -1,14 +1,19 @@
 ---
 layout: post
 language: en
-author: Anna Antoniou
-map: false
-popupContent: false
+author: Vasili Sotiropulos
+map: true
+popupContent: true
 published: false
 title: Stella’s Story
 identifier: "Stella's Story"
 lat: "34.933192"
 lng: "33.616216"
+image: /media/thumb_IMG_2001_1024.jpg
+categories: 
+  - en
+  - interviews
+teaser: Meet Stella
 ---
 ## A First-Hand Account
 
