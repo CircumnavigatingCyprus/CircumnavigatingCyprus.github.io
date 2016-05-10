@@ -6,7 +6,7 @@ map: true
 popupContent: true
 published: true
 title: Stella’s Story
-identifier: "Stella's Story"
+identifier: VS_5_10_16
 lat: "34.933192"
 lng: "33.616216"
 image: /media/thumb_IMG_2001_1024.jpg
