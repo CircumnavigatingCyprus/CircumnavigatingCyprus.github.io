@@ -9664,6 +9664,30 @@ var postsByCategories = {
           {
             'type': 'Feature',
             'properties': {
+              title: "Stella’s Story",
+              image: "/media/thumb_IMG_2001_1024.jpg",
+              link: "/en/interviews/2016/05/10/your-filename/",
+              teaser: "Meet Stella",
+              popupContent: "true",
+              date: "10 May 2016",
+              categories: ["en", "interviews"]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                33.616216,
+                34.933192
+              ]
+            }
+          },
+        
+      
+        
+      
+        
+          {
+            'type': 'Feature',
+            'properties': {
               title: "Don’t Rain on my….Expedition",
               image: "/media/thumb_IMG_0715_1024.jpg",
               link: "/en/interviews/2016/05/05/don-t-rain-on-my-expedition/",
@@ -9688,9 +9712,17 @@ var postsByCategories = {
       
         
       
+        
+      
     ],
   
     'participant photography' : [
+      
+        
+      
+        
+      
+        
       
         
       
@@ -9706,6 +9738,32 @@ var postsByCategories = {
       
         
       
+        
+      
+        
+      
+        
+      
+        
+          {
+            'type': 'Feature',
+            'properties': {
+              title: "A bit about Cyprus",
+              image: "/media/IMG_ori.JPG",
+              link: "/en/team%20member%20updates/2016/05/05/a-bit-about-cyprus/",
+              teaser: "A brief and overly-simplified history of the Cyprus conflict.",
+              popupContent: "true",
+              date: "05 May 2016",
+              categories: ["en", "team member updates"]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                33.363754,
+                35.175116
+              ]
+            }
+          },
         
       
         
@@ -9762,6 +9820,30 @@ var postsByCategories = {
           {
             'type': 'Feature',
             'properties': {
+              title: "Landing in Larnaca",
+              image: "/media/thumb_IMG_1830_1024.jpg",
+              link: "/en/trekking/2016/05/06/landing-in-larnaca/",
+              teaser: "Salty Shores and Hallowed Grounds",
+              popupContent: "true",
+              date: "06 May 2016",
+              categories: ["en", "trekking"]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                33.610301,
+                34.885539 
+              ]
+            }
+          },
+        
+      
+        
+      
+        
+          {
+            'type': 'Feature',
+            'properties': {
               title: "A treasure found on the trail ",
               image: "/media/IMG_2009.jpg",
               link: "/en/trekking/2016/05/05/a-treasure-found-on-the-trail/",
@@ -9778,6 +9860,8 @@ var postsByCategories = {
               ]
             }
           },
+        
+      
         
       
         

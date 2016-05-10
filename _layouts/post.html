@@ -14,24 +14,26 @@
             <article class="post-content">
               {{ content }}
             </article>
-            <div id="disqus_thread"></div>
-            <script>
-              var disqus_config = function () {
-                this.page.url = "{{ site.url }}{{ page.url }}"; // Replace PAGE_URL with your page's canonical URL variable
-                this.page.identifier = "{{ page.identifier }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-                this.language = "{{page.language}}"|| "en";
-              };
+            {% if page.published %}
+              <div id="disqus_thread"></div>
+              <script>
+                var disqus_config = function () {
+                  this.page.url = "{{ site.url }}{{ page.url }}"; // Replace PAGE_URL with your page's canonical URL variable
+                  this.page.identifier = "{{ page.identifier }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                  this.language = "{{page.language}}"|| "en";
+                };
 
-              (function() { // DON'T EDIT BELOW THIS LINE
-                var d = document, s = d.createElement('script');
+                (function() { // DON'T EDIT BELOW THIS LINE
+                  var d = document, s = d.createElement('script');
 
-                s.src = '//circumnavigatingcyprus.disqus.com/embed.js';
+                  s.src = '//circumnavigatingcyprus.disqus.com/embed.js';
 
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-              })();
-            </script>
-            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+                  s.setAttribute('data-timestamp', +new Date());
+                  (d.head || d.body).appendChild(s);
+                })();
+              </script>
+              <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+            {% endif %}
           </div>
           {% include post-sidebar.html %}
         </div>
