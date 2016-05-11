@@ -2,16 +2,18 @@
 layout: post
 language: en
 author: Anna Antoniou
-map: false
-popupContent: false
+map: true
+popupContent: true
 published: false
 title: The Egyptian Shepard
 identifier: ASA_5_10_16
 lat: "34.750107"
 lng: "33.402296"
-image: ""
-categories: ""
-teaser: ""
+image: /media/IMG_1341.jpg
+categories: 
+  - en
+  - interviews
+teaser: Cypriot Identity without Cypriot blood
 ---
 ## Cypriot identity without Cypriot blood
 
@@ -21,4 +23,4 @@ This is Najib, a shepherd from Egypt. We met Najib while passing through the vil
 
 ![IMG_1463.jpg]({{site.baseurl}}/media/IMG_1463.jpg)
 
-As we travel, we are beginning to realize that this island is inhabited and loved by more than just Greek and Turkish Cypriots and that the Cypriot identity is embodied by many different ethnicities. 
+As we travel, we are beginning to realize that this island is inhabited and loved by more than just Greek and Turkish Cypriots and the Cypriot identity is embodied by people of many different ethnicities.
