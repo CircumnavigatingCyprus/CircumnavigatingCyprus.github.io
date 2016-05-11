@@ -23,4 +23,4 @@ This is Najib, a shepherd from Egypt. We met Najib while passing through the vil
 
 ![IMG_1463.jpg]({{site.baseurl}}/media/IMG_1463.jpg)
 
-As we travel, we are beginning to realize that this island is inhabited and loved by more than just Greek and Turkish Cypriots and that the Cypriot identity is embodied by many different ethnicities. 
+As we travel, we are beginning to realize that this island is inhabited and loved by more than just Greek and Turkish Cypriots and the Cypriot identity is embodied by people of many different ethnicities.
