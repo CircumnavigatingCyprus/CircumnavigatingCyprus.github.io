@@ -4,7 +4,7 @@ language: en
 author: Anna Antoniou
 map: true
 popupContent: true
-published: false
+published: true
 title: The Egyptian Shepard
 identifier: ASA_5_10_16
 lat: "34.750107"
