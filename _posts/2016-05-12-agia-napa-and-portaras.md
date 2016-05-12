@@ -6,6 +6,9 @@ map: false
 popupContent: false
 published: false
 title: Agia Napa and Portaras
+identifier: Agia Napa and Portaras
+lat: "34.966109"
+lng: "34.076855"
 ---
 ## A Beautiful Island
 
