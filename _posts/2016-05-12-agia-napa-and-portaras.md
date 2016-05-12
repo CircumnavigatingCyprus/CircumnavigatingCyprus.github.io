@@ -51,5 +51,35 @@ Camp sunrise
 
 ![thumb_IMG_2660_1024.jpg]({{site.baseurl}}/media/thumb_IMG_2660_1024.jpg)
 
+![thumb_IMG_2699_1024.jpg]({{site.baseurl}}/media/thumb_IMG_2699_1024.jpg)
 
+Sea caves and staircase to the sea from the campsite
+
+![thumb_IMG_2774_1024.jpg]({{site.baseurl}}/media/thumb_IMG_2774_1024.jpg)
+
+![thumb_IMG_2820_1024.jpg]({{site.baseurl}}/media/thumb_IMG_2820_1024.jpg)
+
+![thumb_IMG_2875_1024.jpg]({{site.baseurl}}/media/thumb_IMG_2875_1024.jpg)
+
+Agios Nikolaos (St. Nicholas) Church at the port of Kalamies Beach. St. Nicholas was the patron saint of sailors. 
+
+![thumb_IMG_2912_1024.jpg]({{site.baseurl}}/media/thumb_IMG_2912_1024.jpg)
+
+![thumb_IMG_2942_1024.jpg]({{site.baseurl}}/media/thumb_IMG_2942_1024.jpg)
+
+![thumb_IMG_2928_1024.jpg]({{site.baseurl}}/media/thumb_IMG_2928_1024.jpg)
+
+![thumb_IMG_2925_1024.jpg]({{site.baseurl}}/media/thumb_IMG_2925_1024.jpg)
+
+![thumb_IMG_2932_1024.jpg]({{site.baseurl}}/media/thumb_IMG_2932_1024.jpg)
+
+![thumb_IMG_2957_1024.jpg]({{site.baseurl}}/media/thumb_IMG_2957_1024.jpg)
+
+Concrete machine gun post from the conflict of 1974. In the last photo the silhouette of [Famagusta](https://en.wikipedia.org/wiki/Famagusta), the ghost city, can be seen in the background.
+
+![thumb_IMG_2998_1024.jpg]({{site.baseurl}}/media/thumb_IMG_2998_1024.jpg)
+
+![thumb_IMG_2980_1024.jpg]({{site.baseurl}}/media/thumb_IMG_2980_1024.jpg)
+
+![thumb_IMG_2985_1024.jpg]({{site.baseurl}}/media/thumb_IMG_2985_1024.jpg)
 
