@@ -1,14 +1,20 @@
 ---
 layout: post
 language: en
-author: Anna Antoniou
-map: false
-popupContent: false
+author: Vasili Sotiropulos
+map: true
+popupContent: true
 published: false
 title: Agia Napa and Portaras
 identifier: Agia Napa and Portaras
 lat: "34.966109"
 lng: "34.076855"
+image: thumb_IMG_2478_1024.jpg
+categories: 
+  - en
+  - trekking
+  - participant photography
+teaser: "It's a Beautiful Island"
 ---
 ## A Beautiful Island
 
