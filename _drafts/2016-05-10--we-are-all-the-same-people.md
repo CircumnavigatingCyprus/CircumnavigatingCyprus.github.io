@@ -11,9 +11,6 @@ categories:
   - en
   - interviews
 teaser: New parea at Mikri Landa beach.
-lat: ""
-lng: ""
-image: ""
 ---
 ## New parea at Mikri Landa Beach
 
@@ -33,11 +30,15 @@ Around the table was a hodgepodge of Cypriots. Costa, Panikos, Kakia, and Christ
 
 ![Christakis](https://lh3.googleusercontent.com/DGeI9wJ4qo87XRwpyhrq6bSay1_DKCVTgsKixNqq6rwwvGvaeOxZqKEG8vSWNZ6yfAyX9Ye5yepTGFmoYSXOC0TjnPlrhRo6jSdcUx89y9hmdc-MTwVX9e2pmmHaTgar2eQ0yeEXNzFjmIoqLihx64OH2oES3SJMjw6fKl4Hy3T5VLP3TvXLvvn8LEt66hvsD07S6R9puowNvz6iMaVkaO7iYRvaKWPfbpKBojOtZWBDNJpzirRypnZ8vQOVbwHeaxdPc9plkQXdoCkZziGb7cukg_rNkb5QaSc5pyFoahxoJAw959z0j6V_nJr5atV1DBmVOWtiZGsIDs78G4pvLkrVjZAOPVhJ5r4t_15gPJA0jwDRQwuKAuwWzt7nOJcLP8dXeX1wtbcr9NQFGVNL9yo_4gISr0SW84gW_mHUOg4YvpDZ3yt30xiwUvVLoXVusoc_UgDGGzgFwE4OqPSvRMD-5odH9SBezOoE8n4b2V5m9PZOVSsNjgeMJp_w2gpxCBJGxo1lWq8TjmzO0hEcgL0b7CONGoWrkze1EMXcjYlS_k2auTnRP5gaQEgU1P3hThx3X2KZXAmLrq9HNTpDLBOWJom9TQQ=w1916-h1276-no)
 
+![costa](https://lh3.googleusercontent.com/iP8kLXNlwc_flWNlJwai9LoLDO-85CtbJuBhPjvv3clPbaLQp9aE5kwnT2ZUc5a97A8pY65k8MyWj9-3sMXfsP9K0T_hMGqLruwmst6ZW_GtL07XZIMkxEAipykh8saO9mdluHEvfWPHed3JlfkL20DOy_yJ_eFolVpG4EBIRAA63RGatawRm1ixf4eFVOgytt7plhz_9-kzK_2A20Nj49s7aDR6RLOs1Zm1YX7k2CMACaFIEniUwWAFsiHafdA_8zrTIXj1P8JFCI2DBKwiIm6dF0cmaVKnAYy3PsWM4qt6EAwFr1xsmTgt__w40yADfadCrr2mQCGvpODbTq4k2M4cE22_R2Wk6RZUVRlSpIXrR72YbDsXZyXjm4v5hbcaiRYtyyCwiU5YfVBz24GJ3wmlYK5k847rtQmxOuixf2ka1FW7A5tmaUJgOrplz0P7rdeHv1CMQaRffo1eaJO2Y7Q8UgUSPbP71Tt9PfVE10bJ2-tY1Mq-oFDfSnQI6RICyaUX8v8sUpJ3fXaIH1pXiJfLRRIALccJ_Guxh-prTvH75W_P717qfU0ihgAr7Kxf02kU-sN5rSz_4bYulMQAqLbjA1ICc7c=w1916-h1276-no)
+
 ![watermelon](https://lh3.googleusercontent.com/RQyFC1OCUdxZemelA3YpVTSIMdBexaS0FYE87C8kxkjvy-RROlUTIvS0rvUTXVWNQx5YhK-UG5OqfhX4GWUVextKmWy7FHF4xTA9jPT2AvV7dtz6MVltg1qh4NzBr1gAYbPF61JDKm46QTAZa_PP_dJVjBESPgAB6eJZJCRWWToIztxD0hwQjCIz0qyXGEQsGGB52anAoCrzCtqBNjlFloix2GbMHHvPC9I6pvgW_L5MptTZsIKHrSvLsmjWnubfNmX6CX3S5YLEUqUlrESGqbG--V54oDQFS_KgTtiuaZvDk48SYgNywgsMvjkxXFW9PSFr2ZZVmykJzGFUwikxLUCLr9UHLjxd5QRGIGpLiEc3Q9W0PsvyFcyaz9xnAO-0AP4kTLhxS090Eckcx3XNcn0jqHizOfyuG1CkcNFmu4b59zxJ8H3pxj2-2uscLfDrw3UnoxoBlYnPnPQ6YoBE1Mh1cVjqcG8pvQ38UYfSbEQBldF8cShlS8RNUs-gQ7VUhLr55IYb2d3G_pxXPqh7odsNIOrN52ZDAvPLggGid8wBoLsm6biAz6wE4becKx8SLp9YcsrENGGgcHo_SnDL6swb83vQfDA=w1916-h1276-no)
 
 Panikos welcomed our questions about Cypriot identity and the segregation that has occurred on the island since 1974. To Panikos, the Greek and Turkish Cypriots have a stronger bond with each other than they do with their mainland counterparts. 
 
 “We are all the same people.” He said.  “[The enemy] plays with us. It was the British before, and it is the Turkish now.”
+
+
 
 Panikos was born and raised in Famagusta, a large city now part of the occupied north.  He would like to see a unified Cyprus, but believes the matter is complicated by the settlers that have emigrated to the country in the last 40 years of separation, particularly the Turkish settlers in the north that inhabit previously Greek Cypriot villages. He also fears that the younger generation
  of Cypriots, those who only know a divided island, are too scared of the unknown to push for a unified Cyprus. 
