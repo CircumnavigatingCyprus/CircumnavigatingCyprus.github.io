@@ -27,7 +27,7 @@ We slowed our pace, puzzled by such a warm welcome thrust upon strangers. But th
 
 ![IMG_2087.jpg]({{site.baseurl}}/media/IMG_2087.jpg)
 
-![everyone](/https://goo.gl/photos/ai3ocihyMSKJ3KoEA)
+![everyone](https://goo.gl/photos/ai3ocihyMSKJ3KoEA)
 
 Around the table was a hodgepodge of Cypriots. Costa, Panikos, Kakia, and Christakis are Greek Cypriots from various cities around Cyprus. But there was also Krisztina from Romania, Marie Ann, Glenn, and Adam from England, and a woman from Philippines—all of whom have immigrated to Cyprus and live here permanently. Every Sunday, this group of friends gather on the same beach for a barbeque, each bringing food or drink to share with the party. Here they are all Cypriot. 
 
