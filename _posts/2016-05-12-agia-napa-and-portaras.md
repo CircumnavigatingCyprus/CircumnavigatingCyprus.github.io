@@ -20,6 +20,9 @@ teaser: "It's a Beautiful Island"
 
 Anna and I spent three days hiking the coastline of Agia Napa and Protaras from Makronissos Beach to Trinity Beach, camping on cliffs and watermelon patches along the way. The area is either natural, or developed with hotels and flooded with tourists from Russia and Northern Europe.  We were not able to meet and interview many Cypriots along this stretch, so I’m going to instead share our pictures from this incredibly beautiful coastline. Enjoy!
 
+
+
+
 ## Ancient Hellenistic and Roman tombs of Makronissos. 
 
 ![thumb_IMG_2395_1024.jpg]({{site.baseurl}}/media/thumb_IMG_2395_1024.jpg)
