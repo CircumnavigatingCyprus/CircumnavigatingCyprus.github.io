@@ -16,7 +16,7 @@ teaser: New parea at Mikri Landa beach.
 
 ![IMG_2246.jpg]({{site.baseurl}}/media/IMG_2246.jpg)
 
-Yesterday Panikos Loizou welcomed us into his family.  We met Panikos, his family, and his friends, while we were walking along the coast near Ayia Napa.  We were looking for a shady place to rest, when a large group having a barbeque greeted us. 
+Last Sunday Panikos Loizou welcomed us into his family.  We met Panikos, his family, and his friends, while we were walking along the coast near Ayia Napa.  We were looking for a shady place to rest, when a large group having a barbeque greeted us. 
 
 “Hello! Welcome! Come eat!" They screamed.  
 
