@@ -25,6 +25,10 @@ Yesterday Panikos Loizou welcomed us into his family.  We met Panikos, his famil
 
 We slowed our pace, puzzled by such a warm welcome thrust upon strangers. But their invitations kept coming and it didn’t take much to convince us that their freshly caught fish was more appetizing than our anticipated lunch of granola bars and water. 
 
+![IMG_2087.jpg]({{site.baseurl}}/media/IMG_2087.jpg)
+
+![everyone](/https://goo.gl/photos/ai3ocihyMSKJ3KoEA)
+
 Around the table was a hodgepodge of Cypriots. Costa, Panikos, Kakia, and Christakis are Greek Cypriots from various cities around Cyprus. But there was also Krisztina from Romania, Marie Ann, Glenn, and Adam from England, and a woman from Philippines—all of whom have immigrated to Cyprus and live here permanently. Every Sunday, this group of friends gather on the same beach for a barbeque, each bringing food or drink to share with the party. Here they are all Cypriot. 
 
 Panikos welcomed our questions about Cypriot identity and the segregation that has occurred on the island since 1974. To Panikos, the Greek and Turkish Cypriots have a stronger bond with each other than they do with their mainland counterparts. 
