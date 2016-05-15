@@ -5,7 +5,7 @@ author: Anna Antoniou
 map: true
 popupContent: true
 published: false
-title: "\"We are all the same people.\""
+title: "\"We are the same people.\""
 identifier: ASA_5_10_16_2
 categories: 
   - en
@@ -41,7 +41,7 @@ Around the table was a hodgepodge of Cypriots. Costa, Panikos, Kakia, and Christ
 
 Panikos welcomed our questions about Cypriot identity and the segregation that has occurred on the island since 1974. To Panikos, the Greek and Turkish Cypriots have a stronger bond with each other than they do with their mainland counterparts. 
 
-“We are all the same people.” He said.  “[The enemy] plays with us. It was the British before, and it is the Turkish now.”
+“We are the same people.” He said.  “[The enemy] plays with us. It was the British before, and it is the Turkish now.”
 
 ![Panikos](https://lh3.googleusercontent.com/SB_Uckn96dG7djYJbgh3VSL2ylJDRkGTq6HLpl6Ub6AwxWXSTTVbPYZnTga02XSGhpyiP4jIUZJrAnL90JqS10UiBxuJra6tQJeRFGlZ5E0xcCzfAERtgJjDhC_kjyUI5b83gi8ZruNYtzFcnY6mkWNO1zCp5tE-fDrk68Vj10Whk0RuxyjciCLSXlI72OOlCFHZDKGuqw8NWwTn9a3yHO4a34J3q22GwG-7G82GdO_dpUqEBzSQqJKFY0mdnNtL9K4NnjudMpqTTgxtatYlZxVgLBPNgyj9FTahcTkaqWOXxgl10aZCF3QeVW2U9kKwnosxNJghVvOpg0JwUfvdg6s645zv4EEUgo1srhDnxJqqji3Ed8TgOHJYvhlFRXlplz67HpJF8ptOeM_zL-19NFLk1ZfCGLG1J1PJpSpD6KL5TFpAQemOm3yxPIAuAc1XwJojK54q3ILrDNdh0Lbv41g7YtbOvkwMR6sUqJDH6BCNx6_zv5U6DtXLAaLXiaaTPjZog4Dm2I3H2xZjoOqvefZ2lmVvVy4YBHidl3rvDjsmmR9kJlGuUH0WbPQkuBXUiUZPZuuIZ9ZXpZHl_tkoVBl8ZhWrGnA=w1916-h1276-no)
 
@@ -49,7 +49,3 @@ Panikos was born and raised in Famagusta, a large city now part of the occupied 
  of Cypriots, those who only know a divided island, are too scared of the unknown to push for a unified Cyprus. 
 
 Still, Panikos says, “We love [the Turkish Cypriots]. Even if we do not speak the same language, we find a way to communicate.”
-
-
-
-
