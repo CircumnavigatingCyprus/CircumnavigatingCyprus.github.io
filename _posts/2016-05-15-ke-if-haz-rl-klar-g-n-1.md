@@ -4,7 +4,7 @@ language: tr
 author: Anna Antoniou
 map: true
 popupContent: true
-published: false
+published: true
 title: "Keşif Hazırlıkları: Gün 1"
 identifier: ASA_4_29_16
 lat: "34.754698"
@@ -28,4 +28,3 @@ Keçiboynuzu Doğu Akdeniz’de sıkça bulunan bir ağaç; meyvesi öğütüler
 ![Ori eats a carob pod](https://www.dropbox.com/s/ljonx20hxi9nf7a/Ori.jpg?dl=1)
 
 Önümüzdeki bir iki gün boyunca, yürüyüş için hazırlık yapıyor ve Parekklisia’daki Paskalya (Πάσχα) şenliklerini keşfediyor olacağız. Sizlere ailemizin köyünü ve daha fazlasını göstermeyi sabırsızlıkla bekliyoruz!”
-
