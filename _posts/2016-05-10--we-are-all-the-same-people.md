@@ -4,7 +4,7 @@ language: en
 author: Anna Antoniou
 map: true
 popupContent: true
-published: false
+published: true
 title: "\"We are the same people.\""
 identifier: ASA_5_10_16_2
 categories: 
