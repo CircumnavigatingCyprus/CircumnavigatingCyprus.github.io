@@ -4,7 +4,7 @@ language: en
 author: Alexi Antoniou
 map: true
 popupContent: true
-published: false
+published: true
 title: Kıbrıs Hakkında Ufak bir Yazı
 identifier: APA_5_5_16
 lat: "35.175116"
@@ -28,5 +28,3 @@ Günümüzde mesele hala çıkmazda, ada güneyde Rumlar ve kuzeyde Türkler olm
 ![border](https://scontent.fath3-2.fna.fbcdn.net/t31.0-8/13116047_1157624697602684_6687651883232887284_o.jpg)
 
 Yaklaşık 10 seneden beri Kuzey’i Güney’den ayıran sınırı geçmek mümkün. Bu gezi boyunca sınırın iki yanındaki toplululukların konuya bakışlarını inceleyeceğiz.
-
-
