@@ -9778,11 +9778,11 @@ var postsByCategories = {
             'properties': {
               title: "Yolda bulunan bir hazine",
               image: "/media/IMG_2009.jpg",
-              link: "/en/trekking/2016/05/15/yolda-bulunan-bir-hazine/",
+              link: "/tr/trekking/2016/05/15/yolda-bulunan-bir-hazine/",
               teaser: "",
               popupContent: "true",
               date: "15 May 2016",
-              categories: ["en", "trekking"]
+              categories: ["tr", "trekking"]
             },
             "geometry": {
               "type": "Point",
