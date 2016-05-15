@@ -21,7 +21,7 @@ image: "https://lh3.googleusercontent.com/DGeI9wJ4qo87XRwpyhrq6bSay1_DKCVTgsKixN
 
 Last Sunday Panikos Loizou welcomed us into his family.  We met Panikos, his family, and his friends, while we were walking along the coast near Ayia Napa.  We were looking for a shady place to rest, when a large group having a barbeque greeted us. 
 
-“Hello! Welcome! Come eat!" They screamed.  
+“Hello! Welcome! Come eat!"  
 
 We slowed our pace, puzzled by such a warm welcome thrust upon strangers. But their invitations kept coming and it didn’t take much to convince us that their freshly caught fish was more appetizing than our anticipated lunch of granola bars and water. 
 
