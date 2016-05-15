@@ -1,6 +1,6 @@
 ---
 layout: post
-language: en
+language: tr
 author: Alexi Antoniou
 map: true
 popupContent: true
