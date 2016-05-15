@@ -4,7 +4,7 @@ language: tr
 author: Anna Antoniou
 map: false
 popupContent: false
-published: false
+published: true
 title: "Takım Üyeleri Mercek Altında: Vasili"
 identifier: VS_4_18_16
 image: "https://scontent-fra3-1.xx.fbcdn.net/t31.0-8/12471872_10153851739748844_7079054740535570838_o.jpg"
