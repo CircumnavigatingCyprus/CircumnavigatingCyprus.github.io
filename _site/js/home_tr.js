@@ -9673,20 +9673,132 @@ var postsByCategories = {
     
     'görüşmeler' : [
       
+        
+      
+        
+      
+        
+      
+        
+      
     ],
   
     
     'katılımcı fotoğrafçılık' : [
+      
+        
+      
+        
+      
+        
+      
+        
       
     ],
   
     
     'takım üyesi güncellemeleri' : [
       
+        
+      
+        
+          {
+            'type': 'Feature',
+            'properties': {
+              title: "Nasıl başladı...",
+              image: "/media/how%20it%20started.jpg",
+              link: "/tr/team%20member%20updates/2016/05/15/nas-l-ba-lad/",
+              teaser: "Gezimizin Doğuşu",
+              popupContent: "true",
+              date: "15 May 2016",
+              categories: ["tr", "team member updates"]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                33.159378,
+                34.736882
+              ]
+            }
+          },
+        
+      
+        
+          {
+            'type': 'Feature',
+            'properties': {
+              title: "Keşif Hazırlıkları: Gün 1",
+              image: "https://www.dropbox.com/s/tzhmhwbybko32aa/IMG_1448.jpg?dl=1",
+              link: "/tr/team%20member%20updates/2016/05/15/ke-if-haz-rl-klar-g-n-1/",
+              teaser: "Antoniou Çiftliği Ziyareti",
+              popupContent: "true",
+              date: "15 May 2016",
+              categories: ["tr", "team member updates"]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                33.166214,
+                34.754698
+              ]
+            }
+          },
+        
+      
+        
+          {
+            'type': 'Feature',
+            'properties': {
+              title: "Kıbrıs Hakkında Ufak bir Yazı",
+              image: "/media/IMG_ori.JPG",
+              link: "/tr/team%20member%20updates/2016/05/15/k-br-s-hakk-nda-ufak-bir-yaz/",
+              teaser: "Kıbrıs Meselesi’nin Kısa ve Fazla Basitleştirilmiş bir Tarihi",
+              popupContent: "true",
+              date: "15 May 2016",
+              categories: ["tr", "team member updates"]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                33.363754,
+                35.175116
+              ]
+            }
+          },
+        
+      
     ],
   
     
     'yürüyüş' : [
+      
+        
+          {
+            'type': 'Feature',
+            'properties': {
+              title: "Yolda bulunan bir hazine",
+              image: "/media/IMG_2009.jpg",
+              link: "/en/trekking/2016/05/15/yolda-bulunan-bir-hazine/",
+              teaser: "",
+              popupContent: "true",
+              date: "15 May 2016",
+              categories: ["en", "trekking"]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                33.381618,
+                34.746253
+              ]
+            }
+          },
+        
+      
+        
+      
+        
+      
+        
       
     ],
   

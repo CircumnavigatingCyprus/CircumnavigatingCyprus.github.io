@@ -9683,6 +9683,50 @@ var postsByCategories = {
         
       
         
+          {
+            'type': 'Feature',
+            'properties': {
+              title: "The Egyptian Shepherd",
+              image: "/media/IMG_1341.jpg",
+              link: "/en/interviews/2016/05/10/the-egyptian-shepard/",
+              teaser: "Cypriot Identity without Cypriot blood",
+              popupContent: "true",
+              date: "10 May 2016",
+              categories: ["en", "interviews"]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                33.402296,
+                34.750107
+              ]
+            }
+          },
+        
+      
+        
+          {
+            'type': 'Feature',
+            'properties': {
+              title: "&quot;We are the same people.&quot;",
+              image: "https://lh3.googleusercontent.com/DGeI9wJ4qo87XRwpyhrq6bSay1_DKCVTgsKixNqq6rwwvGvaeOxZqKEG8vSWNZ6yfAyX9Ye5yepTGFmoYSXOC0TjnPlrhRo6jSdcUx89y9hmdc-MTwVX9e2pmmHaTgar2eQ0yeEXNzFjmIoqLihx64OH2oES3SJMjw6fKl4Hy3T5VLP3TvXLvvn8LEt66hvsD07S6R9puowNvz6iMaVkaO7iYRvaKWPfbpKBojOtZWBDNJpzirRypnZ8vQOVbwHeaxdPc9plkQXdoCkZziGb7cukg_rNkb5QaSc5pyFoahxoJAw959z0j6V_nJr5atV1DBmVOWtiZGsIDs78G4pvLkrVjZAOPVhJ5r4t_15gPJA0jwDRQwuKAuwWzt7nOJcLP8dXeX1wtbcr9NQFGVNL9yo_4gISr0SW84gW_mHUOg4YvpDZ3yt30xiwUvVLoXVusoc_UgDGGzgFwE4OqPSvRMD-5odH9SBezOoE8n4b2V5m9PZOVSsNjgeMJp_w2gpxCBJGxo1lWq8TjmzO0hEcgL0b7CONGoWrkze1EMXcjYlS_k2auTnRP5gaQEgU1P3hThx3X2KZXAmLrq9HNTpDLBOWJom9TQQ=w1916-h1276-no",
+              link: "/en/interviews/2016/05/10/we-are-all-the-same-people/",
+              teaser: "New parea at Mikri Landa beach.",
+              popupContent: "true",
+              date: "10 May 2016",
+              categories: ["en", "interviews"]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                33.956864,
+                34.986232
+              ]
+            }
+          },
+        
+      
+        
       
         
           {
@@ -9732,9 +9776,17 @@ var postsByCategories = {
       
         
       
+        
+      
+        
+      
     ],
   
     'team member updates' : [
+      
+        
+      
+        
       
         
       
@@ -9813,6 +9865,10 @@ var postsByCategories = {
     ],
   
     'trekking' : [
+      
+        
+      
+        
       
         
       

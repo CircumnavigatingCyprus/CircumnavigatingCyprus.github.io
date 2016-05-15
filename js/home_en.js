@@ -30,11 +30,11 @@ var postsByCategories = {
           {
             'type': 'Feature',
             'properties': {
-              title: "{{ post.title }}",
+              title: "{{ post.title | escape }}",
               image: "{{post.image}}",
               link: "{{site.baseurl}}{{post.url}}",
-              teaser: "{{post.teaser}}",
-              popupContent: "{{post.popupContent}}",
+              teaser: "{{post.teaser | escape }}",
+              popupContent: "{{post.popupContent | escape }}",
               date: "{{post.date | date_to_string }}",
               categories: ["{{post.categories | join: '", "'}}"]
             },
