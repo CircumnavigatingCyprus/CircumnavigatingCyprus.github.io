@@ -4,7 +4,7 @@ language: tr
 author: Anna Antoniou
 map: true
 popupContent: true
-published: false
+published: true
 title: Yolda bulunan bir hazine
 identifier: ASA_5_5_16
 lat: "34.746253"
