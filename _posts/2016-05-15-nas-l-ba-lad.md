@@ -4,7 +4,7 @@ language: tr
 author: Anna Antoniou
 map: true
 popupContent: true
-published: false
+published: true
 title: Nasıl başladı...
 identifier: ASA_4_28_16
 lat: "34.736882"
