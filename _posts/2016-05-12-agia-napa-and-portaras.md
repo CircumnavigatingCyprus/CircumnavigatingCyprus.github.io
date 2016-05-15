@@ -5,7 +5,7 @@ author: Vasili Sotiropulos
 map: true
 popupContent: true
 published: false
-title: Agia Napa and Portaras
+title: Agia Napa and Protaras
 identifier: Agia Napa and Portaras
 lat: "34.966109"
 lng: "34.076855"
@@ -106,4 +106,3 @@ Anna and I spent three days hiking the coastline of Agia Napa and Protaras from 
 ![thumb_IMG_2980_1024.jpg]({{site.baseurl}}/media/thumb_IMG_2980_1024.jpg)
 
 ![thumb_IMG_2985_1024.jpg]({{site.baseurl}}/media/thumb_IMG_2985_1024.jpg)
-
