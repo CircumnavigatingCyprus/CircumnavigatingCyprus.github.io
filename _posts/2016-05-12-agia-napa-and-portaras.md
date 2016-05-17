@@ -8,7 +8,7 @@ published: true
 title: Agia Napa and Protaras
 lat: "34.966109"
 lng: "34.076855"
-image: thumb_IMG_2478_1024.jpg
+image: /media/thumb_IMG_2478_1024.jpg
 categories: 
   - en
   - trekking
