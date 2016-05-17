@@ -4,7 +4,7 @@ language: en
 author: Vasili Sotiropulos
 map: true
 popupContent: true
-published: false
+published: true
 title: Agia Napa and Protaras
 identifier: Agia Napa and Portaras
 lat: "34.966109"
