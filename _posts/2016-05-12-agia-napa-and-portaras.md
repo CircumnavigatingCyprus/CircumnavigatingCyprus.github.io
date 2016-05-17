@@ -41,7 +41,8 @@ Anna and I spent three days hiking the coastline of Agia Napa and Protaras from 
 
 ![thumb_IMG_2478_1024.jpg]({{site.baseurl}}/media/thumb_IMG_2478_1024.jpg)
 
-![thumb_IMG_2505_1024.jpg]({{site.baseurl}}/media/thumb_IMG_2505_1024.jpg)
+![IMG_2506.jpg]({{site.baseurl}}/media/IMG_2506.jpg)
+
 
 ![thumb_IMG_2516_1024.jpg]({{site.baseurl}}/media/thumb_IMG_2516_1024.jpg)
 
