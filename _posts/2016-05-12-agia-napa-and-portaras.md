@@ -6,15 +6,14 @@ map: true
 popupContent: true
 published: true
 title: Agia Napa and Protaras
-identifier: Agia Napa and Portaras
 lat: "34.966109"
 lng: "34.076855"
 image: thumb_IMG_2478_1024.jpg
 categories: 
   - en
   - trekking
-  - participant photography
 teaser: "It's a Beautiful Island"
+identifier: VS_5_17_16
 ---
 ## A Beautiful Island
 
