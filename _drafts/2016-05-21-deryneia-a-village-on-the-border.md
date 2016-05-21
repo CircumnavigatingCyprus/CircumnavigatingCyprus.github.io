@@ -6,6 +6,11 @@ map: false
 popupContent: false
 published: false
 title: "Deryneia: A village on the border."
+identifier: ASA_5_21_16
+categories: 
+  - en
+  - interviews
+image: /media/IMG_3062.jpg
 ---
 ## “A resolution, of course.” 
 
@@ -25,10 +30,12 @@ On our tour we stopped at Marios flat, located adjacent to the buffer zone, to v
 
 ![IMG_3078.jpg]({{site.baseurl}}/media/IMG_3078.jpg)
 
+![IMG_3093.jpg]({{site.baseurl}}/media/IMG_3093.jpg)
 
-The following morning Marios and his cousin, Petros, took us to visit a church located within the buffer zone. With the approval of the UN guard, we took a ten-minute stroll into this no-mans land to visit Ayios Marinas.  On this walk, we spoke to Petros about what he envisions for the future of Cyprus. When asked what he would like to see for Cyprus he said “a resolution, of course.” Despite voting against the 2004 referendum Petros says he would vote for any future referendum. 
+The following morning Marios and his cousin, Petros, took us to visit a church located within the buffer zone. With the approval of the UN guard, we took a ten-minute stroll into this no-mans land to visit Ayias Marinas.  On this walk, we spoke to Petros about what he envisions for the future of Cyprus. When asked what he would like to see for Cyprus he said “a resolution, of course.” Despite voting against the 2004 referendum Petros says he would vote for any future referendum.
+
+
 
 “After 40 years of separation no one trusts each other, so you must work at it.”
 
 Since the 2004 vote, Petros believes that Cyprus cannot wait for a perfect solution, but must unify first and work towards equality together. Like Marios, Petros knows that Cyprus cannot be what it was in the 1960s. Still he believes that, given the opportunity, young Greek and Turkish Cypriots would try to live together and form a Cypriot community.
-
