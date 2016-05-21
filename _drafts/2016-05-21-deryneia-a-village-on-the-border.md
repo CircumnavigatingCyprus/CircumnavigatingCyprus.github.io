@@ -2,8 +2,8 @@
 layout: post
 language: en
 author: Anna Antoniou
-map: false
-popupContent: false
+map: true
+popupContent: true
 published: false
 title: "Deryneia: A village on the border."
 identifier: ASA_5_21_16
@@ -11,6 +11,9 @@ categories:
   - en
   - interviews
 image: /media/IMG_3062.jpg
+teaser: "A resolution, of course."
+lat: "35.062549"
+lng: "33.958243"
 ---
 ## “A resolution, of course.” 
 
@@ -34,7 +37,7 @@ On our tour we stopped at Marios flat, located adjacent to the buffer zone, to v
 
 The following morning Marios and his cousin, Petros, took us to visit a church located within the buffer zone. With the approval of the UN guard, we took a ten-minute stroll into this no-mans land to visit Ayias Marinas.  On this walk, we spoke to Petros about what he envisions for the future of Cyprus. When asked what he would like to see for Cyprus he said “a resolution, of course.” Despite voting against the 2004 referendum Petros says he would vote for any future referendum.
 
-
+![IMG_3147.jpg]({{site.baseurl}}/media/IMG_3147.jpg)
 
 “After 40 years of separation no one trusts each other, so you must work at it.”
 
