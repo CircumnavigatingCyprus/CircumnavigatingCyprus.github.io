@@ -10,7 +10,7 @@ identifier: ASA_5_21_16
 categories: 
   - en
   - interviews
-image: /media/IMG_3062.jpg
+image: /media/IMG_3147.jpg
 teaser: "A resolution, of course."
 lat: "35.062549"
 lng: "33.958243"
