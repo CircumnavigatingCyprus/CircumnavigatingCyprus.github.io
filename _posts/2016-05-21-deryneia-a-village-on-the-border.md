@@ -4,7 +4,7 @@ language: en
 author: Anna Antoniou
 map: true
 popupContent: true
-published: false
+published: true
 title: "Deryneia: A village on the border."
 identifier: ASA_5_21_16
 categories: 
