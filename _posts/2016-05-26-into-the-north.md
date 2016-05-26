@@ -7,7 +7,7 @@ popupContent: true
 published: true
 title: Into the North
 identifier: VS_5_46_16
-image: media/thumb_IMG_4536_1024.jpg
+image: /media/IMG_0827.JPG.jpeg
 categories: 
   - en
   - interviews
