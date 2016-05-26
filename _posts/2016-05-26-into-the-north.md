@@ -21,7 +21,7 @@ lng: "33.942537"
 
 ![thumb_IMG_4518_1024.jpg]({{site.baseurl}}/media/thumb_IMG_4518_1024.jpg)
 
-We crossed the UN Buffer Zone in Agios Nikolaos and spent two days in Famagusta with our host and devout heavy metal enthuziest, Kemal. We first got together with Kemal for a Meze lunch in the old city of Famagusta that is still lined with Venitian walls and gates. The main gate was designed by Leonardo Da Vinci.
+We crossed the UN Buffer Zone in Agios Nikolaos and spent two days in Famagusta with our host and devout heavy metal enthusiast, Kemal. We first got together with Kemal for a Meze lunch in the old city of Famagusta that is still lined with Venitian walls and gates. The main gate was designed by Leonardo Da Vinci.
 
 ![IMG_0827.JPG.jpeg]({{site.baseurl}}/media/IMG_0827.JPG.jpeg)
 
