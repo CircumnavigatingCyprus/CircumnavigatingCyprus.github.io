@@ -11,7 +11,7 @@ en:
     image: /media/alexi_profile.png
     text: Alexi is acting as the Mr. Miyagi to this group of merry explorers.  A political dork with itchy feet, Alexi is offering the trailblazers his sage advice from the Cyprus of the west—California.
   - name: Berk – Official English-Turkish Translator
-    image: /media/Slide1.jpg
+    image: /media/berk.jpg
     text: A big thank you goes out to Berk Altin for tirelessly translating all our blog posts and web presence from English to Turkish!! We are so grateful that Berk is enabling us to reach a turkish and turkish cypriot audience! 
 gr:
   team_title: Η ομάδα
@@ -19,9 +19,6 @@ gr:
   - name: Άννα – Ομαδάρχης , νέα εξερευνήτρια του National Geographic, & αδελφή
     image: /media/anna_profile.png
     text: Πίσω από κάθε μεγάλη ομάδα ανδρών, είναι μια ακόμα καλύτερη γυναίκα! Η Άννα είναι ο εγκέφαλος πίσω από αυτή την εκστρατεία, και η ομαδάρχης . Ως αρχαιολόγος, είναι ειδικός στη διαχείριση μικρών  ομάδων σε υπαίθριες  περιοχές  και εξωτερικούς χώρους, καθώς και στο συντονισμό καθηκόντων σε  απομακρυσμένες περιοχές.
-  - name: Χαράλαμπος - Τοπικός Οδηγός, γνώστης της κουλτούρας , και εξάδελφος
-    image: /media/chara_profile.png
-    text: Ο Χαράλαμπος τα ξέρει όλα! Διαθέτει μεγάλη εμπειρία σε υπαίθριες δραστηριότητες και γνώστης της κουλτούρας , δεν υπάρχει κάτι που δεν μπορεί να χειριστεί.
   - name: Βασίλης  - Συντονιστής , Επιχειρηματικές εργασίες , και  αδελφικός φίλος
     image: /media/vasil_profile.png
     text: Με εργασιακό παρελθόν στο κλάδο  της υπαίθριας περιπέτειας ο Βασίλης πάντα  περιμένει την επόμενη ευκαιρία για μια νέα περιπέτεια. Ο Βασίλης  είναι ένας καταξιωμένος ναυτικός, φανταστικός χορευτής, αξίζει να σημειωθεί ότι έχει καταφέρει να πιάσει ψάρι μόνο με τα χέρια του.
@@ -34,9 +31,6 @@ tr:
   - name: Anna – Ekip Lideri, National Geographic Genç Kaşifi
     image: /media/anna_profile.png
     text: Her başarılı bir grup erkeğin arkasında çok daha başarılı bir kadın vardır! Anna keşif heyetimizin beyni ve ekibimizin lideri. Bir arkeolog olarak, kırsal alanlarda çalışan küçük ekipleri yönetmekte, ve ulaşılması zor yerlerde lojistik meseleleri koordine etmekte uzmandır.
-  - name: Charalampos  – Yerel Rehber, Kültürel Uzman, Anna’nın Kuzeni
-    image: /media/chara_profile.png
-    text: Charalampos herşeyi bilir! Açık hava tutkunu, yerel uzman, pek cazibeli bir arkadaşımız. Hem de on parmağında on marifet!
   - name: Vasili – Lojistik Koordinator, & Anna’nın Can Kardeşi
     image: /media/vasil_profile.png
     text: Açık hava etkinlikleri sektöründe çalışmışlığı olan Vasili, her zaman bir sonraki macernın peşinde olmuştur.  Başarılı bir yelkenci ve harika bir dansçı olmasının yanında bir kere elleriyle balık tuttuğu olmuştur.
