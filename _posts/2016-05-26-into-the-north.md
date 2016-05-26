@@ -11,7 +11,7 @@ image: media/thumb_IMG_4536_1024.jpg
 categories: 
   - en
   - interviews
-teaser: Into the North
+teaser: Hanging out with Kemal
 lat: "35.125478"
 lng: "33.942537"
 ---
