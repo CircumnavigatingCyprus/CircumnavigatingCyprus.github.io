@@ -6,12 +6,11 @@ map: true
 popupContent: true
 published: true
 title: Into the North
-identifier: Into the North
+identifier: VS_5_46_16
 image: media/thumb_IMG_4536_1024.jpg
 categories: 
   - en
   - interviews
-  - participant photography
 teaser: Into the North
 lat: "35.125478"
 lng: "33.942537"
