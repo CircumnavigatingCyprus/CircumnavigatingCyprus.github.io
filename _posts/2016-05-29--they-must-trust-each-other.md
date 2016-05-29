@@ -4,7 +4,7 @@ language: en
 author: Anna Antoniou
 map: true
 popupContent: true
-published: false
+published: true
 title: "\"They must trust each other.\""
 identifier: ASA_5_29_16
 categories: 
