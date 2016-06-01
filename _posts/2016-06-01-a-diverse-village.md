@@ -4,7 +4,7 @@ language: en
 author: Anna Antoniou
 map: false
 popupContent: false
-published: false
+published: true
 title: A Diverse Village
 identifier: VS_6_1_2016
 lat: "35.598614"
@@ -57,5 +57,3 @@ Tassos believes that a solution is possible. But he believes that the Turkish go
 I asked if he was okay with me writing what we had discussed, he replied. 
 
 “Write it. I’m not afraid. I don’t have a problem with it. I am a Greek. A Greek Cypriot.”
-
-
