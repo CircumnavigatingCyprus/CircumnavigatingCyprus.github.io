@@ -27,6 +27,8 @@ I was feeling a little scruffy so I got a shave from the Turkish barber. The bar
 
 ![thumb_IMG_5130_1024.jpg]({{site.baseurl}}/media/thumb_IMG_5130_1024.jpg)
 
+![thumb_IMG_5075_1024.jpg]({{site.baseurl}}/media/thumb_IMG_5075_1024.jpg)
+
 ![thumb_IMG_5125_1024.jpg]({{site.baseurl}}/media/thumb_IMG_5125_1024.jpg)
 
 Before...
@@ -35,13 +37,19 @@ Before...
 
 After...
 
-
+![thumb_IMG_5132_1024.jpg]({{site.baseurl}}/media/thumb_IMG_5132_1024.jpg)
 
 We also met Tassos, a Greek Cypriot man who was born in Rizokarpaso. He was in Rizokarpaso visiting for the weekend. In July of 1977 at the age of eight, he and he family were forced to leave. 
 
+![thumb_IMG_5176_1024.jpg]({{site.baseurl}}/media/thumb_IMG_5176_1024.jpg)
+
 “The Turkish military expelled us from here. From our home. ” Tassos said with a tone that reinforced his frustration for the events that took place; the effects of which he still feels today. “My father had 100 ‘skales’ (1 Skala = 14,400 sq. ft) of farmland. It is gone. I can’t go to my father’s home, the home where I was born. Someone else lives there. It’s not right…My father still lives in the south. He is 73. He won’t come here to visit. He can’t go to his home, he can’t go to his fields. What’s he going to do here? He will just get mad, so he stays in the south.” 
 
+![thumb_IMG_5168_1024.jpg]({{site.baseurl}}/media/thumb_IMG_5168_1024.jpg)
+
 Tassos believes that a solution is possible. But he believes that the Turkish government should take back all of the immigrants it sent to Cyprus and give the occupied land back to the rightful owners. 
+
+![thumb_IMG_5171_1024.jpg]({{site.baseurl}}/media/thumb_IMG_5171_1024.jpg)
 
 I asked if he was okay with me writing what we had discussed, he replied. 
 
