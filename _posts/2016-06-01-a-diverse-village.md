@@ -1,14 +1,19 @@
 ---
 layout: post
 language: en
-author: Anna Antoniou
-map: false
-popupContent: false
+author: Vasili Sotiropulos
+map: true
+popupContent: true
 published: true
 title: A Diverse Village
 identifier: VS_6_1_2016
 lat: "35.598614"
 lng: "34.380842"
+image: media/thumb_IMG_5034_1024.jpg
+categories: 
+  - en
+  - interviews
+teaser: A Diverse Village
 ---
 ## Dipkarpaz to some, Rizokarpaso to others
 
