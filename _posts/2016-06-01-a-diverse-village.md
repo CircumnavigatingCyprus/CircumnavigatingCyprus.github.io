@@ -6,6 +6,9 @@ map: false
 popupContent: false
 published: false
 title: A Diverse Village
+identifier: VS_6_1_2016
+lat: "35.598614"
+lng: "34.380842"
 ---
 ## Dipkarpaz to some, Rizokarpaso to others
 
