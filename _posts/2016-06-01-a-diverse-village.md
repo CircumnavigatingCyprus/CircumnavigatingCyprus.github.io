@@ -27,6 +27,14 @@ I was feeling a little scruffy so I got a shave from the Turkish barber. The bar
 
 ![thumb_IMG_5130_1024.jpg]({{site.baseurl}}/media/thumb_IMG_5130_1024.jpg)
 
+![thumb_IMG_5125_1024.jpg]({{site.baseurl}}/media/thumb_IMG_5125_1024.jpg)
+
+Before...
+
+![thumb_IMG_5068_1024.jpg]({{site.baseurl}}/media/thumb_IMG_5068_1024.jpg)
+
+After...
+
 
 
 We also met Tassos, a Greek Cypriot man who was born in Rizokarpaso. He was in Rizokarpaso visiting for the weekend. In July of 1977 at the age of eight, he and he family were forced to leave. 
