@@ -13,6 +13,7 @@ categories:
   - en
   - trekking
 teaser: Traveling through the Karpaz/Καρπασία Peninsula
+image: ''
 ---
 ## Traveling through the Karpaz/Καρπασία Peninsula 
 
@@ -24,11 +25,15 @@ We started our journey from St. Barnabas monastery, just north of Famagusta. We 
 
 We thought this unexpected act of kindness was something we’d only experience once on our journey. But shortly after parting ways with our new friend, another kind stranger offered us a ride. And throughout our whole journey we’ve received such kindness, often times despite our limited ability communicate. Although we do not know everyone by name, and cannot thank everyone here, here are a few examples of such kindness: 
 
-
+![IMG_5780 (1).jpg]({{site.baseurl}}/media/IMG_5780 (1).jpg)
 
 Cafer Özkul, a landscape designer originally from Turkey, offered us a ride, and welcomed us into his home for Turkish coffee and a smoke. His family and neighbor gathered to have coffee with us. After coffee, Cafer insisted he drive us another few kilometers to the next village.
 
+![IMG_5756.jpg]({{site.baseurl}}/media/IMG_5756.jpg)
+
 A group of Turkish Cypriot carpenters from Yeni Erenköy/ Γιαλούσα welcomed us into their workshop for an afternoon coffee when they noticed us passing through the village. These men spent nearly 15 years working as carpenters in south Cyprus, and were happy that we could communicate in Greek. 
+
+
 
 Murtaza Sari, a petrol driver from originally from Turkey, gave us a ride in his work truck, and treated us to lunch.  
 
