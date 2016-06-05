@@ -4,7 +4,7 @@ language: en
 author: Anna Antoniou
 map: true
 popupContent: true
-published: false
+published: true
 title: An Unexpected Kindness
 identifier: ASA_6_5_16
 lat: '35.540357'
