@@ -18,9 +18,9 @@ teaser: Traveling through the Karpaz/Καρπασία Peninsula
 
 When we first began our trek through north Cyprus, Vasili and I were unsure of what to expect. We assumed that, because we do not speak Turkish, we’d have a difficult time meeting people, navigating, and finding accommodations.  We quickly realized this would not be the case. Instead, the people of the Karpaz/Καρπασία Peninsula met us with open arms, afternoon coffees, and countless unasked-for rides. 
 
-We started our journey from St. Barnabas monastery, just north of Famagusta. We expected to have a long 8-mile day of hiking up the coast, but within 10 minutes of our trek a man in a work truck pulled up alongside us and told us to get in. We did not intend to hitchhike, but the man insisted he take us a few kilometers to the nearest town. 
+We started our journey from St. Barnabas monastery, just north of Famagusta. We expected to have a long 8-mile day of hiking up the coast, but within 10 minutes of our trek a man in a work truck pulled up alongside us and told us to get in. We did not intend to hitchhike, but the man insisted he take us a few kilometers to the nearest town.
 
-
+![IMG_4770.jpg]({{site.baseurl}}/media/IMG_4770.jpg)
 
 We thought this unexpected act of kindness was something we’d only experience once on our journey. But shortly after parting ways with our new friend, another kind stranger offered us a ride. And throughout our whole journey we’ve received such kindness, often times despite our limited ability communicate. Although we do not know everyone by name, and cannot thank everyone here, here are a few examples of such kindness: 
 
@@ -30,7 +30,4 @@ A group of Turkish Cypriot carpenters from Yeni Erenköy/ Γιαλούσα welco
 
 Murtaza Sari, a petrol driver from originally from Turkey, gave us a ride in his work truck, and treated us to lunch.  
 
-Words cannot express how grateful we are to these and the countless others who have shown us unyielding generosity during our journey. 
-
-
-
+Words cannot express how grateful we are to these and the countless others who have shown us unyielding generosity during our journey.
