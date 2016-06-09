@@ -1,11 +1,19 @@
 ---
 layout: post
 language: en
-author: Anna Antoniou
-map: false
-popupContent: false
+author: Vasili Sotiropulos
+map: true
+popupContent: true
 published: true
 title: The Food of Cyprus
+identifier: The Food of Cyprus
+image: media/IMG_5285.jpg
+lat: '35.341877'
+lng: '33.320917'
+categories:
+  - en
+  - participant photography
+teaser: The Food of Cyprus
 ---
 ## Keeping us Fueled
 
