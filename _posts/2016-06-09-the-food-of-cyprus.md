@@ -4,7 +4,7 @@ language: en
 author: Anna Antoniou
 map: false
 popupContent: false
-published: false
+published: true
 title: The Food of Cyprus
 ---
 ## Keeping us Fueled
