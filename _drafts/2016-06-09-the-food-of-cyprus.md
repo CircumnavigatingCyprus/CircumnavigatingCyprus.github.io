@@ -54,6 +54,8 @@ If you order meze be prepared for a lot of food. Similar to Spanish tapas, you w
 
 ![thumb_IMG_1989_1024.jpg]({{site.baseurl}}/media/thumb_IMG_1989_1024.jpg)
 
+![IMG_5285.jpg]({{site.baseurl}}/media/IMG_5285.jpg)
+
 Even the simple meals are good. Halloumi is sold at most gas stations which goes with everything so far. Our favorite camp meal so far is canned sardines, halloumi cheese, fresh bread and dried fruits & nutts. Lemon, of course, garnish almost everything and luckily there are enough lemon trees on this island to fee the Russian army(Don’t get any ideas Putin). SO you never have to look to far to find a fresh squeeze. 
 
 ![IMG_0895.JPG]({{site.baseurl}}/media/IMG_0895.JPG)
