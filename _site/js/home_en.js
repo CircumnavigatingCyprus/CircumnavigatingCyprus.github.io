@@ -9661,6 +9661,100 @@ var postsByCategories = {
     'interviews' : [
       
         
+      
+        
+      
+        
+          {
+            'type': 'Feature',
+            'properties': {
+              title: "A Diverse Village",
+              image: "media/thumb_IMG_5034_1024.jpg",
+              link: "/en/interviews/2016/06/01/a-diverse-village/",
+              teaser: "A Diverse Village",
+              popupContent: "true",
+              date: "01 Jun 2016",
+              categories: ["en", "interviews"]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                34.380842,
+                35.598614
+              ]
+            }
+          },
+        
+      
+        
+          {
+            'type': 'Feature',
+            'properties': {
+              title: "&quot;They must trust each other.&quot;",
+              image: "/media/IMG_4818.jpg",
+              link: "/en/interviews/2016/05/29/they-must-trust-each-other/",
+              teaser: "Talking with Günay.",
+              popupContent: "true",
+              date: "29 May 2016",
+              categories: ["en", "interviews"]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                33.905032,
+                35.256108
+              ]
+            }
+          },
+        
+      
+        
+          {
+            'type': 'Feature',
+            'properties': {
+              title: "Into the North",
+              image: "/media/IMG_0827.JPG.jpeg",
+              link: "/en/interviews/2016/05/26/into-the-north/",
+              teaser: "Hanging out with Kemal",
+              popupContent: "true",
+              date: "26 May 2016",
+              categories: ["en", "interviews"]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                33.942537,
+                35.125478
+              ]
+            }
+          },
+        
+      
+        
+          {
+            'type': 'Feature',
+            'properties': {
+              title: "Deryneia: A village on the border.",
+              image: "/media/IMG_3147.jpg",
+              link: "/en/interviews/2016/05/21/deryneia-a-village-on-the-border/",
+              teaser: "A resolution, of course.",
+              popupContent: "true",
+              date: "21 May 2016",
+              categories: ["en", "interviews"]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                33.958243,
+                35.062549
+              ]
+            }
+          },
+        
+      
+        
+      
+        
           {
             'type': 'Feature',
             'properties': {
@@ -9763,6 +9857,40 @@ var postsByCategories = {
     'participant photography' : [
       
         
+          {
+            'type': 'Feature',
+            'properties': {
+              title: "The Food of Cyprus",
+              image: "media/IMG_5285.jpg",
+              link: "/en/participant%20photography/2016/06/09/the-food-of-cyprus/",
+              teaser: "The Food of Cyprus",
+              popupContent: "true",
+              date: "09 Jun 2016",
+              categories: ["en", "participant photography"]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                33.320917,
+                35.341877
+              ]
+            }
+          },
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -9783,6 +9911,20 @@ var postsByCategories = {
     ],
   
     'team member updates' : [
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -9865,6 +10007,60 @@ var postsByCategories = {
     ],
   
     'trekking' : [
+      
+        
+      
+        
+          {
+            'type': 'Feature',
+            'properties': {
+              title: "An Unexpected Kindness",
+              image: "/media/IMG_5756.jpg",
+              link: "/en/trekking/2016/06/05/an-unexpected-kindness/",
+              teaser: "Traveling through the Karpaz/Καρπασία Peninsula",
+              popupContent: "true",
+              date: "05 Jun 2016",
+              categories: ["en", "trekking"]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                34.194399,
+                35.540357
+              ]
+            }
+          },
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          {
+            'type': 'Feature',
+            'properties': {
+              title: "Agia Napa and Protaras",
+              image: "/media/thumb_IMG_2478_1024.jpg",
+              link: "/en/trekking/2016/05/12/agia-napa-and-portaras/",
+              teaser: "It&#39;s a Beautiful Island",
+              popupContent: "true",
+              date: "12 May 2016",
+              categories: ["en", "trekking"]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                34.076855,
+                34.966109
+              ]
+            }
+          },
+        
       
         
       
