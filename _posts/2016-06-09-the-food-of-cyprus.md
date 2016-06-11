@@ -64,13 +64,13 @@ If you order meze be prepared for a lot of food. Similar to Spanish tapas, you w
 
 ![IMG_5285.jpg]({{site.baseurl}}/media/IMG_5285.jpg)
 
-Even the simple meals are good. Halloumi is sold at most gas stations which goes with everything so far. Our favorite camp meal so far is canned sardines, halloumi cheese, fresh bread and dried fruits & nutts. Lemon, of course, garnish almost everything and luckily there are enough lemon trees on this island to fee the Russian army(Don’t get any ideas Putin). SO you never have to look to far to find a fresh squeeze. 
+Even the simple meals are good. Halloumi cheese is sold at most gas stations and it tastes good with everything. Our favorite camp meal is canned sardines, halloumi cheese, fresh bread and dried fruits & nutts. Lemon, of course, garnishes almost everything and luckily there are enough lemon trees on this island to fee the Russian army(Don’t get any ideas Putin), so you never have to look too far to find a fresh squeeze. 
 
 ![IMG_0895.JPG]({{site.baseurl}}/media/IMG_0895.JPG)
 
 ![IMG_5159.jpg]({{site.baseurl}}/media/IMG_5159.jpg)
 
-And of course, BBQ
+And of course, BBQ...
 
 Easter "Souvla" BBQ
 
@@ -87,3 +87,5 @@ And Boat BBQ
 ![IMG_5824.jpg]({{site.baseurl}}/media/IMG_5824.jpg)
 
 ![IMG_5825.jpg]({{site.baseurl}}/media/IMG_5825.jpg)
+
+
