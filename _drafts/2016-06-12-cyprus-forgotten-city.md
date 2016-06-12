@@ -25,7 +25,7 @@ Greek Cypriots in the south told us about Varosha.  It was considered the most d
 ![Broken Buildings Varosha.JPG]({{site.baseurl}}/media/Broken Buildings Varosha.JPG)
 
 When the invasion occurred in 1974, the Turkish military fenced off the nicest portion of Varosha—several kilometers of beach, resorts, restaurants, villas, all the nicest portion of the city’s thriving tourist district, surrounded with barrels and barbed wire.  The inhabits left quickly.  Today, the few pictures of the interior show cars parked, and goods left in stores to rot.  The city sits in ruins, buildings showing signs of bombs, followed by decades of neglect.  
-![]({{site.baseurl}}/media/DSCF0745.JPG)
+![]({{site.baseurl}}/media/DSCF0747.JPG)
 
 The "forbidden zone" is engulfed by an inhabited Famagusta that flows around it. It dips into the Famagusta at least a kilometer and is surrounded by now decaying barbed wire and barrels. The forbidden zone is so old that the actual barricade itself (barbed wire and barrels) is little more than rust and decay from the 40 years of neglect. Cactus and overgrowth now fill in the barrier, and the threat of being shot deters any who aren't afraid of the spines.
 ![DSCF0745.JPG]({{site.baseurl}}/media/DSCF0745.JPG)
