@@ -13,7 +13,7 @@ categories:
   - trekking
 identifier: Cyprus' Forgotten City
 teaser: A Politcal Chrenobyl
-image: ''
+image: '![Forbidden Zone.JPG]({{site.baseurl}}/media/Forbidden Zone.JPG)'
 ---
 ## A Politcal Chrenobyl
 
@@ -27,7 +27,6 @@ Greek Cypriots in the south told us about Varosha.  It was considered the most d
 When the invasion occurred in 1974, the Turkish military fenced off the nicest portion of Varosha—several kilometers of beach, resorts, restaurants, villas, all the nicest portion of the city’s thriving tourist district, surrounded with barrels and barbed wire.  The inhabits left quickly.  Today, the few pictures of the interior show cars parked, and goods left in stores to rot.  The city sits in ruins, buildings showing signs of bombs, followed by decades of neglect.  
 
 ![Abandoned buildings on a perfect beach.]({{site.baseurl}}/media/DSCF0747.JPG)![DSCF0747.JPG]({{site.baseurl}}/media/DSCF0747.JPG)
-
 
 
 
