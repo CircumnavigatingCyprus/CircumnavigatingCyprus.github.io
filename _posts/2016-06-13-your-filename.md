@@ -13,6 +13,7 @@ categories:
   - en
   - interviews
 teaser: A quick stop turned into a fun day
+image: media/IMG_6203.jpg
 ---
 ## The day just kept getting better
 
@@ -37,7 +38,7 @@ Before long Alexi had bridged the gap and was in a heated best of 7 backgammon s
 
 After going down two games to zero, Alexi came storming back (with the help of other villagers taking his side) to win the series in the last game.  A new friend Mehmet Yildirim spoke some English and was able to help us with some light translations. 
 
-Once the commotion from the backgammon had settled, we were invited next door by Alkan Kaymakamtorunlari(the man who treated us to coffee and played backgammon with Alexi), Mehmet and Kemal Kisaoğlu for Donner kabob. 
+Once the commotion from the backgammon had settled, we were invited next door by Alkan Kaymakamtorunlari(the man who treated us to coffee and played backgammon with Alexi), Mehmet and Kemal Kisaoğlu for Doner kabob. 
 
 It was getting much better. 
 
