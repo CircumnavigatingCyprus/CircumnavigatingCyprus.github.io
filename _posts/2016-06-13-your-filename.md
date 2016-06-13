@@ -4,7 +4,7 @@ language: en
 author: Vasili Sotiropulos
 map: true
 popupContent: true
-published: false
+published: true
 title: A Day in Kalkanli
 identifier: VS_6_13_2016
 lat: '35.243381'
