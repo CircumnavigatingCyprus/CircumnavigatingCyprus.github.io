@@ -9,7 +9,11 @@ title: Pita and Politics
 ---
 ## Is a Solution Possible?
 
-As we walked south from Paphos, we stopped for a lunch break in Yersokipou. We settled at a traditional Cypriot lunch spot for a mixed pita(my favorite) and a salad. They had amazing sheftalia and the owner, George, was happy to share the recipe with us. FYI, the secret is in the onions. 
+As we walked south from Paphos, we stopped for a lunch break in Yersokipou. We settled at a traditional Cypriot lunch spot for a mixed pita(my favorite) and a salad. 
+
+![IMG_7392.jpg]({{site.baseurl}}/media/IMG_7392.jpg)
+
+They had amazing sheftalia and the owner, George, was happy to share the recipe with us. FYI, the secret is in the onions. 
 
 After a while the subject changed form the food of Cyprus, to the island itself. 
 
