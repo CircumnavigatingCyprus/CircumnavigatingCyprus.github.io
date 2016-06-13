@@ -5,9 +5,9 @@ author: Anna Antoniou
 map: false
 popupContent: false
 published: false
-title: ''
+title: A Day in Kalkanli
 ---
-## 
+## The day just kept getting better
 
 
 We hiked into the village of Kalkanli around 10:30am, tired, sore and sunbeaten with Alexi and I arguing politics. Although it was early in the day, we needed a break.
