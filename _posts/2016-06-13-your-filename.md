@@ -21,8 +21,6 @@ We hiked into the village of Kalkanli around 10:30am, tired, sore and sunbeaten 
 
 We checked out the center of town and entered a café where the men of the village were reading the paper, chatting and playing some spirited backgammon. 
 
-
-
 Everyone stopped what they were doing and looked at us. Their look which seemed cold was probably of confusion to see three tourists with backpacks in their village. There was one empty table with no chairs so I awkwardly grabbed some chairs and we had a seat. No one came to take our order, but an English-speaking villager our age asked what we wanted and relayed it to the kitchen on his way out the door. 
 
 We did not fit in here. 
@@ -37,7 +35,14 @@ Once the commotion from the backgammon had settled, we were invited next door by
 
 It was getting much better. 
 
-We sat at the restaurant next door and ate delicious döner kabob with our friends who were just as thrilled to be there as we were. And just when we thought our meal was over, another plate of meat came out to the table. And just when we thought our meal was over, we drank a bottle of zivania. And just when we thought our meal was over, we drank another bottle of zivania. 
+We sat at the restaurant next door and ate delicious döner kabob with our friends who were just as thrilled to be there as we were. 
+
+
+And just when we thought our meal was over, another plate of meat came out to the table. 
+
+And just when we thought our meal was over, we drank a bottle of zivania. 
+
+And just when we thought our meal was over, we drank another bottle of zivania. 
 
 Things were going great. 
 
@@ -47,9 +52,11 @@ That night, we joined Kemal, Gune Saramali and Alkan for an incredible dinner of
 
 We got to discuss in further detail the segregation of the island at dinner. 
 
-They do hope for the unification of Cyprus. Since they are originally from the south they carry Cypriot identification, and can legally go back to their homes to repair and live in them. But for the most part it seems they have settled their lives and are happy with their village. Going back to renovate would be a difficult and costly venture. Another young man Gune added “I was born [in Klakanli]. My life is here. Why would I leave to go back to my grandfather’s house? I have little connection to it now.”
+They do hope for the unification of Cyprus. Since they are originally from the south they carry Cypriot identification, and can legally go back to their homes to repair and live in them. But for the most part it seems they have settled their lives and are happy with their village. Going back to renovate would be a difficult and costly venture. Another young man Gune added “I was born [in Kalkanli]. My life is here. Why would I leave to go back to my grandfather’s house? I have little connection to it now.”
 
 Kemal believes the unification can happen and can be successful, but each side needs to learn the other’s language in school. “The roads have been opened for 13 years now. If we started teaching the Turkish Cypriots Greek, and the Greek Cypriots Turkish, the seven-year-old kids from that time would now be 20…We are the same. We look alike. If we spoke the same, the country could be more unified. We have lost a lot of time already. This needs to happen.”
 
 The Greek term [filoxenia](https://www.google.com/?gws_rd=ssl#q=filoxenia+meaning) is difficult to explain, but the people of Kalkanli have it. We could not be more grateful for the people we met, and time we shared with them. Thanks guys, we loved it. 
+
+
 
