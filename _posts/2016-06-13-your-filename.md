@@ -1,11 +1,18 @@
 ---
 layout: post
 language: en
-author: Anna Antoniou
-map: false
-popupContent: false
+author: Vasili Sotiropulos
+map: true
+popupContent: true
 published: false
 title: A Day in Kalkanli
+identifier: VS_6_13_2016
+lat: '35.243381'
+lng: '33.039681'
+categories:
+  - en
+  - interviews
+teaser: A quick stop turned into a fun day
 ---
 ## The day just kept getting better
 
@@ -13,6 +20,7 @@ title: A Day in Kalkanli
 We hiked into the village of Kalkanli around 10:30am, tired, sore and sunbeaten with Alexi and I arguing politics. Although it was early in the day, we needed a break.
 
 We checked out the center of town and entered a café where the men of the village were reading the paper, chatting and playing some spirited backgammon. 
+
 
 
 Everyone stopped what they were doing and looked at us. Their look which seemed cold was probably of confusion to see three tourists with backpacks in their village. There was one empty table with no chairs so I awkwardly grabbed some chairs and we had a seat. No one came to take our order, but an English-speaking villager our age asked what we wanted and relayed it to the kitchen on his way out the door. 
