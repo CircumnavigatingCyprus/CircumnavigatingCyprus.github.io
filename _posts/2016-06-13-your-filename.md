@@ -68,7 +68,7 @@ Oh, and we all got haircuts at the barbershop next door (the other direction) to
 
 ![IMG_6506.jpg]({{site.baseurl}}/media/IMG_6506.jpg)
 
-That night, we joined Kemal, Gune Saramali and Alkan for an incredible dinner of meze that was very similar to the meze of the south. We ate too many great things to list them all, but among the highlights were grilled quail, pickled quail eggs, sheftalia, coupes and bourekia.  
+That night, we joined Kemal, Güney Saramali and Alkan for an incredible dinner of meze that was very similar to the meze of the south. We ate too many great things to list them all, but among the highlights were grilled quail, pickled quail eggs, sheftalia, coupes and bourekia.  
 
 We got to discuss in further detail the segregation of the island at dinner. 
 
