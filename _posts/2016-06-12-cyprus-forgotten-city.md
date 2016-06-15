@@ -4,7 +4,7 @@ language: en
 author: Alexi Antoniou
 map: true
 popupContent: false
-published: false
+published: true
 title: 'Cyprus'' Forgotten City '
 categories:
   - en
