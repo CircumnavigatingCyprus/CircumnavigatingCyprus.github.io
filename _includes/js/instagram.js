@@ -4,6 +4,7 @@ $(function($) {
   var feed = new Instafeed({
     get: 'tagged',
     tagName: 'circumnavigatingCY',
+    userId: '3052314434.1677ed0',
     accessToken: '3052314434.1677ed0.1609f26296c34ccca0d38cb563b986cc',
     sortyBy: 'most-recent',
     template: '<div class="item"><a href="{{link}}"><img src="{{image}}" /></a></div>',
