@@ -45,6 +45,6 @@ And while others believe that the last 42 years of division have given the two c
 
 “Who is interested now?” Panicos asked. Panicos answer to his own question is bleak: “The young people are not interested. Tourism and economic growth has distracted them, like ashes in the eyes.”
 
-Despite all this, Panicos is dedicated to telling the story of what could be. He recently created a documentary based on a particularly heart wrenching story that emerged from the interviews he conducted: during the 1974 conflict a Turkish solider shot a Greek soldier in the head. The Greek solider survived, but for 40 years the Turkish solider believed he had killed him. The documentary follows these soldiers as they reconnect and develop a close bond, despite being enemies in war. 
+Despite all this, Panicos is dedicated to telling the story of what could be. He recently created a documentary based on a particularly heart wrenching story that emerged from the interviews he conducted: during the 1974 conflict a Turkish soldier shot a Greek soldier in the head. The Greek soldier survived, but for 40 years the Turkish soldier believed he had killed him. The documentary follows these soldiers as they reconnect and develop a close bond, despite being enemies in war. 
 
 “If these two men can become best friends after all they’ve been through, why can’t we live peacefully together?” He asks. It’s a question that deserves an answer.
