@@ -5,7 +5,7 @@ $(function($) {
     get: 'tagged',
     tagName: 'circumnavigatingCY',
     clientId: '05613cb4e3f34e36b44e826c09edb51f',
-    accessToken: '3052314434.1677ed0.1609f26296c34ccca0d38cb563b986cc',
+    accessToken: '3052314434.05613cb.4b6621faa2f7405fa0ac05b503d51d98',
     sortyBy: 'most-recent',
     template: '<div class="item"><a href="{{link}}"><img src="{{image}}" /></a></div>',
     target: 'instagramCarousel',
