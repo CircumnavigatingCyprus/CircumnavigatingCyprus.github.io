@@ -13,7 +13,8 @@ categories:
   - en
   - trekking
 teaser: glamour shots of Cyprus' coastline
-image: ''
+image: >-
+  https://photos-3.dropbox.com/t/2/AADZfJL-UUBy5Xi8TOREfEMeJfCp0MeO1MgiEdoGP3IKvw/12/58095057/jpeg/32x32/1/_/1/2/IMG_7516.jpg/EICO8SwYmgMgAigC/N1ExUcOY7cmS6OSNHkIXZCX4_VxSlqsH5ehwy_gcSu0?size_mode=5
 ---
 ## Glamour shots Cyprus' coastline
 
