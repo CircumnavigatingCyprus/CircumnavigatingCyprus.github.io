@@ -4,7 +4,7 @@ language: en
 author: Anna Antoniou
 map: true
 popupContent: true
-published: false
+published: true
 title: Bicommunal Pyla
 identifier: ASA_6_18_16
 image: /media/IMG_6678.jpg
@@ -47,4 +47,4 @@ And while others believe that the last 42 years of division have given the two c
 
 Despite all this, Panicos is dedicated to telling the story of what could be. He recently created a documentary based on a particularly heart wrenching story that emerged from the interviews he conducted: during the 1974 conflict a Turkish solider shot a Greek soldier in the head. The Greek solider survived, but for 40 years the Turkish solider believed he had killed him. The documentary follows these soldiers as they reconnect and develop a close bond, despite being enemies in war. 
 
-“If these two men can become best friends after all they’ve been through, why can’t we live peacefully together?” He asks. It’s a question that deserves an answer. 
+“If these two men can become best friends after all they’ve been through, why can’t we live peacefully together?” He asks. It’s a question that deserves an answer.
