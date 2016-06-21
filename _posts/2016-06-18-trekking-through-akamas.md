@@ -32,7 +32,7 @@ Remnants of a small chapel overlooking Chrysochou Bay
 ![buckshot](https://dl.dropboxusercontent.com/u/58095057/akamas/IMG_7118.jpg)
 A trailmarker is used as target practice. This was a common sight throughout all of southern Cyprus.
 
-![trail](https://photos-2.dropbox.com/t/2/AACwlwdJy-bmgdy5LgCj2aUaKMyyZ7WJ4wZnve0pQ_QiOQ/12/58095057/jpeg/32x32/1/_/1/2/IMG_2960.jpg/EICO8SwYmgMgAigC/0hXBKmVTPsDRvCV1kHDqksRQwYvpbUD7BObF8xp4pQs?size=2048x1536&size_mode=3)
+![trail]({{site.baseurl}}/https://dl.dropboxusercontent.com/u/58095057/akamas/IMG_2960.jpg)
 Downhill and towards the sea, our favorite direction.
 
 ![rest](https://photos-4.dropbox.com/t/2/AABuETTppjYMluvALxFhYV6go69h9iNec3DUhwr0BaaZyA/12/58095057/jpeg/32x32/1/_/1/2/IMG_7137.jpg/EICO8SwYmgMgAigC/ms54cKFl7daR7HR9m44gk_hu036317P6YmTqYUpeZYg%2CW6ql5foNFJ29oluMPHYQN7IzenSmYbe0FFdbs9AMsC4?size=2048x1536&size_mode=3)
