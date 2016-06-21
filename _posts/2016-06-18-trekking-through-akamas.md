@@ -23,7 +23,7 @@ We began the last stretch of our journey by trekking through Akamas, the promont
 ![IMG_7010.jpg]({{site.baseurl}}/media/IMG_7010.jpg)
 The goats were the only locals we encountered. These fellas were particularly friendly. 
 
-![Vasili](https://photos-6.dropbox.com/t/2/AAAbEKUYZI7RAesFU3uYzrhUTh_Px-a5NaPyMksMtwphMQ/12/58095057/jpeg/32x32/1/_/1/2/IMG_7020.jpg/EICO8SwYmgMgAigC/999BdM2fU0tJyHk-fJXD9WDkQbIZBOINWe9nMS-mgeA?size=2048x1536&size_mode=3)
+![vasili](https://photos-5.dropbox.com/t/2/AABX56JNpCndpmG755CWT9WzSrFjsvCNsbnAFpXo77cl8Q/12/58095057/jpeg/32x32/1/_/1/2/IMG_7020.jpg/EICO8SwYwgMgAigC/999BdM2fU0tJyHk-fJXD9WDkQbIZBOINWe9nMS-mgeA?size=2048x1536&size_mode=3)
 Enjoying life on the trail. 
 
 ![remnants](https://photos-6.dropbox.com/t/2/AABcG7Pr9uSFAf3qm73zYxHSAsPgxDBKK_jE0O0ZJHjasw/12/58095057/jpeg/32x32/1/_/1/2/IMG_7059.jpg/EICO8SwYmgMgAigC/3dBK0pgSF80VH_jEW3eSPsR3cNzxgKCKbf60r0HoEFU?size=2048x1536&size_mode=3)
