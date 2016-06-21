@@ -39,7 +39,7 @@ As weather began to heat up, we made sure to take shelter from the sun during th
 
 ![camp](https://dl.dropboxusercontent.com/u/58095057/akamas/IMG_7169.jpg)
 ![sunset](https://dl.dropboxusercontent.com/u/58095057/akamas/IMG_7203.jpg)
-![bivvy]({{site.baseurl}}/https://dl.dropboxusercontent.com/u/58095057/akamas/IMG_7207.jpg)
+![bivvy](/https://dl.dropboxusercontent.com/u/58095057/akamas/IMG_7207.jpg)
 One of the many beautiful places we camped. 
 
 ![fish](https://dl.dropboxusercontent.com/u/58095057/akamas/IMG_7181.jpg)
@@ -56,5 +56,5 @@ We never tired of the scenery.
 ![pillbox](https://dl.dropboxusercontent.com/u/58095057/akamas/IMG_3048.jpg)
 On our last night of camping we used an old military pillbox as a windbreak...
 
-![camp meal]({{site.baseurl}}/https://dl.dropboxusercontent.com/u/58095057/akamas/IMG_3037.jpg)
+![camp meal](https://dl.dropboxusercontent.com/u/58095057/akamas/IMG_3037.jpg)
 ...and had our favorite campside dinner.
