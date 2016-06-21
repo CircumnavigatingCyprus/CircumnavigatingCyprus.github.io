@@ -54,7 +54,7 @@ After hiking for 14 miles, we were so excited to have a homemade meal!
 We never tired of the scenery. 
 
 ![pillbox](https://photos-1.dropbox.com/t/2/AADhgLOSF4mRVcmCIsvN9PK36xYXxTpG-fDQLizxF2ftRA/12/58095057/jpeg/32x32/1/_/1/2/IMG_3048.jpg/EICO8SwYmgMgAigC/y9zncbr3syGJm94Kl6XBFA-1j6kGqHjRHqlq6C5ZlyU?size_mode=5)
-Our last night of camping we used an old military pillbox as a windbreak...
+On our last night of camping we used an old military pillbox as a windbreak...
 
 ![camping meal](https://photos-2.dropbox.com/t/2/AADsH7rSr5gjIFlPuKu9Z88FLPDjIM0VkrB99YkEXS2eCA/12/58095057/jpeg/32x32/1/_/1/2/IMG_3037.jpg/EICO8SwYmgMgAigC/l65qcQwPje-k2ig-MCsp27vcY2nTE6G6tl29wtiid5k?size_mode=5)
-...and had our favorite campside dinner. 
+...and had our favorite campside dinner.
