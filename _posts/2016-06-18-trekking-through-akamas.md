@@ -4,7 +4,7 @@ language: en
 author: Anna Antoniou
 map: true
 popupContent: false
-published: false
+published: true
 title: Trekking through Akamas
 lat: '35.087673'
 lng: '32.288152'
