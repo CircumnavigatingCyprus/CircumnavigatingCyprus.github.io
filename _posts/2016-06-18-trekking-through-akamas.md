@@ -23,13 +23,13 @@ We began the last stretch of our journey by trekking through Akamas, the promont
 ![IMG_7010.jpg]({{site.baseurl}}/media/IMG_7010.jpg)
 The goats were the only locals we encountered. These fellas were particularly friendly. 
 
-![vasili](https://photos-5.dropbox.com/t/2/AABX56JNpCndpmG755CWT9WzSrFjsvCNsbnAFpXo77cl8Q/12/58095057/jpeg/32x32/1/_/1/2/IMG_7020.jpg/EICO8SwYwgMgAigC/999BdM2fU0tJyHk-fJXD9WDkQbIZBOINWe9nMS-mgeA?size=2048x1536&size_mode=3)
+![IMG_7020.jpg]({{site.baseurl}}/media/IMG_7020.jpg)
 Enjoying life on the trail. 
 
-![remnants](https://photos-6.dropbox.com/t/2/AABcG7Pr9uSFAf3qm73zYxHSAsPgxDBKK_jE0O0ZJHjasw/12/58095057/jpeg/32x32/1/_/1/2/IMG_7059.jpg/EICO8SwYmgMgAigC/3dBK0pgSF80VH_jEW3eSPsR3cNzxgKCKbf60r0HoEFU?size=2048x1536&size_mode=3)
+![IMG_7059.jpg]({{site.baseurl}}/media/IMG_7059.jpg)
 Remnants of a small chapel overlooking Chrysochou Bay
 
-![buckshots](https://photos-2.dropbox.com/t/2/AACqsYYNVY3y0qyaNynKgH-ZN3bR_crmiP7RNwuIY-0uJg/12/58095057/jpeg/32x32/1/_/1/2/IMG_7118.jpg/EICO8SwYmgMgAigC/3aD3ox7QCCHTreH3JNMdomBnWzxRvthQ7Nrc7_pY8c8?size=2048x1536&size_mode=3)
+![buckshot](https://dl.dropboxusercontent.com/u/58095057/akamas/IMG_7118.jpg)
 A trailmarker is used as target practice. This was a common sight throughout all of southern Cyprus.
 
 ![trail](https://photos-2.dropbox.com/t/2/AACwlwdJy-bmgdy5LgCj2aUaKMyyZ7WJ4wZnve0pQ_QiOQ/12/58095057/jpeg/32x32/1/_/1/2/IMG_2960.jpg/EICO8SwYmgMgAigC/0hXBKmVTPsDRvCV1kHDqksRQwYvpbUD7BObF8xp4pQs?size=2048x1536&size_mode=3)
