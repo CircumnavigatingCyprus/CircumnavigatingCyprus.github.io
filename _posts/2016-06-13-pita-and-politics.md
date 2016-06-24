@@ -17,7 +17,7 @@ teaser: Is a solution possible?
 ---
 ## Is a Solution Possible?
 
-As we walked south from Paphos, we stopped for a lunch break in Yersokipou. We settled at a traditional Cypriot lunch spot for a mixed pita(my favorite) and a salad. 
+As we walked south from Paphos, we stopped for a lunch break in Yersokipou. We settled at a traditional Cypriot lunch spot for a mixed pita (my favorite) and a salad. 
 
 ![IMG_7392.jpg]({{site.baseurl}}/media/IMG_7392.jpg)
 
@@ -25,7 +25,7 @@ They had amazing sheftalia and the owner, George, was happy to share the recipe 
 
 ![IMG_7393.jpg]({{site.baseurl}}/media/IMG_7393.jpg)
 
-After a while the subject changed form the food of Cyprus, to the island itself. 
+After a while the subject changed from the food of Cyprus, to the island itself. 
 
 George does not believe there can be a solution to the island’s segregation because “Turkey does not give back land when they conquer it”
 
