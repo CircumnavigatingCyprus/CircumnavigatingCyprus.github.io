@@ -4,7 +4,7 @@ language: en
 author: Vasili Sotiropulos
 map: true
 popupContent: true
-published: false
+published: true
 title: Pita and Politics
 image: media/IMG_7392.jpg
 identifier: VS_6_13_2016c
@@ -13,7 +13,7 @@ lng: '32.452210'
 categories:
   - en
   - interviews
-teaser: Pita and Politics
+teaser: Is a solution possible?
 ---
 ## Is a Solution Possible?
 
@@ -42,5 +42,3 @@ George’s wife Chrystalleni moved to Yeroskipou from lower Dyrenia when she was
 She is hopeful for a solution, but knows it will not be easy.  
 
 They also sent us off with from apricots and plums for the road. Thanks Guys!
-
-
