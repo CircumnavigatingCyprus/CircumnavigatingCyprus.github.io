@@ -50,11 +50,3 @@ I asked if he thought a unification of the island is possible.
 ![thumb_IMG_7667_1024.jpg]({{site.baseurl}}/media/thumb_IMG_7667_1024.jpg)
 
 “I cannot go to my home! Someone lives in it. I went six years ago and I can’t go now, it’s too sad. I was asked to leave. From my own home.”
-
-
-
-
-
-
-   
-
