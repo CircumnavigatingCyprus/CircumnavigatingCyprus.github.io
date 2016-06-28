@@ -4,7 +4,7 @@ language: en
 author: Vasili Sotiropulos
 map: true
 popupContent: true
-published: false
+published: true
 title: Kyriakos' View
 image: media/thumb_IMG_7624_1024.jpg
 identifier: VS_6_13_2016b
