@@ -4,7 +4,7 @@ language: en
 author: Anna Antoniou
 map: true
 popupContent: true
-published: false
+published: true
 title: Georgios and the Urban Oasis
 identifier: ASA_7_1_16
 lat: '34.678316'
