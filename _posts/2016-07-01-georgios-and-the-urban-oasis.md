@@ -16,7 +16,7 @@ categories:
 ---
 We spent the final days of our journey with Georgios, an artist living in his own oasis built from the ruins of an old home in the center of Limassol. 
 
-Five years ago, Georgios quit everything following the emergence of some substantial family problems. “I was going crazy.” He said, “I saw this disaster and said I’ll take it. For five years I projected my family problems onto this house in order to fix it.” Georgios is holding a photo of himself five years ago in the image below.
+Five years ago, Georgios quit everything following the emergence of some substantial family problems. “I was going crazy.” he said, “I saw this disaster and said I’ll take it. For five years I projected my family problems onto this house in order to fix it.” Georgios is holding a photo of himself five years ago in the image below.
 
 ![IMG_7792.jpg]({{site.baseurl}}/media/IMG_7792.jpg)
 
