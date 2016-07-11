@@ -4,7 +4,7 @@ language: en
 author: Anna Antoniou
 map: true
 popupContent: true
-published: false
+published: true
 title: 'Anthos and the Artist Residency '
 identifier: ASA_7_11_16
 lat: '34.725870'
